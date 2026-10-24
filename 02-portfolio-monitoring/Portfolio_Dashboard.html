@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio Monitoring Dashboard</title>
+<style>
+:root{
+  color-scheme:light;
+  --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --ring:rgba(11,11,11,0.10);
+  --s1:#2a78d6; --s2:#eb6834;
+  --good:#0ca30c; --warn:#fab219; --serious:#ec835a; --crit:#d03b3b;
+  --goodbg:rgba(12,163,12,.12); --warnbg:rgba(250,178,25,.18); --seriousbg:rgba(236,131,90,.16); --critbg:rgba(208,59,59,.14);
+  --diag:#eef3fb; --brand:#1f3864;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --page:#0d0d0d; --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,0.10);
+    --s1:#3987e5; --s2:#d95926; --diag:#20283a; --brand:#9ec5f4;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --page:#0d0d0d; --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,0.10);
+  --s1:#3987e5; --s2:#d95926; --diag:#20283a; --brand:#9ec5f4;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px 48px}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:6px}
+h1{margin:0;font-size:24px;color:var(--brand)}
+.sub{color:var(--ink2)}
+.disc{font-size:12px;color:var(--muted);margin:4px 0 20px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:16px}
+.tile .lab{font-size:12px;color:var(--ink2)}
+.tile .val{font-size:26px;font-weight:600;margin-top:2px}
+.tile .delta{font-size:12px;color:var(--muted);margin-top:2px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+@media (max-width:820px){.grid2{grid-template-columns:1fr}}
+h2{font-size:15px;margin:0 0 4px}
+.cap{font-size:12px;color:var(--muted);margin:0 0 12px}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--ink2);margin-bottom:8px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+svg text{fill:var(--ink2);font-size:11px}
+.tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--ring);box-shadow:0 4px 14px rgba(0,0,0,.15);border-radius:8px;padding:8px 10px;font-size:12px;opacity:0;transition:opacity .08s;z-index:10;max-width:260px}
+.tip b{display:block;margin-bottom:2px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:7px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;white-space:nowrap}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{display:inline-flex;align-items:center;gap:5px;padding:2px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap;color:var(--ink)}
+.pill::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.p-crit{background:var(--critbg)} .p-crit::before{background:var(--crit)}
+.p-watch{background:var(--seriousbg)} .p-watch::before{background:var(--serious)}
+.p-mon{background:var(--warnbg)} .p-mon::before{background:var(--warn)}
+.p-good{background:var(--goodbg)} .p-good::before{background:var(--good)}
+.mig td,.mig th{text-align:center;padding:6px 4px;font-variant-numeric:tabular-nums}
+.mig td.d{background:var(--diag);font-weight:600}
+.mig td.dn{background:var(--critbg);font-weight:600}
+.mig td.up{background:var(--goodbg);font-weight:600}
+.mig td.z{color:var(--muted)}
+.meter{margin:10px 0 16px}
+.meter .row{display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px}
+.bar{position:relative;height:12px;background:var(--grid);border-radius:6px}
+.bar .fill{position:absolute;left:0;top:0;bottom:0;border-radius:6px;background:var(--s1)}
+.bar .lim{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink)}
+.flags{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:6px}
+.flags div{border-radius:8px;padding:10px;text-align:center}
+.flags b{display:block;font-size:22px}
+.flags span{font-size:12px;color:var(--ink2)}
+.tbar{display:flex;height:28px;border-radius:6px;overflow:hidden;gap:2px;margin:6px 0 8px}
+.tbar div{display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:#fff;min-width:0}
+.scroll{overflow-x:auto}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.controls button{font:inherit;font-size:12px;border:1px solid var(--ring);background:var(--surface);color:var(--ink);border-radius:99px;padding:4px 12px;cursor:pointer}
+.controls button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+th.sort{cursor:pointer} th.sort:hover{color:var(--ink)}
+.note{color:var(--ink2);font-size:12px;max-width:440px}
+footer{font-size:12px;color:var(--muted);margin-top:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>Commercial Portfolio Monitoring</h1>
+    <div class="sub">Prairie Lantern Bank, N.A. · Quarter ended September 30, 2026 · Prepared by Matthew Dial</div>
+  </div>
+</header>
+<div class="disc">Fictional portfolio created for demonstration. Figures are calculated in Portfolio_Monitoring_Tracker.xlsx.</div>
+
+<section class="tiles" id="tiles"></section>
+
+<div class="grid2">
+  <div class="card">
+    <h2>Outstanding by industry</h2>
+    <p class="cap">Commercial real estate is 57% of commitments against a 60% internal limit</p>
+    <div class="legend"><span><i style="background:var(--s1)"></i>Commercial real estate</span><span><i style="background:var(--s2)"></i>Commercial &amp; industrial</span></div>
+    <div id="ind"></div>
+  </div>
+  <div class="card">
+    <h2>Outstanding by risk grade</h2>
+    <p class="cap">Balances shifted toward weaker grades this quarter; 1 = lowest risk, 9 = highest</p>
+    <div class="legend"><span><i style="background:var(--s1)"></i>Q2 2026</span><span><i style="background:var(--s2)"></i>Q3 2026</span></div>
+    <div id="grades"></div>
+  </div>
+</div>
+
+<div class="grid2">
+  <div class="card">
+    <h2>Risk grade migration (count)</h2>
+    <p class="cap">Rows are Q2 grade, columns Q3 grade. Red = downgrade, green = upgrade.</p>
+    <div class="scroll"><table class="mig" id="mig"></table></div>
+  </div>
+  <div class="card">
+    <h2>Covenant compliance</h2>
+    <p class="cap">Relationships by worst covenant result; near breach = cushion under 10%</p>
+    <div class="tbar" id="covbar"></div>
+    <div class="legend" id="covleg"></div>
+    <h2 style="margin-top:18px">Early warning flags</h2>
+    <p class="cap">Scored on nine indicators: covenants, DSCR trend, delinquency, reporting, BBC, downgrade, collateral, utilization</p>
+    <div class="flags" id="flags"></div>
+    <h2 style="margin-top:18px">Concentration limits</h2>
+    <div id="meters"></div>
+  </div>
+</div>
+
+<div class="card" style="margin-bottom:16px">
+  <h2>Watch list</h2>
+  <p class="cap">Relationships scoring 3 or more, ranked by early warning score</p>
+  <div class="scroll"><table id="watch"></table></div>
+</div>
+
+<div class="card">
+  <h2>All relationships</h2>
+  <p class="cap">Click a column header to sort</p>
+  <div class="controls" id="filters"></div>
+  <div class="scroll"><table id="all"></table></div>
+</div>
+<footer>Source: Portfolio_Monitoring_Tracker.xlsx (Early_Warning, Covenant_Test, Grade_Migration, Concentration tabs). All borrowers and figures are fictional.</footer>
+</div>
+<div class="tip" id="tip"></div>
+
+<script>
+const DATA = {"loans": [{"id": "PL-1001", "name": "Brazos Bend Fabrication, LLC", "sector": "C&I", "industry": "Manufacturing", "type": "Term + RLOC", "commit": 2840000, "out": 2380000, "pg": 4, "cg": 4, "dpd": 0, "dscr": 2.15, "dscrReq": 1.25, "dscrPrior": 1.89, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": "Strong year. $3.3MM new money approved Oct 2026 for equipment and line increase (see Package 01)."}, {"id": "PL-1002", "name": "Gulfway Cold Storage Partners, LP", "sector": "CRE", "industry": "CRE - Industrial", "type": "CRE Term", "commit": 9500000, "out": 9120000, "pg": 3, "cg": 3, "dpd": 0, "dscr": 1.62, "dscrReq": 1.3, "dscrPrior": 1.6, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": "Fully leased to two food distributors through 2032."}, {"id": "PL-1003", "name": "Bayou City Pediatric Associates, PA", "sector": "C&I", "industry": "Healthcare", "type": "Term + RLOC", "commit": 3200000, "out": 2400000, "pg": 3, "cg": 3, "dpd": 0, "dscr": 1.85, "dscrReq": 1.5, "dscrPrior": 1.92, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": ""}, {"id": "PL-1004", "name": "Cypress Ridge Apartments, LP", "sector": "CRE", "industry": "CRE - Multifamily", "type": "CRE Term", "commit": 14000000, "out": 13700000, "pg": 4, "cg": 5, "dpd": 0, "dscr": 1.21, "dscrReq": 1.2, "dscrPrior": 1.38, "cov": "Near Breach", "score": 3, "flag": "Watch", "rank": 5, "note": "Insurance premiums up 38% and new-lease concessions compressed NOI; DSCR within 1% of covenant. Downgraded to 5. Action: monthly rent rolls, sponsor-funded insurance reserve, rate cap renewal before Mar 2027 expiry."}, {"id": "PL-1005", "name": "Lone Oak Hospitality, Inc.", "sector": "CRE", "industry": "CRE - Hospitality", "type": "CRE Term", "commit": 8200000, "out": 7950000, "pg": 5, "cg": 6, "dpd": 0, "dscr": 1.08, "dscrReq": 1.25, "dscrPrior": 1.19, "cov": "Breach", "score": 5, "flag": "Critical", "rank": 4, "note": "RevPAR down 9% after a competing hotel opened nearby; DSCR covenant breached. Downgraded to 6 (Watch). Action: waiver with fee, 6-month debt service reserve, 90-day business plan, monthly STR reports."}, {"id": "PL-1006", "name": "Copperline Electrical Contractors, Inc.", "sector": "C&I", "industry": "Construction", "type": "RLOC + Equipment", "commit": 4500000, "out": 4140000, "pg": 4, "cg": 4, "dpd": 0, "dscr": 1.44, "dscrReq": 1.25, "dscrPrior": 1.47, "cov": "Pass", "score": 1, "flag": "Monitor", "rank": null, "note": "Line usage at 92% from retainage on two hospital projects; paydown expected at Q4 completion. Action: confirm retainage collections on monthly BBC."}, {"id": "PL-1007", "name": "Harbor Point Logistics, LLC", "sector": "C&I", "industry": "Transportation", "type": "Equipment Term", "commit": 6100000, "out": 5200000, "pg": 4, "cg": 5, "dpd": 0, "dscr": 1.18, "dscrReq": 1.2, "dscrPrior": 1.31, "cov": "Breach", "score": 6, "flag": "Critical", "rank": 3, "note": "Freight rate softness cut EBITDA 14%; DSCR breached and 6/30 interims past due. Downgraded to 5. Action: default notice issued, interims within 15 days, evaluate sale of excess tractors to deleverage."}, {"id": "PL-1008", "name": "Summit Pediatric Dental, PLLC", "sector": "C&I", "industry": "Healthcare", "type": "Term", "commit": 2100000, "out": 1600000, "pg": 2, "cg": 2, "dpd": 0, "dscr": 2.4, "dscrReq": 1.25, "dscrPrior": 2.35, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": ""}, {"id": "PL-1009", "name": "Westchase Office Plaza, LLC", "sector": "CRE", "industry": "CRE - Office", "type": "CRE Term", "commit": 11500000, "out": 11200000, "pg": 5, "cg": 7, "dpd": 0, "dscr": 1.12, "dscrReq": 1.25, "dscrPrior": 1.3, "cov": "Breach", "score": 7, "flag": "Critical", "rank": 2, "note": "Occupancy fell from 86% to 71% after the anchor tenant vacated; new appraisal puts LTV at 79%. Both covenants breached. Downgraded to Special Mention. Action: require $600K curtailment or added collateral, monthly leasing reports, start refinance planning for Dec 2027 maturity."}, {"id": "PL-1010", "name": "Prairie Seed & Supply Co.", "sector": "C&I", "industry": "Agriculture", "type": "RLOC", "commit": 3000000, "out": 2100000, "pg": 4, "cg": 4, "dpd": 0, "dscr": 1.52, "dscrReq": 1.25, "dscrPrior": 1.55, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": "Line renewal due Mar 2027."}, {"id": "PL-1011", "name": "Katy Retail Commons, LLC", "sector": "CRE", "industry": "CRE - Retail", "type": "CRE Term", "commit": 7800000, "out": 7400000, "pg": 3, "cg": 3, "dpd": 0, "dscr": 1.55, "dscrReq": 1.25, "dscrPrior": 1.53, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": ""}, {"id": "PL-1012", "name": "Trinity Machine Works, Inc.", "sector": "C&I", "industry": "Manufacturing", "type": "Term + RLOC", "commit": 3600000, "out": 3000000, "pg": 4, "cg": 3, "dpd": 0, "dscr": 1.95, "dscrReq": 1.25, "dscrPrior": 1.7, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": "Upgraded to 3: new aerospace contract drove 18% revenue growth."}, {"id": "PL-1013", "name": "Redbird Restaurant Group, LLC", "sector": "C&I", "industry": "Restaurants", "type": "Term", "commit": 2400000, "out": 2200000, "pg": 5, "cg": 5, "dpd": 18, "dscr": 1.29, "dscrReq": 1.25, "dscrPrior": 1.33, "cov": "Near Breach", "score": 2, "flag": "Monitor", "rank": null, "note": "September payment 18 days late; food cost pressure. Action: monitor payment timing, request monthly sales reports."}, {"id": "PL-1014", "name": "Gulf Coast Oilfield Rentals, LLC", "sector": "C&I", "industry": "Energy Services", "type": "Term + RLOC", "commit": 5500000, "out": 4600000, "pg": 4, "cg": 4, "dpd": 0, "dscr": 1.7, "dscrReq": 1.25, "dscrPrior": 1.78, "cov": "Near Breach", "score": 1, "flag": "Monitor", "rank": null, "note": "Leverage within 7% of covenant after equipment additions. Action: quarterly compliance certificate."}, {"id": "PL-1015", "name": "Meridian Physical Therapy Group, LLC", "sector": "C&I", "industry": "Healthcare", "type": "Term", "commit": 1800000, "out": 1200000, "pg": 3, "cg": 3, "dpd": 0, "dscr": 2.05, "dscrReq": 1.25, "dscrPrior": 2, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": ""}, {"id": "PL-1016", "name": "Pecan Street Self Storage, LLC", "sector": "CRE", "industry": "CRE - Self Storage", "type": "CRE Term", "commit": 6400000, "out": 6200000, "pg": 3, "cg": 3, "dpd": 0, "dscr": 1.71, "dscrReq": 1.25, "dscrPrior": 1.69, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": ""}, {"id": "PL-1017", "name": "Allied Packaging Distributors, Inc.", "sector": "C&I", "industry": "Wholesale Distribution", "type": "Term + RLOC", "commit": 4800000, "out": 3600000, "pg": 4, "cg": 4, "dpd": 0, "dscr": 1.48, "dscrReq": 1.25, "dscrPrior": 1.51, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": ""}, {"id": "PL-1018", "name": "Northgate Senior Living, LLC", "sector": "CRE", "industry": "CRE - Senior Housing", "type": "CRE Term", "commit": 9000000, "out": 8800000, "pg": 6, "cg": 5, "dpd": 0, "dscr": 1.31, "dscrReq": 1.3, "dscrPrior": 1.22, "cov": "Near Breach", "score": 1, "flag": "Monitor", "rank": null, "note": "Upgraded from 6: occupancy recovered to 91% and DSCR covenant cured. Cushion still thin; keep on quarterly testing."}, {"id": "PL-1019", "name": "Clearwater HVAC Services, Inc.", "sector": "C&I", "industry": "Construction", "type": "RLOC + Term", "commit": 1900000, "out": 1400000, "pg": 4, "cg": 4, "dpd": 0, "dscr": 1.62, "dscrReq": 1.25, "dscrPrior": 1.6, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": ""}, {"id": "PL-1020", "name": "Sabine Marine Services, LLC", "sector": "C&I", "industry": "Transportation", "type": "Equipment Term", "commit": 3900000, "out": 3500000, "pg": 4, "cg": 4, "dpd": 0, "dscr": 1.4, "dscrReq": 1.25, "dscrPrior": 1.42, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": ""}, {"id": "PL-1021", "name": "Heights Craft Brewing Co.", "sector": "C&I", "industry": "Food & Beverage Mfg", "type": "Term + RLOC", "commit": 2200000, "out": 2050000, "pg": 6, "cg": 8, "dpd": 32, "dscr": 0.94, "dscrReq": 1.2, "dscrPrior": 1.04, "cov": "Breach", "score": 13, "flag": "Critical", "rank": 1, "note": "Lost largest distribution contract in Q2; revenue down 22%. 32 days past due and both covenants breached. Downgraded to Substandard. Action: transfer to Special Assets, order equipment appraisal, updated guarantor PFS, evaluate forbearance."}, {"id": "PL-1022", "name": "Lakeside Veterinary Partners, LLC", "sector": "C&I", "industry": "Healthcare", "type": "Term", "commit": 2600000, "out": 2300000, "pg": 3, "cg": 3, "dpd": 0, "dscr": 1.88, "dscrReq": 1.25, "dscrPrior": 1.85, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": ""}, {"id": "PL-1023", "name": "Bellaire Industrial Flex, LLC", "sector": "CRE", "industry": "CRE - Industrial", "type": "CRE Term", "commit": 5200000, "out": 5000000, "pg": 3, "cg": 3, "dpd": 0, "dscr": 1.58, "dscrReq": 1.25, "dscrPrior": 1.56, "cov": "Pass", "score": 0, "flag": "Green", "rank": null, "note": ""}, {"id": "PL-1024", "name": "Texan Precision Plastics, LLC", "sector": "C&I", "industry": "Manufacturing", "type": "Term + RLOC", "commit": 3400000, "out": 2900000, "pg": 4, "cg": 4, "dpd": 0, "dscr": 1.39, "dscrReq": 1.25, "dscrPrior": 1.72, "cov": "Pass", "score": 2, "flag": "Monitor", "rank": null, "note": "DSCR fell 19% on a resin cost spike and delayed price increase; still compliant. Action: monthly interims through Q1 2027."}], "mig": [[0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 7, 0, 0, 0, 0, 0, 0], [0, 0, 1, 8, 2, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 1, 0, 0], [0, 0, 0, 0, 1, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]], "q": {"wagPrior": 4.05467790064946, "wagCur": 4.41934351413024, "critCur": 13250000, "classCur": 2050000, "critPct": 0.116289275057048, "up": 2, "same": 17, "down": 5, "crePct": 0.570790816326531, "creLimit": 0.6, "topRel": "Cypress Ridge Apartments, LP", "topPct": 0.111607142857143, "relLimit": 0.12}};
+const L = DATA.loans, Q = DATA.q;
+const $ = s => document.querySelector(s);
+const mm = v => "$" + (v/1e6).toFixed(1) + "MM";
+const usd = v => "$" + Math.round(v).toLocaleString();
+const pct = (v,d=1) => (v*100).toFixed(d) + "%";
+const tip = $("#tip");
+function showTip(e, html){ tip.innerHTML = html; tip.style.opacity = 1; moveTip(e); }
+function moveTip(e){ const w = tip.offsetWidth, h = tip.offsetHeight; let x = e.clientX + 14, y = e.clientY + 14; if (x + w > innerWidth - 8) x = e.clientX - w - 14; if (y + h > innerHeight - 8) y = e.clientY - h - 14; tip.style.left = x + "px"; tip.style.top = y + "px"; }
+function hideTip(){ tip.style.opacity = 0; }
+const sum = (a,f) => a.reduce((s,x) => s + f(x), 0);
+const totC = sum(L, x => x.commit), totO = sum(L, x => x.out);
+const flagClass = {Critical:"p-crit", Watch:"p-watch", Monitor:"p-mon", Green:"p-good", Breach:"p-crit", "Near Breach":"p-mon", Pass:"p-good"};
+const pill = s => `<span class="pill ${flagClass[s]||''}">${s}</span>`;
+
+// Tiles
+const breaches = L.filter(x => x.cov === "Breach").length;
+const watch = L.filter(x => x.rank).sort((a,b) => a.rank - b.rank);
+const tiles = [
+  ["Total commitments", mm(totC), `${L.length} relationships`],
+  ["Outstanding", mm(totO), `${pct(totO/totC,0)} utilized`],
+  ["Weighted avg. risk grade", Q.wagCur.toFixed(2), `from ${Q.wagPrior.toFixed(2)} in Q2`],
+  ["Criticized & classified", pct(Q.critPct), `${mm(Q.critCur)} (grade 7+)`],
+  ["Covenant breaches", breaches, `${L.filter(x=>x.cov==="Near Breach").length} more near breach`],
+  ["Watch list", watch.length, `${mm(sum(watch,x=>x.out))} outstanding`]
+];
+$("#tiles").innerHTML = tiles.map(t => `<div class="card tile"><div class="lab">${t[0]}</div><div class="val">${t[1]}</div><div class="delta">${t[2]}</div></div>`).join("");
+
+// Horizontal bar: industry
+(function(){
+  const m = {};
+  L.forEach(x => { const k = x.industry; m[k] = m[k] || {k, sector:x.sector, out:0, commit:0, n:0}; m[k].out += x.out; m[k].commit += x.commit; m[k].n++; });
+  const rows = Object.values(m).sort((a,b) => b.out - a.out);
+  const W = 520, rowH = 22, left = 150, right = 56, H = rows.length * rowH + 24;
+  const max = Math.ceil(Math.max(...rows.map(r => r.out))/5e6)*5e6, sx = v => (v/max) * (W - left - right);
+  let s = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Outstanding balance by industry">`;
+  [0, 1/3, 2/3, 1].forEach(t => { const x = left + t*(W-left-right); s += `<line x1="${x}" x2="${x}" y1="0" y2="${H-20}" stroke="var(--grid)"/><text x="${x}" y="${H-6}" text-anchor="middle">${t ? "$"+(max*t/1e6).toFixed(0)+"MM" : "$0"}</text>`; });
+  rows.forEach((r,i) => {
+    const y = i*rowH + 4, w = Math.max(2, sx(r.out)), c = r.sector === "CRE" ? "var(--s1)" : "var(--s2)";
+    s += `<text x="${left-8}" y="${y+12}" text-anchor="end">${r.k.replace("CRE - ","CRE: ")}</text>`;
+    s += `<path d="M${left},${y+2} h${w-4} a4,4 0 0 1 4,4 v6 a4,4 0 0 1 -4,4 h-${w-4} z" fill="${c}"/>`;
+    s += `<text x="${left+w+6}" y="${y+12}">${mm(r.out)}</text>`;
+    s += `<rect x="0" y="${y}" width="${W}" height="${rowH}" fill="transparent" data-t="<b>${r.k}</b>Outstanding ${usd(r.out)}<br>Commitment ${usd(r.commit)} (${pct(r.commit/totC)} of total)<br>${r.n} relationship${r.n>1?'s':''}"/>`;
+  });
+  $("#ind").innerHTML = s + "</svg>";
+})();
+
+// Grouped bar: grades
+(function(){
+  const prior = Array(9).fill(0), cur = Array(9).fill(0), np = Array(9).fill(0), nc = Array(9).fill(0);
+  L.forEach(x => { prior[x.pg-1] += x.out; cur[x.cg-1] += x.out; np[x.pg-1]++; nc[x.cg-1]++; });
+  const W = 520, H = 260, left = 48, bot = 28, top = 8, max = Math.ceil(Math.max(...prior, ...cur)/1e7)*1e7;
+  const gw = (W-left-8)/9, bw = (gw-10)/2, sy = v => (v/max)*(H-bot-top);
+  let s = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Outstanding by risk grade, Q2 vs Q3">`;
+  for (let t=0;t<=5;t++){ const v = max*t/5, y = H-bot-sy(v); s += `<line x1="${left}" x2="${W-4}" y1="${y}" y2="${y}" stroke="var(--grid)"/><text x="${left-6}" y="${y+4}" text-anchor="end">$${(v/1e6).toFixed(0)}MM</text>`; }
+  s += `<line x1="${left}" x2="${W-4}" y1="${H-bot}" y2="${H-bot}" stroke="var(--axis)"/>`;
+  for (let g=0; g<9; g++){
+    const x0 = left + g*gw + 5;
+    [[prior[g],"var(--s1)","Q2 2026",np[g]],[cur[g],"var(--s2)","Q3 2026",nc[g]]].forEach(([v,c,lab,n],k) => {
+      const h = sy(v), x = x0 + k*(bw+2), y = H-bot-h;
+      if (h > 0) s += h > 4 ? `<path d="M${x},${H-bot} v-${h-4} a4,4 0 0 1 4,-4 h${bw-8} a4,4 0 0 1 4,4 v${h-4} z" fill="${c}"/>` : `<rect x="${x}" y="${y}" width="${bw}" height="${h}" fill="${c}"/>`;
+      s += `<rect x="${x}" y="${top}" width="${bw}" height="${H-bot-top}" fill="transparent" data-t="<b>Grade ${g+1}, ${lab}</b>${usd(v)}<br>${n} relationship${n===1?'':'s'}"/>`;
+    });
+    s += `<text x="${x0+gw/2-5}" y="${H-10}" text-anchor="middle">${g+1}</text>`;
+  }
+  $("#grades").innerHTML = s + "</svg>";
+})();
+
+// Migration matrix
+(function(){
+  let h = "<tr><th></th>" + [1,2,3,4,5,6,7,8,9].map(g=>`<th>${g}</th>`).join("") + "</tr>";
+  DATA.mig.forEach((row,i) => {
+    h += `<tr><th>${i+1}</th>` + row.map((v,j) => { const cls = !v ? "z" : i===j ? "d" : j>i ? "dn" : "up"; return `<td class="${cls}">${v||"·"}</td>`; }).join("") + "</tr>";
+  });
+  $("#mig").innerHTML = h;
+  $("#mig").insertAdjacentHTML("afterend", `<p class="cap" style="margin-top:10px">${Q.up} upgrades · ${Q.same} unchanged · ${Q.down} downgrades. Classified (grade 8+): ${mm(Q.classCur)}.</p>`);
+})();
+
+// Covenant bar + flags + meters
+(function(){
+  const cs = [["Pass","var(--good)"],["Near Breach","var(--warn)"],["Breach","var(--crit)"]].map(([k,c]) => ({k,c,n:L.filter(x=>x.cov===k).length,o:sum(L.filter(x=>x.cov===k),x=>x.out)}));
+  $("#covbar").innerHTML = cs.map(c => `<div style="flex:${c.n};background:${c.c};${c.k==='Near Breach'?'color:#0b0b0b':''}" data-t="<b>${c.k}</b>${c.n} relationships<br>${usd(c.o)} outstanding">${c.n}</div>`).join("");
+  $("#covleg").innerHTML = cs.map(c => `<span><i style="background:${c.c}"></i>${c.k}: ${c.n} (${mm(c.o)})</span>`).join("");
+  const fl = [["Critical","var(--critbg)"],["Watch","var(--seriousbg)"],["Monitor","var(--warnbg)"],["Green","var(--goodbg)"]];
+  $("#flags").innerHTML = fl.map(([k,bg]) => { const a = L.filter(x=>x.flag===k); return `<div style="background:${bg}" data-t="<b>${k}</b>${a.map(x=>x.name).join('<br>')}"><b>${a.length}</b><span>${k}</span></div>`; }).join("");
+  const meters = [["Commercial real estate share of commitments", Q.crePct, Q.creLimit],["Largest relationship ("+Q.topRel+")", Q.topPct, Q.relLimit]];
+  $("#meters").innerHTML = meters.map(([l,v,lim]) => { const scale = lim*1.25; return `<div class="meter"><div class="row"><span>${l}</span><span><b>${pct(v)}</b> of ${pct(lim,0)} limit</span></div><div class="bar"><div class="fill" style="width:${v/scale*100}%"></div><div class="lim" style="left:${lim/scale*100}%"></div></div></div>`; }).join("");
+})();
+
+// Watch list
+$("#watch").innerHTML = `<tr><th>#</th><th>Borrower</th><th>Industry</th><th class="n">Outstanding</th><th class="n">Grade</th><th class="n">Score</th><th>Flag</th><th>Covenants</th><th>Action plan</th></tr>` +
+  watch.map(x => `<tr><td>${x.rank}</td><td><b>${x.name}</b></td><td>${x.industry}</td><td class="n">${usd(x.out)}</td><td class="n">${x.pg} → ${x.cg}</td><td class="n">${x.score}</td><td>${pill(x.flag)}</td><td>${pill(x.cov)}</td><td class="note">${x.note}</td></tr>`).join("");
+
+// All loans table with filter + sort
+let filt = "All", sortK = "score", dir = -1;
+const cols = [["id","ID"],["name","Borrower"],["industry","Industry"],["out","Outstanding",1],["cg","Grade",1],["dscr","DSCR",1],["cov","Covenants"],["score","Score",1],["flag","Flag"]];
+function renderAll(){
+  let a = L.filter(x => filt==="All" || (filt==="CRE" ? x.sector==="CRE" : filt==="C&I" ? x.sector==="C&I" : x.flag!=="Green"));
+  a.sort((p,q) => (p[sortK] > q[sortK] ? 1 : p[sortK] < q[sortK] ? -1 : 0) * dir);
+  $("#all").innerHTML = "<tr>" + cols.map(([k,l,n]) => `<th class="sort ${n?'n':''}" data-k="${k}">${l}${k===sortK?(dir>0?' ▲':' ▼'):''}</th>`).join("") + "</tr>" +
+    a.map(x => `<tr><td>${x.id}</td><td>${x.name}</td><td>${x.industry}</td><td class="n">${usd(x.out)}</td><td class="n">${x.pg===x.cg?x.cg:x.pg+" → "+x.cg}</td><td class="n">${x.dscr.toFixed(2)}x</td><td>${pill(x.cov)}</td><td class="n">${x.score}</td><td>${pill(x.flag)}</td></tr>`).join("");
+  document.querySelectorAll("#all th.sort").forEach(th => th.onclick = () => { const k = th.dataset.k; dir = k===sortK ? -dir : (["name","industry","id","cov","flag"].includes(k) ? 1 : -1); sortK = k; renderAll(); });
+}
+$("#filters").innerHTML = ["All","CRE","C&I","Flagged"].map(f => `<button aria-pressed="${f==='All'}" data-f="${f}">${f==="Flagged"?"Flagged only":f}</button>`).join("");
+$("#filters").onclick = e => { const b = e.target.closest("button"); if(!b) return; filt = b.dataset.f; document.querySelectorAll("#filters button").forEach(x => x.setAttribute("aria-pressed", x===b)); renderAll(); };
+renderAll();
+
+// Tooltips
+document.addEventListener("mousemove", e => { const t = e.target.closest("[data-t]"); if (t) showTip(e, t.dataset.t); else hideTip(); });
+</script>
+</body>
+</html>

@@ -1,0 +1,1501 @@
+borrower_id,name,industry,sector,city,state,years_in_business,relationship_start,guarantor
+B1001,"Sabine Physical Therapy, LLC",Healthcare,C&I,Austin,TX,28,2020-08-01,1
+B1002,"Guadalupe Lodge, Ltd.",CRE - Hospitality,CRE,Houston,TX,13,2022-05-01,0
+B1003,"Granite Ridge Lodge, Ltd.",CRE - Hospitality,CRE,Austin,TX,17,2023-08-01,1
+B1004,"Frio Logistics, LLC",Transportation,C&I,Houston,TX,11,2018-10-01,1
+B1005,"Sabine Residences, LLC",CRE - Multifamily,CRE,Houston,TX,32,2020-02-01,1
+B1006,"Twin Oaks Restaurant Group, Ltd.",Restaurants,C&I,Houston,TX,28,2017-03-01,1
+B1007,"Stonegate Self Storage, Ltd.",CRE - Self Storage,CRE,San Antonio,TX,11,2020-01-01,1
+B1008,"Nueces Trucking, LP",Transportation,C&I,Houston,TX,8,2022-04-01,1
+B1009,"Eastfield Village, LLC",CRE - Multifamily,CRE,Houston,TX,8,2023-06-01,1
+B1010,"Harborview Restaurant Group, LP",Restaurants,C&I,San Antonio,TX,10,2020-08-01,1
+B1011,"Prairie View Kitchen, Inc.",Restaurants,C&I,Houston,TX,18,2023-10-01,1
+B1012,"Copper Creek Construction, LP",Construction,C&I,Baton Rouge,LA,6,2025-04-01,1
+B1013,"Westpark Office Center, Ltd.",CRE - Office,CRE,Dallas,TX,10,2021-03-01,0
+B1014,"Pecan Hollow Inn & Suites, Ltd.",CRE - Hospitality,CRE,Austin,TX,36,2017-10-01,1
+B1015,"Sabine Distributors, Ltd.",Wholesale Distribution,C&I,Houston,TX,10,2022-02-01,1
+B1016,"Northline Village, LP",CRE - Multifamily,CRE,San Antonio,TX,10,2022-02-01,0
+B1017,"Riverbend Lodge, Ltd.",CRE - Hospitality,CRE,Houston,TX,10,2025-07-01,1
+B1018,"Silverleaf Mercantile, LLC",Retail Trade,C&I,Shreveport,LA,2,2018-08-01,1
+B1019,"Guadalupe Builders, LLC",Construction,C&I,Austin,TX,18,2020-05-01,1
+B1020,"Sandstone Business Park, LLC",CRE - Industrial,CRE,Austin,TX,12,2019-01-01,1
+B1021,"Highland Residences, Inc.",CRE - Multifamily,CRE,Houston,TX,20,2018-06-01,1
+B1022,"Clearfork Dental, LLC",Healthcare,C&I,San Antonio,TX,15,2022-02-01,1
+B1023,"Bayside Freight, Ltd.",Transportation,C&I,Dallas,TX,20,2016-04-01,1
+B1024,"Falcon Point Home Center, Ltd.",Retail Trade,C&I,Tulsa,OK,28,2022-10-01,0
+B1025,"Copper Creek Family Practice, Ltd.",Healthcare,C&I,Austin,TX,2,2023-11-01,1
+B1026,"Highland Apartments, LP",CRE - Multifamily,CRE,Dallas,TX,23,2016-05-01,0
+B1027,"Pinewood Medical Group, LLC",Healthcare,C&I,Houston,TX,3,2019-10-01,0
+B1028,"Trinity Freight, Ltd.",Transportation,C&I,Austin,TX,20,2018-04-01,1
+B1029,"Sandstone Commons, LP",CRE - Retail,CRE,Dallas,TX,15,2017-11-01,1
+B1030,"Mesquite Distributors, Ltd.",Wholesale Distribution,C&I,Corpus Christi,TX,20,2019-07-01,0
+B1031,"Bayside Fabrication, Ltd.",Manufacturing,C&I,Houston,TX,7,2020-03-01,1
+B1032,"Lone Star Storage, LP",CRE - Self Storage,CRE,Shreveport,LA,28,2015-05-01,1
+B1033,"Bayside Industrial Park, Ltd.",CRE - Industrial,CRE,Houston,TX,8,2023-03-01,0
+B1034,"Silverleaf Distributors, Ltd.",Wholesale Distribution,C&I,Austin,TX,26,2023-11-01,1
+B1035,"Cypress Trucking, Ltd.",Transportation,C&I,Houston,TX,25,2021-09-01,1
+B1036,"Red River Ag Supply, LP",Agriculture,C&I,Baton Rouge,LA,12,2017-07-01,1
+B1037,"Granite Ridge Commons, LLC",CRE - Retail,CRE,Austin,TX,23,2017-06-01,0
+B1038,"Mesquite Fabrication, Inc.",Manufacturing,C&I,Houston,TX,16,2024-10-01,1
+B1039,"Twin Oaks Outfitters, LLC",Retail Trade,C&I,Houston,TX,16,2020-05-01,0
+B1040,"Bluebonnet Residences, LLC",CRE - Multifamily,CRE,Houston,TX,21,2020-04-01,1
+B1041,"Mesquite Outfitters, LLC",Retail Trade,C&I,Dallas,TX,6,2019-02-01,1
+B1042,"Lone Star Lodge, LP",CRE - Hospitality,CRE,Houston,TX,10,2017-12-01,1
+B1043,"Magnolia Engineering, LLC",Professional Services,C&I,Dallas,TX,10,2019-09-01,1
+B1044,"Stonegate Marketplace, Ltd.",CRE - Retail,CRE,Tulsa,OK,5,2025-05-01,1
+B1045,"Brazos Machine Works, Ltd.",Manufacturing,C&I,San Antonio,TX,29,2015-03-01,0
+B1046,"Brazos Contractors, LLC",Construction,C&I,Houston,TX,35,2024-03-01,1
+B1047,"Riverbend Pipeline Services, Inc.",Energy Services,C&I,Shreveport,LA,5,2025-01-01,1
+B1048,"Brazos Grill, LP",Restaurants,C&I,Corpus Christi,TX,24,2022-12-01,1
+B1049,"Silverleaf Fabrication, Ltd.",Manufacturing,C&I,Baton Rouge,LA,5,2021-01-01,0
+B1050,"Trinity Tower, Inc.",CRE - Office,CRE,Dallas,TX,16,2022-12-01,1
+B1051,"Eastfield Logistics, LLC",Transportation,C&I,Dallas,TX,9,2023-06-01,1
+B1052,"Eastfield Hotel, LLC",CRE - Hospitality,CRE,Baton Rouge,LA,29,2023-02-01,1
+B1053,"Magnolia Marketplace, LP",CRE - Retail,CRE,Dallas,TX,13,2019-03-01,0
+B1054,"Cedar Bayou Farms, Ltd.",Agriculture,C&I,Houston,TX,18,2016-06-01,1
+B1055,"Stonegate Marketplace, LP",CRE - Retail,CRE,Dallas,TX,16,2014-04-01,1
+B1056,"Twin Oaks Energy Services, LLC",Energy Services,C&I,Dallas,TX,9,2015-04-01,1
+B1057,"Granite Ridge Feed & Seed, Inc.",Agriculture,C&I,Baton Rouge,LA,23,2024-01-01,1
+B1058,"Trinity Builders, Ltd.",Construction,C&I,Houston,TX,30,2024-05-01,1
+B1059,"Harborview Office Center, Inc.",CRE - Office,CRE,San Antonio,TX,10,2023-09-01,0
+B1060,"Red River Business Park, Ltd.",CRE - Industrial,CRE,Dallas,TX,17,2024-06-01,1
+B1061,"Lone Star Office Plaza, Inc.",CRE - Office,CRE,Dallas,TX,10,2024-11-01,0
+B1062,"Lone Star Lodge, LLC",CRE - Hospitality,CRE,Baton Rouge,LA,13,2017-12-01,0
+B1063,"Twin Oaks Mercantile, Inc.",Retail Trade,C&I,San Antonio,TX,11,2017-08-01,1
+B1064,"Clearfork Tower, LLC",CRE - Office,CRE,Houston,TX,21,2020-10-01,1
+B1065,"Brazos Wholesale, Inc.",Wholesale Distribution,C&I,Dallas,TX,18,2018-07-01,1
+B1066,"Sandstone Shopping Center, Inc.",CRE - Retail,CRE,Corpus Christi,TX,14,2025-08-01,0
+B1067,"Cypress Electric, LP",Construction,C&I,Oklahoma City,OK,31,2018-04-01,1
+B1068,"Highland Advisors, Ltd.",Professional Services,C&I,Tulsa,OK,18,2017-02-01,1
+B1069,"Pecan Hollow Family Practice, LP",Healthcare,C&I,Austin,TX,18,2014-12-01,1
+B1070,"Cypress Kitchen, Inc.",Restaurants,C&I,Dallas,TX,9,2018-06-01,1
+B1071,"Nueces Electric, Ltd.",Construction,C&I,Beaumont,TX,24,2019-11-01,1
+B1072,"Riverbend Office Center, Ltd.",CRE - Office,CRE,Houston,TX,28,2024-05-01,1
+B1073,"Cypress Physical Therapy, Ltd.",Healthcare,C&I,Houston,TX,18,2020-07-01,1
+B1074,"Twin Oaks Logistics, LP",Transportation,C&I,Fort Worth,TX,2,2015-01-01,1
+B1075,"Ironwood Industrial Park, Inc.",CRE - Industrial,CRE,Baton Rouge,LA,13,2022-05-01,0
+B1076,"Bluebonnet Outfitters, Ltd.",Retail Trade,C&I,Houston,TX,17,2021-01-01,1
+B1077,"Harborview Residences, Inc.",CRE - Multifamily,CRE,Corpus Christi,TX,31,2018-07-01,1
+B1078,"Cedar Bayou Storage, Inc.",CRE - Self Storage,CRE,Baton Rouge,LA,12,2022-04-01,1
+B1079,"Magnolia Self Storage, LLC",CRE - Self Storage,CRE,Houston,TX,20,2017-01-01,1
+B1080,"Pinewood Grill, Inc.",Restaurants,C&I,Fort Worth,TX,24,2020-04-01,1
+B1081,"Prairie View Wholesale, LP",Wholesale Distribution,C&I,Houston,TX,5,2023-12-01,1
+B1082,"Brazos Self Storage, LP",CRE - Self Storage,CRE,Houston,TX,19,2017-08-01,1
+B1083,"Ironwood Electric, Inc.",Construction,C&I,Baton Rouge,LA,8,2023-11-01,1
+B1084,"Ironwood Village, LLC",CRE - Multifamily,CRE,Shreveport,LA,2,2021-02-01,1
+B1085,"Magnolia Grill, Inc.",Restaurants,C&I,Fort Worth,TX,16,2014-11-01,1
+B1086,"Ironwood Physical Therapy, LP",Healthcare,C&I,Baton Rouge,LA,2,2019-05-01,1
+B1087,"Red River Distribution Center, LP",CRE - Industrial,CRE,Houston,TX,33,2024-03-01,1
+B1088,"Live Oak Consulting, LP",Professional Services,C&I,Houston,TX,17,2025-05-01,1
+B1089,"Red River Industrial Park, Ltd.",CRE - Industrial,CRE,Houston,TX,17,2022-03-01,1
+B1090,"Nueces Distribution Center, LLC",CRE - Industrial,CRE,Corpus Christi,TX,7,2021-10-01,1
+B1091,"Gulfline Construction, Inc.",Construction,C&I,Baton Rouge,LA,18,2018-12-01,1
+B1092,"Cedar Bayou Distributors, LLC",Wholesale Distribution,C&I,Dallas,TX,9,2016-04-01,1
+B1093,"Ironwood Grill, LP",Restaurants,C&I,San Antonio,TX,24,2025-09-01,0
+B1094,"Stonegate Feed & Seed, LLC",Agriculture,C&I,Austin,TX,29,2021-07-01,1
+B1095,"Northline Inn & Suites, Inc.",CRE - Hospitality,CRE,Shreveport,LA,7,2021-12-01,0
+B1096,"Bayside Assisted Living, LLC",CRE - Senior Housing,CRE,Houston,TX,18,2025-09-01,0
+B1097,"Westpark Physical Therapy, Ltd.",Healthcare,C&I,Oklahoma City,OK,21,2023-04-01,1
+B1098,"Prairie View Office Center, LLC",CRE - Office,CRE,Austin,TX,24,2021-07-01,0
+B1099,"Highland Manufacturing, LP",Manufacturing,C&I,Beaumont,TX,22,2021-04-01,1
+B1100,"Harborview Distribution Center, LLC",CRE - Industrial,CRE,Baton Rouge,LA,23,2016-05-01,0
+B1101,"Copper Creek Residences, LP",CRE - Multifamily,CRE,Lake Charles,LA,12,2022-11-01,1
+B1102,"Cedar Bayou Lodge, LP",CRE - Hospitality,CRE,Dallas,TX,6,2018-07-01,1
+B1103,"Mesquite Advisors, LLC",Professional Services,C&I,Oklahoma City,OK,23,2022-03-01,1
+B1104,"Sabine Self Storage, LLC",CRE - Self Storage,CRE,Austin,TX,13,2021-12-01,1
+B1105,"Sabine Outfitters, Inc.",Retail Trade,C&I,Houston,TX,10,2017-04-01,1
+B1106,"Sandstone Contractors, LP",Construction,C&I,Austin,TX,2,2020-09-01,1
+B1107,"Cedar Bayou Distribution Center, Inc.",CRE - Industrial,CRE,Houston,TX,12,2019-11-01,0
+B1108,"Magnolia Family Practice, Ltd.",Healthcare,C&I,Houston,TX,13,2017-08-01,1
+B1109,"Eastfield Hotel, Ltd.",CRE - Hospitality,CRE,Houston,TX,15,2021-07-01,1
+B1110,"Guadalupe Industrial Park, Inc.",CRE - Industrial,CRE,San Antonio,TX,4,2024-07-01,1
+B1111,"Falcon Point Apartments, Ltd.",CRE - Multifamily,CRE,Baton Rouge,LA,24,2016-05-01,0
+B1112,"Nueces Apartments, Inc.",CRE - Multifamily,CRE,Dallas,TX,12,2023-09-01,1
+B1113,"Cedar Bayou Shopping Center, LP",CRE - Retail,CRE,Lake Charles,LA,24,2024-08-01,0
+B1114,"Falcon Point Distributors, Ltd.",Wholesale Distribution,C&I,Beaumont,TX,2,2025-09-01,1
+B1115,"Nueces Residences, Inc.",CRE - Multifamily,CRE,Baton Rouge,LA,18,2022-05-01,0
+B1116,"Pecan Hollow Office Plaza, LLC",CRE - Office,CRE,Houston,TX,12,2019-12-01,1
+B1117,"Silverleaf Physical Therapy, LP",Healthcare,C&I,Houston,TX,21,2018-04-01,1
+B1118,"Sandstone Marketplace, LP",CRE - Retail,CRE,Houston,TX,10,2023-12-01,1
+B1119,"Gulfline Advisors, LLC",Professional Services,C&I,Baton Rouge,LA,18,2018-12-01,0
+B1120,"Frio Inn & Suites, LLC",CRE - Hospitality,CRE,San Antonio,TX,14,2022-12-01,1
+B1121,"Guadalupe Senior Living, Ltd.",CRE - Senior Housing,CRE,Houston,TX,17,2018-08-01,1
+B1122,"Westpark Senior Living, LP",CRE - Senior Housing,CRE,Lake Charles,LA,3,2023-12-01,1
+B1123,"Harborview Machine Works, LP",Manufacturing,C&I,Dallas,TX,12,2019-12-01,1
+B1124,"Magnolia Consulting, Ltd.",Professional Services,C&I,Corpus Christi,TX,21,2022-02-01,1
+B1125,"Clearfork Business Park, LP",CRE - Industrial,CRE,Dallas,TX,20,2022-01-01,1
+B1126,"Mesquite Shopping Center, Ltd.",CRE - Retail,CRE,Dallas,TX,7,2023-01-01,0
+B1127,"Trinity Home Center, LLC",Retail Trade,C&I,Fort Worth,TX,16,2023-11-01,0
+B1128,"Magnolia Advisors, Ltd.",Professional Services,C&I,Houston,TX,13,2018-01-01,1
+B1129,"Lone Star Ag Supply, Inc.",Agriculture,C&I,Dallas,TX,34,2015-02-01,0
+B1130,"Pecan Hollow Industries, LP",Manufacturing,C&I,San Antonio,TX,19,2023-01-01,1
+B1131,"Falcon Point Contractors, Inc.",Construction,C&I,Baton Rouge,LA,18,2022-05-01,1
+B1132,"Copper Creek Business Park, LLC",CRE - Industrial,CRE,Tulsa,OK,26,2023-12-01,1
+B1133,"Northline Feed & Seed, Inc.",Agriculture,C&I,Austin,TX,15,2022-04-01,1
+B1134,"Silverleaf Supply, LLC",Wholesale Distribution,C&I,Fort Worth,TX,14,2025-02-01,1
+B1135,"Trinity Pipeline Services, Ltd.",Energy Services,C&I,Fort Worth,TX,26,2016-08-01,1
+B1136,"Harborview Contractors, LP",Construction,C&I,San Antonio,TX,9,2024-07-01,1
+B1137,"Lone Star Business Park, Inc.",CRE - Industrial,CRE,Houston,TX,9,2015-10-01,0
+B1138,"Live Oak Distribution Center, LP",CRE - Industrial,CRE,Beaumont,TX,19,2024-10-01,1
+B1139,"Falcon Point Residences, LP",CRE - Multifamily,CRE,Tulsa,OK,2,2021-06-01,1
+B1140,"Brazos Residences, Inc.",CRE - Multifamily,CRE,Shreveport,LA,6,2023-12-01,1
+B1141,"Bluebonnet Wholesale, Ltd.",Wholesale Distribution,C&I,San Antonio,TX,24,2023-06-01,0
+B1142,"Sandstone Apartments, Inc.",CRE - Multifamily,CRE,Fort Worth,TX,19,2024-10-01,1
+B1143,"Stonegate Marketplace, Inc.",CRE - Retail,CRE,Lake Charles,LA,13,2025-05-01,1
+B1144,"Live Oak Farms, LLC",Agriculture,C&I,Dallas,TX,15,2018-07-01,1
+B1145,"Silverleaf Wholesale, LLC",Wholesale Distribution,C&I,Houston,TX,12,2023-06-01,1
+B1146,"Westpark Medical Group, LP",Healthcare,C&I,Dallas,TX,28,2023-10-01,0
+B1147,"Copper Creek Senior Living, Inc.",CRE - Senior Housing,CRE,Dallas,TX,10,2024-05-01,1
+B1148,"Frio Shopping Center, LLC",CRE - Retail,CRE,Corpus Christi,TX,25,2018-01-01,1
+B1149,"Stonegate Office Center, LLC",CRE - Office,CRE,Houston,TX,3,2023-03-01,1
+B1150,"Red River Residences, LP",CRE - Multifamily,CRE,Baton Rouge,LA,24,2019-08-01,1
+B1151,"Copper Creek Pipeline Services, LLC",Energy Services,C&I,Houston,TX,13,2015-10-01,1
+B1152,"Magnolia Residences, Ltd.",CRE - Multifamily,CRE,Austin,TX,9,2021-11-01,1
+B1153,"Sabine Dental, LP",Healthcare,C&I,Fort Worth,TX,26,2024-06-01,1
+B1154,"Bayside Industries, LLC",Manufacturing,C&I,Austin,TX,20,2025-05-01,1
+B1155,"Red River Oilfield Services, Ltd.",Energy Services,C&I,San Antonio,TX,2,2024-06-01,1
+B1156,"Copper Creek Residences, Inc.",CRE - Multifamily,CRE,Austin,TX,6,2016-05-01,0
+B1157,"Live Oak Contractors, Ltd.",Construction,C&I,Corpus Christi,TX,13,2017-12-01,1
+B1158,"Silverleaf Village, LP",CRE - Multifamily,CRE,Austin,TX,11,2016-07-01,1
+B1159,"Stonegate Fabrication, Ltd.",Manufacturing,C&I,Beaumont,TX,28,2018-02-01,1
+B1160,"Stonegate Industrial Park, Inc.",CRE - Industrial,CRE,Corpus Christi,TX,25,2018-06-01,1
+B1161,"Bayside Oilfield Services, LP",Energy Services,C&I,Fort Worth,TX,6,2021-04-01,1
+B1162,"Magnolia Distribution Center, Ltd.",CRE - Industrial,CRE,Beaumont,TX,2,2023-08-01,1
+B1163,"Caddo Apartments, Ltd.",CRE - Multifamily,CRE,Beaumont,TX,24,2022-12-01,1
+B1164,"Brazos Fabrication, LP",Manufacturing,C&I,Tulsa,OK,22,2015-05-01,1
+B1165,"Harborview Senior Living, LP",CRE - Senior Housing,CRE,Houston,TX,7,2018-07-01,1
+B1166,"Pinewood Family Practice, LP",Healthcare,C&I,Houston,TX,27,2024-05-01,1
+B1167,"Trinity Pipeline Services, LP",Energy Services,C&I,San Antonio,TX,12,2024-01-01,1
+B1168,"Guadalupe Industries, Inc.",Manufacturing,C&I,Dallas,TX,25,2021-08-01,1
+B1169,"Sabine Office Center, LP",CRE - Office,CRE,Houston,TX,28,2024-07-01,1
+B1170,"Bayside Tower, Ltd.",CRE - Office,CRE,Dallas,TX,18,2019-09-01,0
+B1171,"Northline Office Plaza, LP",CRE - Office,CRE,Houston,TX,26,2014-01-01,1
+B1172,"Riverbend Storage, LLC",CRE - Self Storage,CRE,Houston,TX,14,2020-05-01,1
+B1173,"Granite Ridge Mercantile, Inc.",Retail Trade,C&I,Dallas,TX,2,2016-10-01,1
+B1174,"Highland Physical Therapy, LP",Healthcare,C&I,Beaumont,TX,22,2020-12-01,1
+B1175,"Gulfline Assisted Living, Inc.",CRE - Senior Housing,CRE,Fort Worth,TX,13,2021-09-01,1
+B1176,"Bluebonnet Trucking, LP",Transportation,C&I,Corpus Christi,TX,14,2023-11-01,1
+B1177,"Brazos Energy Services, Ltd.",Energy Services,C&I,Oklahoma City,OK,10,2019-02-01,0
+B1178,"Clearfork Residences, LP",CRE - Multifamily,CRE,San Antonio,TX,14,2016-08-01,0
+B1179,"Bluebonnet Construction, Inc.",Construction,C&I,Tulsa,OK,15,2025-07-01,0
+B1180,"Sabine Marketplace, LP",CRE - Retail,CRE,Beaumont,TX,6,2017-04-01,0
+B1181,"Stonegate Medical Group, Inc.",Healthcare,C&I,Houston,TX,12,2020-04-01,1
+B1182,"Bayside Village, LP",CRE - Multifamily,CRE,Fort Worth,TX,2,2017-02-01,1
+B1183,"Westpark Industrial Park, Inc.",CRE - Industrial,CRE,Houston,TX,27,2023-02-01,0
+B1184,"Falcon Point Oilfield Services, LLC",Energy Services,C&I,San Antonio,TX,14,2022-05-01,1
+B1185,"Trinity Storage, Inc.",CRE - Self Storage,CRE,Dallas,TX,4,2024-06-01,1
+B1186,"Bayside Dental, Inc.",Healthcare,C&I,Austin,TX,12,2014-07-01,1
+B1187,"Copper Creek Supply, Ltd.",Wholesale Distribution,C&I,Austin,TX,21,2015-11-01,1
+B1188,"Sandstone Builders, LLC",Construction,C&I,Houston,TX,19,2022-11-01,0
+B1189,"Cedar Bayou Residences, Ltd.",CRE - Multifamily,CRE,San Antonio,TX,15,2023-04-01,1
+B1190,"Lone Star Machine Works, Inc.",Manufacturing,C&I,Shreveport,LA,25,2024-06-01,1
+B1191,"Clearfork Lodge, LP",CRE - Hospitality,CRE,Austin,TX,19,2019-07-01,1
+B1192,"Clearfork Contractors, Ltd.",Construction,C&I,Dallas,TX,29,2024-08-01,1
+B1193,"Stonegate Distribution Center, LLC",CRE - Industrial,CRE,Fort Worth,TX,7,2024-07-01,1
+B1194,"Granite Ridge Apartments, LLC",CRE - Multifamily,CRE,Houston,TX,6,2024-01-01,0
+B1195,"Clearfork Energy Services, LP",Energy Services,C&I,Houston,TX,15,2019-09-01,1
+B1196,"Bayside Senior Living, LP",CRE - Senior Housing,CRE,Dallas,TX,9,2021-03-01,1
+B1197,"Pinewood Village, Ltd.",CRE - Multifamily,CRE,Dallas,TX,20,2019-01-01,0
+B1198,"Copper Creek Oilfield Services, LLC",Energy Services,C&I,Dallas,TX,19,2018-10-01,1
+B1199,"Riverbend Industrial Park, LP",CRE - Industrial,CRE,Houston,TX,21,2023-07-01,0
+B1200,"Clearfork Freight, LLC",Transportation,C&I,Baton Rouge,LA,18,2023-07-01,1
+B1201,"Silverleaf Contractors, Ltd.",Construction,C&I,Austin,TX,15,2017-10-01,1
+B1202,"Stonegate Tower, LP",CRE - Office,CRE,Fort Worth,TX,14,2019-11-01,1
+B1203,"Westpark Farms, LLC",Agriculture,C&I,Fort Worth,TX,12,2022-10-01,1
+B1204,"Ironwood Dental, LLC",Healthcare,C&I,Houston,TX,9,2021-12-01,1
+B1205,"Bayside Engineering, Inc.",Professional Services,C&I,Lake Charles,LA,5,2025-08-01,0
+B1206,"Highland Machine Works, Inc.",Manufacturing,C&I,Austin,TX,20,2022-10-01,1
+B1207,"Pinewood Wholesale, Ltd.",Wholesale Distribution,C&I,Baton Rouge,LA,17,2024-11-01,1
+B1208,"Brazos Advisors, LP",Professional Services,C&I,Dallas,TX,8,2019-09-01,1
+B1209,"Westpark Tower, Ltd.",CRE - Office,CRE,Fort Worth,TX,24,2025-09-01,1
+B1210,"Falcon Point Village, Inc.",CRE - Multifamily,CRE,Houston,TX,21,2020-01-01,1
+B1211,"Trinity Machine Works, Inc.",Manufacturing,C&I,Houston,TX,22,2017-12-01,0
+B1212,"Brazos Construction, LLC",Construction,C&I,Austin,TX,14,2021-04-01,1
+B1213,"Pinewood Energy Services, Inc.",Energy Services,C&I,Fort Worth,TX,10,2017-02-01,1
+B1214,"Brazos Distributors, LP",Wholesale Distribution,C&I,Houston,TX,8,2023-07-01,1
+B1215,"Cypress Village, LLC",CRE - Multifamily,CRE,Dallas,TX,16,2025-05-01,1
+B1216,"Cypress Pipeline Services, Inc.",Energy Services,C&I,Dallas,TX,24,2022-08-01,1
+B1217,"Riverbend Marketplace, Ltd.",CRE - Retail,CRE,Dallas,TX,2,2019-10-01,1
+B1218,"Falcon Point Engineering, LP",Professional Services,C&I,Tulsa,OK,19,2022-02-01,1
+B1219,"Guadalupe Industries, LLC",Manufacturing,C&I,Beaumont,TX,10,2019-10-01,0
+B1220,"Bayside Mercantile, Ltd.",Retail Trade,C&I,Houston,TX,18,2015-12-01,1
+B1221,"Trinity Distributors, Inc.",Wholesale Distribution,C&I,Baton Rouge,LA,13,2019-07-01,1
+B1222,"Silverleaf Logistics, Ltd.",Transportation,C&I,San Antonio,TX,12,2021-10-01,1
+B1223,"Bluebonnet Shopping Center, LLC",CRE - Retail,CRE,Houston,TX,33,2021-05-01,0
+B1224,"Magnolia Pipeline Services, LP",Energy Services,C&I,Houston,TX,17,2021-03-01,1
+B1225,"Harborview Apartments, Inc.",CRE - Multifamily,CRE,Corpus Christi,TX,14,2023-02-01,0
+B1226,"Silverleaf Hotel, LLC",CRE - Hospitality,CRE,San Antonio,TX,35,2016-06-01,0
+B1227,"Highland Mercantile, Ltd.",Retail Trade,C&I,Houston,TX,13,2024-05-01,1
+B1228,"Mesquite Farms, Inc.",Agriculture,C&I,Dallas,TX,18,2021-02-01,0
+B1229,"Guadalupe Tower, Ltd.",CRE - Office,CRE,Houston,TX,9,2020-12-01,0
+B1230,"Caddo Kitchen, Inc.",Restaurants,C&I,Corpus Christi,TX,27,2019-05-01,1
+B1231,"Falcon Point Electric, Ltd.",Construction,C&I,Dallas,TX,9,2024-03-01,1
+B1232,"Bayside Industries, Inc.",Manufacturing,C&I,Austin,TX,14,2025-03-01,1
+B1233,"Copper Creek Pipeline Services, Ltd.",Energy Services,C&I,Corpus Christi,TX,5,2021-12-01,1
+B1234,"Clearfork Medical Group, Inc.",Healthcare,C&I,Dallas,TX,11,2018-04-01,1
+B1235,"Mesquite Apartments, LLC",CRE - Multifamily,CRE,Austin,TX,19,2018-11-01,0
+B1236,"Magnolia Business Park, Inc.",CRE - Industrial,CRE,Tulsa,OK,20,2024-08-01,0
+B1237,"Sabine Self Storage, Inc.",CRE - Self Storage,CRE,Dallas,TX,20,2016-08-01,0
+B1238,"Highland Senior Living, Ltd.",CRE - Senior Housing,CRE,Austin,TX,9,2018-04-01,0
+B1239,"Cedar Bayou Dental, LP",Healthcare,C&I,Baton Rouge,LA,9,2023-04-01,0
+B1240,"Prairie View Physical Therapy, Ltd.",Healthcare,C&I,Fort Worth,TX,5,2025-05-01,1
+B1241,"Bluebonnet Storage, Ltd.",CRE - Self Storage,CRE,Austin,TX,17,2018-05-01,0
+B1242,"Pinewood Residences, Ltd.",CRE - Multifamily,CRE,Houston,TX,14,2022-10-01,1
+B1243,"Brazos Manufacturing, Inc.",Manufacturing,C&I,Houston,TX,29,2018-06-01,1
+B1244,"Guadalupe Office Center, Ltd.",CRE - Office,CRE,San Antonio,TX,13,2020-05-01,1
+B1245,"Eastfield Freight, LLC",Transportation,C&I,Houston,TX,13,2018-01-01,1
+B1246,"Stonegate Commons, LLC",CRE - Retail,CRE,Dallas,TX,13,2019-03-01,0
+B1247,"Bayside Office Center, LP",CRE - Office,CRE,Austin,TX,2,2015-01-01,0
+B1248,"Falcon Point Medical Group, LP",Healthcare,C&I,Houston,TX,9,2024-08-01,0
+B1249,"Prairie View Shopping Center, LLC",CRE - Retail,CRE,Houston,TX,3,2022-05-01,1
+B1250,"Lone Star Office Plaza, Ltd.",CRE - Office,CRE,Houston,TX,23,2014-10-01,0
+B1251,"Ironwood Inn & Suites, Ltd.",CRE - Hospitality,CRE,Dallas,TX,16,2020-01-01,1
+B1252,"Clearfork Business Park, LLC",CRE - Industrial,CRE,Austin,TX,13,2016-04-01,1
+B1253,"Cedar Bayou Supply, Ltd.",Wholesale Distribution,C&I,Baton Rouge,LA,2,2023-07-01,1
+B1254,"Pecan Hollow Industrial Park, LP",CRE - Industrial,CRE,Fort Worth,TX,2,2024-09-01,1
+B1255,"Cedar Bayou Engineering, LLC",Professional Services,C&I,Houston,TX,11,2018-02-01,1
+B1256,"Sandstone Medical Group, LP",Healthcare,C&I,Lake Charles,LA,23,2015-06-01,1
+B1257,"Trinity Physical Therapy, Ltd.",Healthcare,C&I,Dallas,TX,28,2019-10-01,1
+B1258,"Frio Consulting, Ltd.",Professional Services,C&I,Fort Worth,TX,16,2024-01-01,0
+B1259,"Frio Office Center, Inc.",CRE - Office,CRE,Tulsa,OK,14,2024-04-01,0
+B1260,"Silverleaf Residences, Ltd.",CRE - Multifamily,CRE,Houston,TX,4,2016-01-01,1
+B1261,"Lone Star Electric, Inc.",Construction,C&I,Houston,TX,2,2016-06-01,1
+B1262,"Cypress Residences, Inc.",CRE - Multifamily,CRE,Oklahoma City,OK,23,2021-11-01,1
+B1263,"Sabine Advisors, Ltd.",Professional Services,C&I,Fort Worth,TX,5,2020-01-01,0
+B1264,"Eastfield Energy Services, LLC",Energy Services,C&I,Lake Charles,LA,10,2020-01-01,1
+B1265,"Granite Ridge Machine Works, Ltd.",Manufacturing,C&I,Fort Worth,TX,22,2020-05-01,1
+B1266,"Prairie View Builders, LP",Construction,C&I,Tulsa,OK,13,2018-02-01,1
+B1267,"Pinewood Family Practice, LLC",Healthcare,C&I,Houston,TX,2,2022-02-01,1
+B1268,"Sandstone Industrial Park, LP",CRE - Industrial,CRE,Houston,TX,15,2020-12-01,0
+B1269,"Caddo Wholesale, LLC",Wholesale Distribution,C&I,Dallas,TX,9,2018-08-01,1
+B1270,"Live Oak Consulting, Ltd.",Professional Services,C&I,Corpus Christi,TX,2,2021-12-01,1
+B1271,"Sabine Manufacturing, Ltd.",Manufacturing,C&I,San Antonio,TX,18,2015-07-01,1
+B1272,"Northline Medical Group, Inc.",Healthcare,C&I,Austin,TX,24,2020-05-01,1
+B1273,"Mesquite Manufacturing, LP",Manufacturing,C&I,Corpus Christi,TX,13,2017-01-01,1
+B1274,"Live Oak Storage, LP",CRE - Self Storage,CRE,Baton Rouge,LA,31,2020-01-01,1
+B1275,"Pecan Hollow Distributors, Inc.",Wholesale Distribution,C&I,Dallas,TX,23,2015-06-01,1
+B1276,"Lone Star Industrial Park, LLC",CRE - Industrial,CRE,Fort Worth,TX,22,2023-01-01,1
+B1277,"Twin Oaks Village, LLC",CRE - Multifamily,CRE,Baton Rouge,LA,22,2024-01-01,0
+B1278,"Magnolia Family Practice, LLC",Healthcare,C&I,San Antonio,TX,9,2018-11-01,1
+B1279,"Mesquite Village, Ltd.",CRE - Multifamily,CRE,Houston,TX,14,2019-10-01,0
+B1280,"Gulfline Physical Therapy, LLC",Healthcare,C&I,Austin,TX,13,2024-03-01,1
+B1281,"Live Oak Medical Group, LP",Healthcare,C&I,Houston,TX,13,2019-03-01,1
+B1282,"Caddo Manufacturing, LP",Manufacturing,C&I,Houston,TX,13,2018-09-01,1
+B1283,"Lone Star Electric, LP",Construction,C&I,Austin,TX,29,2016-11-01,1
+B1284,"Red River Freight, Inc.",Transportation,C&I,Houston,TX,15,2022-03-01,1
+B1285,"Sandstone Lodge, Inc.",CRE - Hospitality,CRE,Houston,TX,3,2021-09-01,1
+B1286,"Granite Ridge Manufacturing, LP",Manufacturing,C&I,Dallas,TX,19,2018-04-01,1
+B1287,"Bayside Office Plaza, Inc.",CRE - Office,CRE,Baton Rouge,LA,8,2025-09-01,1
+B1288,"Lone Star Logistics, Ltd.",Transportation,C&I,Lake Charles,LA,24,2021-08-01,1
+B1289,"Eastfield Tower, LLC",CRE - Office,CRE,Baton Rouge,LA,8,2022-08-01,1
+B1290,"Twin Oaks Advisors, Inc.",Professional Services,C&I,Corpus Christi,TX,11,2016-02-01,0
+B1291,"Live Oak Builders, Inc.",Construction,C&I,Beaumont,TX,16,2020-03-01,1
+B1292,"Mesquite Storage, Ltd.",CRE - Self Storage,CRE,Fort Worth,TX,23,2019-01-01,0
+B1293,"Pinewood Tower, Inc.",CRE - Office,CRE,Houston,TX,21,2023-07-01,1
+B1294,"Bayside Senior Living, LLC",CRE - Senior Housing,CRE,Houston,TX,18,2019-08-01,1
+B1295,"Magnolia Construction, Inc.",Construction,C&I,San Antonio,TX,12,2025-02-01,1
+B1296,"Sandstone Supply, Ltd.",Wholesale Distribution,C&I,Houston,TX,20,2017-04-01,1
+B1297,"Trinity Mercantile, LP",Retail Trade,C&I,Houston,TX,11,2024-12-01,1
+B1298,"Cypress Fabrication, LLC",Manufacturing,C&I,Houston,TX,7,2023-02-01,1
+B1299,"Brazos Engineering, Ltd.",Professional Services,C&I,Oklahoma City,OK,4,2016-11-01,0
+B1300,"Pecan Hollow Family Practice, Ltd.",Healthcare,C&I,Houston,TX,7,2016-09-01,1
+B1301,"Harborview Wholesale, LP",Wholesale Distribution,C&I,San Antonio,TX,10,2024-03-01,1
+B1302,"Pecan Hollow Village, LLC",CRE - Multifamily,CRE,Dallas,TX,29,2018-01-01,1
+B1303,"Nueces Machine Works, LLC",Manufacturing,C&I,Austin,TX,9,2024-11-01,1
+B1304,"Eastfield Supply, LP",Wholesale Distribution,C&I,San Antonio,TX,9,2017-10-01,1
+B1305,"Cypress Kitchen, LLC",Restaurants,C&I,Tulsa,OK,10,2018-02-01,1
+B1306,"Cedar Bayou Commons, Inc.",CRE - Retail,CRE,Houston,TX,30,2017-07-01,1
+B1307,"Bayside Medical Group, Inc.",Healthcare,C&I,Houston,TX,6,2023-08-01,1
+B1308,"Clearfork Machine Works, Ltd.",Manufacturing,C&I,Fort Worth,TX,8,2017-12-01,1
+B1309,"Sabine Manufacturing, Inc.",Manufacturing,C&I,Baton Rouge,LA,4,2018-09-01,1
+B1310,"Bluebonnet Business Park, LP",CRE - Industrial,CRE,Houston,TX,18,2020-04-01,1
+B1311,"Trinity Residences, LP",CRE - Multifamily,CRE,Oklahoma City,OK,18,2023-05-01,1
+B1312,"Cedar Bayou Distribution Center, LP",CRE - Industrial,CRE,Beaumont,TX,3,2023-03-01,1
+B1313,"Trinity Residences, LLC",CRE - Multifamily,CRE,San Antonio,TX,16,2015-05-01,1
+B1314,"Twin Oaks Wholesale, LLC",Wholesale Distribution,C&I,Houston,TX,17,2023-08-01,1
+B1315,"Ironwood Oilfield Services, LP",Energy Services,C&I,Dallas,TX,26,2016-02-01,1
+B1316,"Twin Oaks Office Plaza, Ltd.",CRE - Office,CRE,Corpus Christi,TX,8,2015-12-01,0
+B1317,"Copper Creek Residences, Ltd.",CRE - Multifamily,CRE,Shreveport,LA,12,2015-12-01,1
+B1318,"Riverbend Storage, LP",CRE - Self Storage,CRE,Dallas,TX,19,2020-12-01,1
+B1319,"Stonegate Dental, LLC",Healthcare,C&I,Dallas,TX,18,2017-12-01,1
+B1320,"Cedar Bayou Logistics, Inc.",Transportation,C&I,Lake Charles,LA,15,2014-11-01,1
+B1321,"Prairie View Storage, Inc.",CRE - Self Storage,CRE,San Antonio,TX,27,2017-09-01,1
+B1322,"Guadalupe Family Practice, Inc.",Healthcare,C&I,Austin,TX,31,2025-02-01,1
+B1323,"Harborview Electric, Inc.",Construction,C&I,Houston,TX,2,2020-04-01,1
+B1324,"Copper Creek Mercantile, Ltd.",Retail Trade,C&I,Fort Worth,TX,32,2020-01-01,1
+B1325,"Nueces Kitchen, Ltd.",Restaurants,C&I,Houston,TX,24,2024-05-01,0
+B1326,"Frio Apartments, LP",CRE - Multifamily,CRE,Houston,TX,39,2024-10-01,1
+B1327,"Lone Star Senior Living, LP",CRE - Senior Housing,CRE,Tulsa,OK,4,2019-11-01,1
+B1328,"Live Oak Distributors, Inc.",Wholesale Distribution,C&I,Houston,TX,13,2025-05-01,0
+B1329,"Twin Oaks Office Center, Ltd.",CRE - Office,CRE,Dallas,TX,28,2023-06-01,1
+B1330,"Gulfline Grill, LP",Restaurants,C&I,Fort Worth,TX,30,2019-12-01,1
+B1331,"Lone Star Industries, LP",Manufacturing,C&I,Austin,TX,6,2021-01-01,1
+B1332,"Riverbend Logistics, LP",Transportation,C&I,Beaumont,TX,2,2021-05-01,1
+B1333,"Silverleaf Consulting, LP",Professional Services,C&I,Dallas,TX,2,2020-12-01,1
+B1334,"Eastfield Freight, Inc.",Transportation,C&I,Austin,TX,2,2014-05-01,1
+B1335,"Bluebonnet Energy Services, Ltd.",Energy Services,C&I,Houston,TX,16,2022-04-01,1
+B1336,"Eastfield Village, LP",CRE - Multifamily,CRE,Dallas,TX,13,2015-10-01,1
+B1337,"Frio Business Park, Ltd.",CRE - Industrial,CRE,Dallas,TX,16,2020-08-01,1
+B1338,"Magnolia Manufacturing, LLC",Manufacturing,C&I,Tulsa,OK,21,2023-06-01,1
+B1339,"Frio Oilfield Services, Inc.",Energy Services,C&I,Fort Worth,TX,15,2025-03-01,1
+B1340,"Granite Ridge Advisors, Ltd.",Professional Services,C&I,Houston,TX,11,2018-02-01,1
+B1341,"Clearfork Shopping Center, Ltd.",CRE - Retail,CRE,Dallas,TX,7,2014-02-01,1
+B1342,"Silverleaf Office Plaza, LP",CRE - Office,CRE,Austin,TX,12,2018-04-01,0
+B1343,"Cedar Bayou Tower, LLC",CRE - Office,CRE,Houston,TX,17,2023-06-01,0
+B1344,"Ironwood Construction, Inc.",Construction,C&I,San Antonio,TX,23,2023-10-01,1
+B1345,"Northline Apartments, Ltd.",CRE - Multifamily,CRE,Tulsa,OK,4,2016-05-01,1
+B1346,"Magnolia Village, LLC",CRE - Multifamily,CRE,Dallas,TX,15,2015-09-01,1
+B1347,"Riverbend Office Plaza, LP",CRE - Office,CRE,Baton Rouge,LA,14,2017-08-01,1
+B1348,"Copper Creek Logistics, LLC",Transportation,C&I,Dallas,TX,12,2024-03-01,1
+B1349,"Red River Physical Therapy, Inc.",Healthcare,C&I,Fort Worth,TX,11,2021-11-01,1
+B1350,"Ironwood Freight, LLC",Transportation,C&I,Houston,TX,9,2019-02-01,1
+B1351,"Mesquite Freight, Ltd.",Transportation,C&I,Dallas,TX,5,2019-05-01,1
+B1352,"Harborview Advisors, Inc.",Professional Services,C&I,Houston,TX,16,2018-10-01,1
+B1353,"Sabine Office Plaza, LP",CRE - Office,CRE,Houston,TX,8,2017-05-01,1
+B1354,"Frio Hotel, Ltd.",CRE - Hospitality,CRE,Lake Charles,LA,22,2021-08-01,1
+B1355,"Bayside Logistics, Ltd.",Transportation,C&I,Fort Worth,TX,16,2017-03-01,1
+B1356,"Brazos Manufacturing, LLC",Manufacturing,C&I,Houston,TX,24,2016-12-01,1
+B1357,"Bayside Trucking, LLC",Transportation,C&I,Houston,TX,4,2022-10-01,1
+B1358,"Twin Oaks Office Center, LLC",CRE - Office,CRE,Shreveport,LA,5,2024-07-01,0
+B1359,"Twin Oaks Office Center, LP",CRE - Office,CRE,Houston,TX,2,2025-02-01,0
+B1360,"Ironwood Senior Living, Ltd.",CRE - Senior Housing,CRE,Dallas,TX,18,2025-05-01,1
+B1361,"Nueces Machine Works, Ltd.",Manufacturing,C&I,Fort Worth,TX,23,2015-10-01,1
+B1362,"Ironwood Office Center, Inc.",CRE - Office,CRE,Austin,TX,8,2019-06-01,0
+B1363,"Bluebonnet Apartments, LP",CRE - Multifamily,CRE,Oklahoma City,OK,4,2017-11-01,0
+B1364,"Nueces Kitchen, LLC",Restaurants,C&I,Corpus Christi,TX,8,2021-12-01,1
+B1365,"Guadalupe Commons, LLC",CRE - Retail,CRE,Houston,TX,20,2018-07-01,1
+B1366,"Riverbend Tower, LLC",CRE - Office,CRE,Fort Worth,TX,17,2024-02-01,1
+B1367,"Nueces Commons, Ltd.",CRE - Retail,CRE,Houston,TX,14,2022-05-01,0
+B1368,"Copper Creek Office Plaza, Inc.",CRE - Office,CRE,Houston,TX,21,2023-01-01,1
+B1369,"Lone Star Marketplace, LP",CRE - Retail,CRE,Houston,TX,2,2019-11-01,1
+B1370,"Sandstone Residences, LP",CRE - Multifamily,CRE,Beaumont,TX,9,2018-09-01,1
+B1371,"Riverbend Mercantile, LP",Retail Trade,C&I,San Antonio,TX,21,2022-11-01,1
+B1372,"Caddo Electric, Inc.",Construction,C&I,Austin,TX,24,2022-11-01,1
+B1373,"Magnolia Contractors, LP",Construction,C&I,Beaumont,TX,14,2014-04-01,1
+B1374,"Copper Creek Medical Group, Inc.",Healthcare,C&I,Lake Charles,LA,13,2022-12-01,1
+B1375,"Bluebonnet Self Storage, LP",CRE - Self Storage,CRE,Fort Worth,TX,5,2018-12-01,1
+B1376,"Stonegate Manufacturing, LP",Manufacturing,C&I,Houston,TX,32,2024-03-01,1
+B1377,"Northline Ag Supply, Ltd.",Agriculture,C&I,Tulsa,OK,19,2020-03-01,1
+B1378,"Bayside Fabrication, LLC",Manufacturing,C&I,San Antonio,TX,14,2021-03-01,1
+B1379,"Westpark Electric, Ltd.",Construction,C&I,San Antonio,TX,21,2025-06-01,1
+B1380,"Stonegate Electric, LP",Construction,C&I,Oklahoma City,OK,26,2019-10-01,1
+B1381,"Bluebonnet Contractors, Ltd.",Construction,C&I,Dallas,TX,15,2021-02-01,1
+B1382,"Bluebonnet Residences, Ltd.",CRE - Multifamily,CRE,Fort Worth,TX,11,2020-11-01,0
+B1383,"Bayside Apartments, LLC",CRE - Multifamily,CRE,Austin,TX,26,2023-01-01,1
+B1384,"Prairie View Manufacturing, LLC",Manufacturing,C&I,Dallas,TX,5,2019-11-01,1
+B1385,"Harborview Distribution Center, LP",CRE - Industrial,CRE,Houston,TX,27,2023-12-01,0
+B1386,"Eastfield Assisted Living, LP",CRE - Senior Housing,CRE,Austin,TX,36,2020-03-01,1
+B1387,"Bluebonnet Outfitters, Inc.",Retail Trade,C&I,Houston,TX,14,2021-01-01,1
+B1388,"Gulfline Office Plaza, Inc.",CRE - Office,CRE,Austin,TX,13,2024-04-01,1
+B1389,"Cypress Senior Living, LP",CRE - Senior Housing,CRE,Lake Charles,LA,5,2019-08-01,1
+B1390,"Falcon Point Trucking, LLC",Transportation,C&I,San Antonio,TX,27,2016-01-01,0
+B1391,"Falcon Point Pipeline Services, LLC",Energy Services,C&I,Lake Charles,LA,34,2021-06-01,1
+B1392,"Prairie View Apartments, LLC",CRE - Multifamily,CRE,Lake Charles,LA,24,2015-07-01,1
+B1393,"Riverbend Builders, LLC",Construction,C&I,Houston,TX,31,2023-04-01,1
+B1394,"Red River Engineering, LLC",Professional Services,C&I,Beaumont,TX,5,2024-09-01,1
+B1395,"Eastfield Apartments, Inc.",CRE - Multifamily,CRE,Houston,TX,18,2018-11-01,1
+B1396,"Prairie View Residences, LP",CRE - Multifamily,CRE,Shreveport,LA,2,2018-04-01,1
+B1397,"Twin Oaks Self Storage, LLC",CRE - Self Storage,CRE,Tulsa,OK,17,2020-04-01,1
+B1398,"Riverbend Office Center, Inc.",CRE - Office,CRE,Lake Charles,LA,13,2024-11-01,1
+B1399,"Northline Grill, LLC",Restaurants,C&I,Houston,TX,9,2023-08-01,1
+B1400,"Red River Trucking, Ltd.",Transportation,C&I,Corpus Christi,TX,19,2024-07-01,1
+B1401,"Clearfork Electric, Inc.",Construction,C&I,Houston,TX,11,2016-03-01,1
+B1402,"Bluebonnet Physical Therapy, LLC",Healthcare,C&I,Houston,TX,11,2015-10-01,1
+B1403,"Brazos Electric, Inc.",Construction,C&I,Shreveport,LA,13,2024-07-01,1
+B1404,"Sandstone Village, Inc.",CRE - Multifamily,CRE,Houston,TX,10,2018-04-01,1
+B1405,"Caddo Physical Therapy, Inc.",Healthcare,C&I,Houston,TX,6,2015-08-01,0
+B1406,"Prairie View Senior Living, LLC",CRE - Senior Housing,CRE,Dallas,TX,10,2025-12-01,1
+B1407,"Mesquite Residences, Ltd.",CRE - Multifamily,CRE,Austin,TX,17,2017-08-01,1
+B1408,"Red River Office Center, Ltd.",CRE - Office,CRE,Dallas,TX,20,2016-08-01,1
+B1409,"Red River Restaurant Group, LP",Restaurants,C&I,Houston,TX,13,2015-10-01,1
+B1410,"Pecan Hollow Distribution Center, Inc.",CRE - Industrial,CRE,Houston,TX,19,2020-02-01,1
+B1411,"Mesquite Residences, LP",CRE - Multifamily,CRE,Fort Worth,TX,29,2022-08-01,1
+B1412,"Pecan Hollow Assisted Living, LLC",CRE - Senior Housing,CRE,San Antonio,TX,13,2019-01-01,0
+B1413,"Falcon Point Industrial Park, Inc.",CRE - Industrial,CRE,Houston,TX,22,2020-03-01,1
+B1414,"Bayside Business Park, LP",CRE - Industrial,CRE,Fort Worth,TX,26,2018-06-01,0
+B1415,"Brazos Restaurant Group, Inc.",Restaurants,C&I,Dallas,TX,40,2022-05-01,1
+B1416,"Mesquite Business Park, LP",CRE - Industrial,CRE,Beaumont,TX,15,2024-05-01,1
+B1417,"Sabine Inn & Suites, LP",CRE - Hospitality,CRE,Austin,TX,14,2025-04-01,1
+B1418,"Clearfork Physical Therapy, Inc.",Healthcare,C&I,Houston,TX,15,2020-03-01,1
+B1419,"Mesquite Outfitters, LP",Retail Trade,C&I,San Antonio,TX,2,2025-09-01,1
+B1420,"Clearfork Manufacturing, Inc.",Manufacturing,C&I,Beaumont,TX,9,2022-07-01,1
+B1421,"Prairie View Manufacturing, LP",Manufacturing,C&I,Dallas,TX,8,2021-02-01,1
+B1422,"Guadalupe Contractors, Ltd.",Construction,C&I,Corpus Christi,TX,30,2022-12-01,0
+B1423,"Lone Star Assisted Living, Inc.",CRE - Senior Housing,CRE,Austin,TX,14,2021-02-01,1
+B1424,"Pinewood Fabrication, Ltd.",Manufacturing,C&I,Austin,TX,16,2015-06-01,0
+B1425,"Ironwood Restaurant Group, LP",Restaurants,C&I,Austin,TX,8,2014-12-01,1
+B1426,"Sabine Industries, Ltd.",Manufacturing,C&I,San Antonio,TX,5,2023-02-01,0
+B1427,"Red River Inn & Suites, LP",CRE - Hospitality,CRE,Fort Worth,TX,28,2023-10-01,0
+B1428,"Prairie View Residences, Inc.",CRE - Multifamily,CRE,Shreveport,LA,12,2017-01-01,1
+B1429,"Gulfline Manufacturing, LP",Manufacturing,C&I,Austin,TX,15,2019-01-01,1
+B1430,"Highland Industrial Park, Inc.",CRE - Industrial,CRE,Corpus Christi,TX,4,2018-05-01,0
+B1431,"Cedar Bayou Consulting, Inc.",Professional Services,C&I,Fort Worth,TX,10,2024-06-01,1
+B1432,"Cedar Bayou Physical Therapy, LLC",Healthcare,C&I,Lake Charles,LA,22,2018-08-01,1
+B1433,"Nueces Trucking, Ltd.",Transportation,C&I,Lake Charles,LA,5,2022-07-01,1
+B1434,"Harborview Builders, LLC",Construction,C&I,Houston,TX,19,2021-04-01,1
+B1435,"Magnolia Mercantile, Ltd.",Retail Trade,C&I,Tulsa,OK,23,2017-08-01,1
+B1436,"Granite Ridge Pipeline Services, Ltd.",Energy Services,C&I,Baton Rouge,LA,15,2025-10-01,1
+B1437,"Gulfline Tower, LP",CRE - Office,CRE,San Antonio,TX,14,2017-12-01,1
+B1438,"Westpark Restaurant Group, LP",Restaurants,C&I,Austin,TX,2,2019-09-01,1
+B1439,"Sandstone Energy Services, Ltd.",Energy Services,C&I,Corpus Christi,TX,26,2016-10-01,1
+B1440,"Falcon Point Manufacturing, LLC",Manufacturing,C&I,Lake Charles,LA,10,2018-09-01,1
+B1441,"Highland Residences, LLC",CRE - Multifamily,CRE,Fort Worth,TX,24,2022-07-01,1
+B1442,"Lone Star Distributors, Inc.",Wholesale Distribution,C&I,Houston,TX,18,2023-05-01,1
+B1443,"Clearfork Distributors, LLC",Wholesale Distribution,C&I,Dallas,TX,12,2022-12-01,1
+B1444,"Magnolia Shopping Center, LP",CRE - Retail,CRE,San Antonio,TX,19,2021-07-01,1
+B1445,"Sabine Industrial Park, Ltd.",CRE - Industrial,CRE,Houston,TX,7,2018-05-01,1
+B1446,"Guadalupe Machine Works, LP",Manufacturing,C&I,Austin,TX,14,2023-03-01,1
+B1447,"Caddo Consulting, LLC",Professional Services,C&I,Dallas,TX,17,2018-08-01,1
+B1448,"Sabine Oilfield Services, Ltd.",Energy Services,C&I,Lake Charles,LA,7,2025-04-01,1
+B1449,"Magnolia Apartments, Ltd.",CRE - Multifamily,CRE,Corpus Christi,TX,22,2019-03-01,1
+B1450,"Brazos Restaurant Group, LP",Restaurants,C&I,Houston,TX,2,2018-02-01,1
+B1451,"Cypress Industries, Ltd.",Manufacturing,C&I,Houston,TX,12,2025-03-01,0
+B1452,"Prairie View Kitchen, Ltd.",Restaurants,C&I,Baton Rouge,LA,2,2018-05-01,1
+B1453,"Highland Apartments, LLC",CRE - Multifamily,CRE,Dallas,TX,9,2017-10-01,1
+B1454,"Northline Home Center, LP",Retail Trade,C&I,Fort Worth,TX,14,2020-03-01,1
+B1455,"Caddo Electric, LP",Construction,C&I,Tulsa,OK,11,2023-02-01,1
+B1456,"Stonegate Builders, LP",Construction,C&I,Oklahoma City,OK,20,2020-02-01,1
+B1457,"Pecan Hollow Restaurant Group, LP",Restaurants,C&I,Houston,TX,12,2021-01-01,1
+B1458,"Cypress Manufacturing, Ltd.",Manufacturing,C&I,Houston,TX,22,2016-06-01,1
+B1459,"Cypress Apartments, Inc.",CRE - Multifamily,CRE,Dallas,TX,2,2021-02-01,0
+B1460,"Copper Creek Ag Supply, Ltd.",Agriculture,C&I,Baton Rouge,LA,29,2023-05-01,1
+B1461,"Bayside Distribution Center, LLC",CRE - Industrial,CRE,Fort Worth,TX,11,2023-04-01,1
+B1462,"Pinewood Industries, LLC",Manufacturing,C&I,San Antonio,TX,17,2021-05-01,1
+B1463,"Lone Star Office Center, Ltd.",CRE - Office,CRE,Houston,TX,8,2014-05-01,1
+B1464,"Harborview Marketplace, LLC",CRE - Retail,CRE,Houston,TX,19,2022-09-01,1
+B1465,"Eastfield Wholesale, Ltd.",Wholesale Distribution,C&I,San Antonio,TX,2,2016-06-01,0
+B1466,"Stonegate Residences, LLC",CRE - Multifamily,CRE,Houston,TX,19,2014-11-01,1
+B1467,"Sabine Wholesale, LP",Wholesale Distribution,C&I,Fort Worth,TX,2,2016-11-01,1
+B1468,"Sabine Mercantile, LLC",Retail Trade,C&I,Fort Worth,TX,25,2020-09-01,1
+B1469,"Sandstone Self Storage, Inc.",CRE - Self Storage,CRE,Dallas,TX,6,2017-03-01,0
+B1470,"Stonegate Physical Therapy, Inc.",Healthcare,C&I,Fort Worth,TX,16,2024-03-01,1
+B1471,"Nueces Contractors, LLC",Construction,C&I,Houston,TX,24,2019-05-01,1
+B1472,"Prairie View Shopping Center, LP",CRE - Retail,CRE,San Antonio,TX,9,2020-06-01,1
+B1473,"Clearfork Consulting, Ltd.",Professional Services,C&I,Dallas,TX,8,2017-08-01,1
+B1474,"Sandstone Construction, Inc.",Construction,C&I,Dallas,TX,24,2021-01-01,1
+B1475,"Pinewood Energy Services, Ltd.",Energy Services,C&I,Houston,TX,26,2020-10-01,1
+B1476,"Bluebonnet Restaurant Group, Ltd.",Restaurants,C&I,Dallas,TX,10,2017-07-01,1
+B1477,"Pecan Hollow Assisted Living, Ltd.",CRE - Senior Housing,CRE,San Antonio,TX,20,2021-03-01,0
+B1478,"Bluebonnet Medical Group, LLC",Healthcare,C&I,Dallas,TX,11,2025-05-01,1
+B1479,"Gulfline Outfitters, LLC",Retail Trade,C&I,Houston,TX,28,2021-05-01,1
+B1480,"Stonegate Advisors, Inc.",Professional Services,C&I,Fort Worth,TX,3,2022-02-01,1
+B1481,"Cedar Bayou Engineering, Ltd.",Professional Services,C&I,Dallas,TX,22,2022-07-01,0
+B1482,"Twin Oaks Outfitters, Inc.",Retail Trade,C&I,Austin,TX,4,2018-08-01,1
+B1483,"Trinity Residences, Inc.",CRE - Multifamily,CRE,Houston,TX,21,2018-05-01,1
+B1484,"Guadalupe Supply, LP",Wholesale Distribution,C&I,Austin,TX,4,2021-05-01,1
+B1485,"Twin Oaks Self Storage, Inc.",CRE - Self Storage,CRE,Dallas,TX,2,2015-11-01,1
+B1486,"Lone Star Contractors, Ltd.",Construction,C&I,Houston,TX,18,2024-12-01,1
+B1487,"Twin Oaks Senior Living, Ltd.",CRE - Senior Housing,CRE,Corpus Christi,TX,20,2022-08-01,1
+B1488,"Northline Manufacturing, LLC",Manufacturing,C&I,Lake Charles,LA,19,2023-01-01,1
+B1489,"Magnolia Apartments, LLC",CRE - Multifamily,CRE,San Antonio,TX,2,2015-10-01,1
+B1490,"Bluebonnet Farms, LLC",Agriculture,C&I,Houston,TX,25,2019-03-01,1
+B1491,"Frio Wholesale, Inc.",Wholesale Distribution,C&I,San Antonio,TX,10,2017-07-01,1
+B1492,"Lone Star Industrial Park, LP",CRE - Industrial,CRE,Shreveport,LA,15,2025-12-01,1
+B1493,"Bluebonnet Builders, LLC",Construction,C&I,Austin,TX,28,2021-10-01,1
+B1494,"Bluebonnet Commons, Inc.",CRE - Retail,CRE,Austin,TX,20,2019-01-01,1
+B1495,"Eastfield Builders, Ltd.",Construction,C&I,Houston,TX,7,2023-07-01,1
+B1496,"Cypress Dental, LLC",Healthcare,C&I,Houston,TX,19,2019-11-01,1
+B1497,"Pecan Hollow Industrial Park, Ltd.",CRE - Industrial,CRE,Austin,TX,28,2019-02-01,1
+B1498,"Trinity Mercantile, Ltd.",Retail Trade,C&I,Austin,TX,9,2014-03-01,1
+B1499,"Clearfork Logistics, LP",Transportation,C&I,Houston,TX,3,2020-10-01,1
+B1500,"Granite Ridge Business Park, Inc.",CRE - Industrial,CRE,Lake Charles,LA,19,2022-03-01,1
+B1501,"Live Oak Self Storage, LLC",CRE - Self Storage,CRE,Houston,TX,11,2014-04-01,0
+B1502,"Mesquite Senior Living, Ltd.",CRE - Senior Housing,CRE,Houston,TX,12,2022-06-01,0
+B1503,"Gulfline Hotel, Ltd.",CRE - Hospitality,CRE,Beaumont,TX,13,2020-09-01,0
+B1504,"Ironwood Village, Ltd.",CRE - Multifamily,CRE,Baton Rouge,LA,9,2019-12-01,0
+B1505,"Sabine Trucking, LLC",Transportation,C&I,Dallas,TX,8,2019-01-01,1
+B1506,"Brazos Tower, LLC",CRE - Office,CRE,Houston,TX,10,2019-06-01,0
+B1507,"Prairie View Trucking, LLC",Transportation,C&I,Corpus Christi,TX,32,2023-03-01,1
+B1508,"Northline Fabrication, LP",Manufacturing,C&I,Houston,TX,21,2021-07-01,0
+B1509,"Stonegate Inn & Suites, LP",CRE - Hospitality,CRE,Houston,TX,4,2024-09-01,1
+B1510,"Gulfline Distributors, Ltd.",Wholesale Distribution,C&I,Lake Charles,LA,19,2019-01-01,1
+B1511,"Guadalupe Storage, LLC",CRE - Self Storage,CRE,Houston,TX,2,2024-12-01,0
+B1512,"Northline Feed & Seed, Ltd.",Agriculture,C&I,Fort Worth,TX,24,2019-06-01,1
+B1513,"Sandstone Logistics, LP",Transportation,C&I,Oklahoma City,OK,15,2022-02-01,1
+B1514,"Bayside Supply, LP",Wholesale Distribution,C&I,Dallas,TX,17,2025-04-01,1
+B1515,"Pecan Hollow Outfitters, LP",Retail Trade,C&I,Dallas,TX,21,2022-02-01,0
+B1516,"Sabine Residences, Inc.",CRE - Multifamily,CRE,Houston,TX,21,2020-11-01,1
+B1517,"Eastfield Contractors, Inc.",Construction,C&I,Austin,TX,20,2019-04-01,1
+B1518,"Riverbend Assisted Living, Inc.",CRE - Senior Housing,CRE,Houston,TX,2,2020-12-01,0
+B1519,"Sandstone Hotel, LLC",CRE - Hospitality,CRE,Dallas,TX,13,2022-10-01,1
+B1520,"Cypress Oilfield Services, Inc.",Energy Services,C&I,Dallas,TX,2,2020-01-01,1
+B1521,"Copper Creek Logistics, Inc.",Transportation,C&I,Oklahoma City,OK,24,2017-06-01,1
+B1522,"Cedar Bayou Physical Therapy, Inc.",Healthcare,C&I,Austin,TX,17,2022-03-01,1
+B1523,"Northline Self Storage, Inc.",CRE - Self Storage,CRE,Houston,TX,5,2019-01-01,0
+B1524,"Lone Star Assisted Living, LLC",CRE - Senior Housing,CRE,Dallas,TX,21,2022-05-01,1
+B1525,"Sabine Family Practice, LLC",Healthcare,C&I,Dallas,TX,28,2025-03-01,1
+B1526,"Copper Creek Industrial Park, LP",CRE - Industrial,CRE,Houston,TX,26,2014-10-01,0
+B1527,"Sabine Energy Services, LLC",Energy Services,C&I,Houston,TX,11,2023-12-01,1
+B1528,"Ironwood Engineering, Inc.",Professional Services,C&I,Baton Rouge,LA,26,2024-02-01,1
+B1529,"Trinity Energy Services, Inc.",Energy Services,C&I,Houston,TX,23,2023-03-01,1
+B1530,"Eastfield Lodge, LP",CRE - Hospitality,CRE,Dallas,TX,4,2019-02-01,0
+B1531,"Highland Dental, Ltd.",Healthcare,C&I,Lake Charles,LA,23,2019-03-01,0
+B1532,"Sandstone Oilfield Services, Ltd.",Energy Services,C&I,Houston,TX,26,2022-12-01,1
+B1533,"Northline Village, LLC",CRE - Multifamily,CRE,Dallas,TX,21,2020-09-01,1
+B1534,"Silverleaf Office Plaza, LLC",CRE - Office,CRE,Oklahoma City,OK,27,2024-03-01,0
+B1535,"Northline Construction, Inc.",Construction,C&I,Baton Rouge,LA,3,2018-06-01,1
+B1536,"Ironwood Self Storage, LP",CRE - Self Storage,CRE,Baton Rouge,LA,2,2019-02-01,1
+B1537,"Northline Office Plaza, Ltd.",CRE - Office,CRE,Baton Rouge,LA,16,2023-04-01,1
+B1538,"Lone Star Senior Living, Inc.",CRE - Senior Housing,CRE,Houston,TX,30,2020-09-01,1
+B1539,"Brazos Office Plaza, Ltd.",CRE - Office,CRE,San Antonio,TX,28,2016-11-01,1
+B1540,"Caddo Residences, Inc.",CRE - Multifamily,CRE,Houston,TX,22,2021-09-01,1
+B1541,"Brazos Kitchen, LP",Restaurants,C&I,Houston,TX,10,2023-09-01,1
+B1542,"Northline Residences, LP",CRE - Multifamily,CRE,Shreveport,LA,20,2021-04-01,1
+B1543,"Lone Star Industrial Park, Inc.",CRE - Industrial,CRE,San Antonio,TX,6,2024-02-01,1
+B1544,"Westpark Supply, LLC",Wholesale Distribution,C&I,San Antonio,TX,9,2016-06-01,1
+B1545,"Gulfline Fabrication, Inc.",Manufacturing,C&I,Houston,TX,16,2019-07-01,1
+B1546,"Granite Ridge Outfitters, Ltd.",Retail Trade,C&I,Houston,TX,22,2019-01-01,1
+B1547,"Red River Mercantile, LLC",Retail Trade,C&I,Dallas,TX,10,2020-05-01,1
+B1548,"Live Oak Commons, Inc.",CRE - Retail,CRE,Houston,TX,19,2024-12-01,1
+B1549,"Frio Business Park, LP",CRE - Industrial,CRE,Baton Rouge,LA,4,2019-03-01,0
+B1550,"Westpark Industrial Park, Ltd.",CRE - Industrial,CRE,Houston,TX,19,2023-12-01,0
+B1551,"Falcon Point Senior Living, LLC",CRE - Senior Housing,CRE,Shreveport,LA,2,2024-09-01,1
+B1552,"Stonegate Industries, Inc.",Manufacturing,C&I,Austin,TX,15,2019-03-01,0
+B1553,"Ironwood Kitchen, LLC",Restaurants,C&I,Baton Rouge,LA,16,2021-03-01,1
+B1554,"Lone Star Dental, LLC",Healthcare,C&I,Shreveport,LA,19,2024-03-01,1
+B1555,"Trinity Dental, LP",Healthcare,C&I,San Antonio,TX,15,2023-07-01,0
+B1556,"Bluebonnet Restaurant Group, LLC",Restaurants,C&I,Houston,TX,2,2019-05-01,1
+B1557,"Westpark Self Storage, LLC",CRE - Self Storage,CRE,Dallas,TX,15,2020-01-01,1
+B1558,"Pinewood Mercantile, Inc.",Retail Trade,C&I,Baton Rouge,LA,22,2018-02-01,1
+B1559,"Silverleaf Residences, LLC",CRE - Multifamily,CRE,Shreveport,LA,7,2017-10-01,1
+B1560,"Guadalupe Trucking, Inc.",Transportation,C&I,Houston,TX,17,2021-11-01,1
+B1561,"Sabine Freight, Inc.",Transportation,C&I,Houston,TX,24,2019-01-01,1
+B1562,"Cypress Logistics, Inc.",Transportation,C&I,Lake Charles,LA,22,2020-12-01,1
+B1563,"Sandstone Freight, Ltd.",Transportation,C&I,Dallas,TX,22,2023-07-01,1
+B1564,"Caddo Assisted Living, Ltd.",CRE - Senior Housing,CRE,San Antonio,TX,12,2021-12-01,0
+B1565,"Granite Ridge Distributors, LLC",Wholesale Distribution,C&I,Dallas,TX,10,2023-09-01,0
+B1566,"Prairie View Ag Supply, LLC",Agriculture,C&I,Houston,TX,20,2022-01-01,1
+B1567,"Westpark Office Center, Inc.",CRE - Office,CRE,Houston,TX,28,2023-04-01,1
+B1568,"Prairie View Trucking, LP",Transportation,C&I,Houston,TX,24,2019-04-01,1
+B1569,"Prairie View Pipeline Services, Inc.",Energy Services,C&I,Austin,TX,18,2021-04-01,1
+B1570,"Nueces Apartments, Ltd.",CRE - Multifamily,CRE,Houston,TX,10,2024-08-01,1
+B1571,"Highland Office Center, LLC",CRE - Office,CRE,Houston,TX,3,2022-03-01,1
+B1572,"Live Oak Freight, Ltd.",Transportation,C&I,Oklahoma City,OK,17,2019-09-01,1
+B1573,"Copper Creek Commons, Ltd.",CRE - Retail,CRE,Houston,TX,4,2018-04-01,1
+B1574,"Northline Residences, LLC",CRE - Multifamily,CRE,Houston,TX,11,2018-03-01,1
+B1575,"Pinewood Pipeline Services, Ltd.",Energy Services,C&I,Shreveport,LA,13,2022-08-01,1
+B1576,"Pecan Hollow Apartments, Inc.",CRE - Multifamily,CRE,Houston,TX,16,2016-03-01,0
+B1577,"Northline Marketplace, LLC",CRE - Retail,CRE,Baton Rouge,LA,8,2022-06-01,0
+B1578,"Westpark Distributors, LLC",Wholesale Distribution,C&I,Houston,TX,9,2023-12-01,1
+B1579,"Prairie View Village, Ltd.",CRE - Multifamily,CRE,Houston,TX,12,2022-02-01,0
+B1580,"Westpark Residences, LLC",CRE - Multifamily,CRE,Fort Worth,TX,23,2019-02-01,1
+B1581,"Riverbend Construction, LP",Construction,C&I,Houston,TX,27,2016-04-01,1
+B1582,"Highland Distributors, Inc.",Wholesale Distribution,C&I,Houston,TX,7,2023-12-01,1
+B1583,"Guadalupe Supply, Ltd.",Wholesale Distribution,C&I,Corpus Christi,TX,11,2022-09-01,1
+B1584,"Live Oak Office Center, Ltd.",CRE - Office,CRE,Houston,TX,15,2019-04-01,1
+B1585,"Bayside Office Plaza, LLC",CRE - Office,CRE,Dallas,TX,9,2022-03-01,0
+B1586,"Northline Inn & Suites, LP",CRE - Hospitality,CRE,San Antonio,TX,10,2015-03-01,1
+B1587,"Cypress Logistics, LP",Transportation,C&I,Houston,TX,2,2019-10-01,1
+B1588,"Riverbend Village, Inc.",CRE - Multifamily,CRE,Austin,TX,16,2018-06-01,1
+B1589,"Brazos Electric, Ltd.",Construction,C&I,Dallas,TX,8,2017-11-01,1
+B1590,"Bluebonnet Home Center, LP",Retail Trade,C&I,Lake Charles,LA,26,2025-07-01,1
+B1591,"Eastfield Fabrication, LP",Manufacturing,C&I,San Antonio,TX,16,2020-07-01,1
+B1592,"Pecan Hollow Feed & Seed, LP",Agriculture,C&I,Beaumont,TX,6,2022-12-01,1
+B1593,"Falcon Point Manufacturing, Ltd.",Manufacturing,C&I,Houston,TX,2,2022-02-01,1
+B1594,"Sandstone Outfitters, LLC",Retail Trade,C&I,Baton Rouge,LA,7,2017-03-01,1
+B1595,"Live Oak Industrial Park, LLC",CRE - Industrial,CRE,Austin,TX,8,2023-03-01,1
+B1596,"Harborview Builders, Ltd.",Construction,C&I,San Antonio,TX,13,2023-09-01,1
+B1597,"Pecan Hollow Outfitters, LLC",Retail Trade,C&I,Oklahoma City,OK,29,2024-01-01,1
+B1598,"Cedar Bayou Freight, Ltd.",Transportation,C&I,Houston,TX,16,2016-04-01,1
+B1599,"Riverbend Wholesale, LLC",Wholesale Distribution,C&I,San Antonio,TX,6,2019-01-01,1
+B1600,"Cedar Bayou Industrial Park, Inc.",CRE - Industrial,CRE,Dallas,TX,9,2018-02-01,0
+B1601,"Live Oak Construction, Ltd.",Construction,C&I,Shreveport,LA,18,2019-05-01,1
+B1602,"Trinity Ag Supply, LP",Agriculture,C&I,Dallas,TX,15,2021-11-01,1
+B1603,"Copper Creek Machine Works, Ltd.",Manufacturing,C&I,Houston,TX,25,2023-06-01,1
+B1604,"Eastfield Mercantile, Inc.",Retail Trade,C&I,Fort Worth,TX,33,2018-04-01,1
+B1605,"Pinewood Residences, Inc.",CRE - Multifamily,CRE,Houston,TX,10,2020-07-01,0
+B1606,"Red River Residences, Ltd.",CRE - Multifamily,CRE,San Antonio,TX,13,2021-05-01,1
+B1607,"Pinewood Distribution Center, Ltd.",CRE - Industrial,CRE,Dallas,TX,40,2019-12-01,1
+B1608,"Pinewood Self Storage, Inc.",CRE - Self Storage,CRE,Houston,TX,32,2015-11-01,1
+B1609,"Caddo Manufacturing, Ltd.",Manufacturing,C&I,Lake Charles,LA,27,2024-01-01,1
+B1610,"Clearfork Distribution Center, Ltd.",CRE - Industrial,CRE,Tulsa,OK,17,2022-04-01,1
+B1611,"Live Oak Oilfield Services, LP",Energy Services,C&I,Houston,TX,21,2025-02-01,1
+B1612,"Pecan Hollow Mercantile, LP",Retail Trade,C&I,San Antonio,TX,33,2019-01-01,1
+B1613,"Caddo Feed & Seed, LP",Agriculture,C&I,Houston,TX,15,2024-01-01,1
+B1614,"Twin Oaks Freight, Ltd.",Transportation,C&I,Houston,TX,14,2016-05-01,1
+B1615,"Twin Oaks Industrial Park, LP",CRE - Industrial,CRE,Corpus Christi,TX,19,2025-07-01,0
+B1616,"Cypress Apartments, LLC",CRE - Multifamily,CRE,Houston,TX,16,2021-05-01,1
+B1617,"Caddo Shopping Center, Inc.",CRE - Retail,CRE,Austin,TX,37,2019-09-01,1
+B1618,"Red River Logistics, Ltd.",Transportation,C&I,Houston,TX,22,2024-03-01,1
+B1619,"Northline Wholesale, Ltd.",Wholesale Distribution,C&I,Houston,TX,28,2021-02-01,0
+B1620,"Live Oak Apartments, Ltd.",CRE - Multifamily,CRE,Shreveport,LA,20,2024-04-01,1
+B1621,"Sabine Apartments, LP",CRE - Multifamily,CRE,Dallas,TX,17,2021-01-01,1
+B1622,"Cedar Bayou Machine Works, LP",Manufacturing,C&I,Shreveport,LA,19,2018-01-01,1
+B1623,"Gulfline Office Center, LP",CRE - Office,CRE,Tulsa,OK,30,2020-03-01,0
+B1624,"Live Oak Industries, Ltd.",Manufacturing,C&I,Houston,TX,24,2014-02-01,1
+B1625,"Stonegate Distribution Center, Inc.",CRE - Industrial,CRE,Beaumont,TX,20,2023-04-01,0
+B1626,"Clearfork Industrial Park, Ltd.",CRE - Industrial,CRE,Houston,TX,16,2015-09-01,1
+B1627,"Northline Machine Works, LP",Manufacturing,C&I,Houston,TX,11,2019-12-01,1
+B1628,"Stonegate Dental, Ltd.",Healthcare,C&I,Corpus Christi,TX,9,2017-02-01,1
+B1629,"Lone Star Tower, Ltd.",CRE - Office,CRE,Houston,TX,4,2019-01-01,0
+B1630,"Nueces Consulting, LLC",Professional Services,C&I,Corpus Christi,TX,20,2019-03-01,1
+B1631,"Red River Office Plaza, LP",CRE - Office,CRE,Tulsa,OK,15,2019-11-01,1
+B1632,"Westpark Marketplace, LP",CRE - Retail,CRE,Houston,TX,12,2024-09-01,1
+B1633,"Riverbend Manufacturing, Ltd.",Manufacturing,C&I,San Antonio,TX,11,2020-08-01,1
+B1634,"Westpark Advisors, LP",Professional Services,C&I,Houston,TX,17,2025-07-01,1
+B1635,"Harborview Village, LLC",CRE - Multifamily,CRE,Houston,TX,22,2022-02-01,1
+B1636,"Cedar Bayou Feed & Seed, LP",Agriculture,C&I,San Antonio,TX,27,2025-02-01,1
+B1637,"Sandstone Trucking, LLC",Transportation,C&I,Corpus Christi,TX,28,2022-09-01,1
+B1638,"Prairie View Mercantile, LLC",Retail Trade,C&I,Lake Charles,LA,9,2018-05-01,1
+B1639,"Bluebonnet Oilfield Services, Inc.",Energy Services,C&I,Austin,TX,18,2025-09-01,1
+B1640,"Cedar Bayou Village, Inc.",CRE - Multifamily,CRE,Austin,TX,21,2021-11-01,1
+B1641,"Bayside Village, LLC",CRE - Multifamily,CRE,Houston,TX,23,2021-04-01,0
+B1642,"Harborview Village, Ltd.",CRE - Multifamily,CRE,Baton Rouge,LA,10,2022-12-01,1
+B1643,"Red River Shopping Center, LLC",CRE - Retail,CRE,Houston,TX,19,2017-11-01,1
+B1644,"Gulfline Senior Living, LP",CRE - Senior Housing,CRE,Corpus Christi,TX,15,2018-09-01,1
+B1645,"Prairie View Commons, LP",CRE - Retail,CRE,Houston,TX,32,2017-08-01,1
+B1646,"Eastfield Oilfield Services, LP",Energy Services,C&I,Beaumont,TX,21,2020-07-01,1
+B1647,"Ironwood Office Center, Ltd.",CRE - Office,CRE,Oklahoma City,OK,18,2015-07-01,1
+B1648,"Magnolia Village, Inc.",CRE - Multifamily,CRE,Houston,TX,9,2022-03-01,0
+B1649,"Brazos Shopping Center, LLC",CRE - Retail,CRE,Dallas,TX,9,2022-01-01,0
+B1650,"Live Oak Feed & Seed, LP",Agriculture,C&I,Dallas,TX,22,2018-07-01,1
+B1651,"Lone Star Tower, Inc.",CRE - Office,CRE,Houston,TX,16,2019-12-01,0
+B1652,"Red River Business Park, LLC",CRE - Industrial,CRE,Houston,TX,26,2022-05-01,1
+B1653,"Prairie View Village, LP",CRE - Multifamily,CRE,Dallas,TX,10,2021-09-01,1
+B1654,"Cypress Apartments, Ltd.",CRE - Multifamily,CRE,Austin,TX,14,2025-02-01,0
+B1655,"Guadalupe Builders, Ltd.",Construction,C&I,Beaumont,TX,10,2020-02-01,1
+B1656,"Twin Oaks Mercantile, LP",Retail Trade,C&I,Beaumont,TX,18,2023-03-01,1
+B1657,"Ironwood Assisted Living, LP",CRE - Senior Housing,CRE,Houston,TX,2,2019-11-01,1
+B1658,"Prairie View Outfitters, LP",Retail Trade,C&I,Houston,TX,4,2024-09-01,1
+B1659,"Bayside Physical Therapy, LP",Healthcare,C&I,Austin,TX,12,2022-05-01,1
+B1660,"Silverleaf Restaurant Group, LP",Restaurants,C&I,Houston,TX,37,2022-03-01,1
+B1661,"Pinewood Manufacturing, Ltd.",Manufacturing,C&I,Shreveport,LA,24,2025-03-01,1
+B1662,"Westpark Commons, LP",CRE - Retail,CRE,Houston,TX,19,2023-09-01,1
+B1663,"Highland Village, Inc.",CRE - Multifamily,CRE,Lake Charles,LA,16,2020-02-01,1
+B1664,"Stonegate Farms, LP",Agriculture,C&I,Dallas,TX,31,2021-03-01,1
+B1665,"Stonegate Consulting, LLC",Professional Services,C&I,Houston,TX,17,2016-05-01,0
+B1666,"Sandstone Fabrication, Inc.",Manufacturing,C&I,Fort Worth,TX,13,2016-12-01,1
+B1667,"Nueces Industrial Park, LP",CRE - Industrial,CRE,San Antonio,TX,2,2023-11-01,1
+B1668,"Northline Apartments, Inc.",CRE - Multifamily,CRE,Dallas,TX,15,2021-11-01,0
+B1669,"Westpark Fabrication, LP",Manufacturing,C&I,Houston,TX,22,2020-10-01,1
+B1670,"Cedar Bayou Kitchen, LP",Restaurants,C&I,Tulsa,OK,11,2025-12-01,1
+B1671,"Live Oak Kitchen, Ltd.",Restaurants,C&I,Shreveport,LA,12,2022-10-01,1
+B1672,"Falcon Point Grill, LLC",Restaurants,C&I,Austin,TX,17,2025-06-01,1
+B1673,"Copper Creek Business Park, Inc.",CRE - Industrial,CRE,San Antonio,TX,2,2021-10-01,0
+B1674,"Frio Shopping Center, Ltd.",CRE - Retail,CRE,Austin,TX,11,2022-07-01,1
+B1675,"Pecan Hollow Home Center, Inc.",Retail Trade,C&I,Oklahoma City,OK,12,2019-04-01,1
+B1676,"Cedar Bayou Energy Services, LP",Energy Services,C&I,Lake Charles,LA,23,2022-06-01,1
+B1677,"Bayside Assisted Living, Ltd.",CRE - Senior Housing,CRE,Dallas,TX,17,2023-11-01,0
+B1678,"Eastfield Dental, Ltd.",Healthcare,C&I,San Antonio,TX,26,2018-07-01,0
+B1679,"Red River Advisors, LLC",Professional Services,C&I,Houston,TX,33,2022-08-01,1
+B1680,"Copper Creek Business Park, LP",CRE - Industrial,CRE,Houston,TX,30,2020-08-01,1
+B1681,"Red River Electric, LLC",Construction,C&I,Tulsa,OK,17,2024-03-01,1
+B1682,"Guadalupe Wholesale, LP",Wholesale Distribution,C&I,Dallas,TX,7,2024-02-01,1
+B1683,"Lone Star Distribution Center, LP",CRE - Industrial,CRE,Dallas,TX,11,2024-03-01,1
+B1684,"Highland Shopping Center, LLC",CRE - Retail,CRE,Houston,TX,18,2019-06-01,0
+B1685,"Pinewood Engineering, LP",Professional Services,C&I,San Antonio,TX,15,2015-10-01,1
+B1686,"Pinewood Grill, Ltd.",Restaurants,C&I,Dallas,TX,6,2022-05-01,1
+B1687,"Sabine Construction, Ltd.",Construction,C&I,Houston,TX,21,2022-09-01,1
+B1688,"Magnolia Commons, Ltd.",CRE - Retail,CRE,Houston,TX,19,2023-02-01,0
+B1689,"Trinity Village, LP",CRE - Multifamily,CRE,Austin,TX,22,2016-10-01,1
+B1690,"Eastfield Distribution Center, LP",CRE - Industrial,CRE,Houston,TX,9,2024-05-01,0
+B1691,"Red River Logistics, Inc.",Transportation,C&I,Baton Rouge,LA,16,2014-01-01,1
+B1692,"Bluebonnet Machine Works, LP",Manufacturing,C&I,Dallas,TX,19,2021-10-01,1
+B1693,"Harborview Apartments, LP",CRE - Multifamily,CRE,Austin,TX,10,2023-09-01,0
+B1694,"Cedar Bayou Apartments, LP",CRE - Multifamily,CRE,Beaumont,TX,19,2015-07-01,1
+B1695,"Bayside Pipeline Services, Ltd.",Energy Services,C&I,Dallas,TX,12,2016-07-01,1
+B1696,"Falcon Point Office Plaza, Ltd.",CRE - Office,CRE,Dallas,TX,14,2021-02-01,1
+B1697,"Eastfield Freight, Ltd.",Transportation,C&I,Austin,TX,16,2014-08-01,0
+B1698,"Silverleaf Storage, Ltd.",CRE - Self Storage,CRE,Dallas,TX,19,2020-02-01,1
+B1699,"Sabine Storage, Ltd.",CRE - Self Storage,CRE,Baton Rouge,LA,43,2024-09-01,1
+B1700,"Falcon Point Business Park, LP",CRE - Industrial,CRE,Dallas,TX,12,2023-07-01,0
+B1701,"Stonegate Home Center, LP",Retail Trade,C&I,San Antonio,TX,17,2021-05-01,1
+B1702,"Riverbend Residences, LLC",CRE - Multifamily,CRE,Beaumont,TX,24,2019-08-01,1
+B1703,"Westpark Consulting, LP",Professional Services,C&I,Houston,TX,7,2022-03-01,1
+B1704,"Sandstone Outfitters, Ltd.",Retail Trade,C&I,Lake Charles,LA,16,2025-09-01,1
+B1705,"Granite Ridge Construction, Ltd.",Construction,C&I,Fort Worth,TX,18,2023-11-01,0
+B1706,"Silverleaf Contractors, Inc.",Construction,C&I,San Antonio,TX,8,2022-12-01,0
+B1707,"Red River Assisted Living, Inc.",CRE - Senior Housing,CRE,Houston,TX,9,2017-08-01,1
+B1708,"Nueces Contractors, Ltd.",Construction,C&I,Baton Rouge,LA,20,2016-06-01,1
+B1709,"Red River Distributors, Ltd.",Wholesale Distribution,C&I,Beaumont,TX,17,2023-10-01,1
+B1710,"Nueces Mercantile, Inc.",Retail Trade,C&I,San Antonio,TX,21,2023-04-01,1
+B1711,"Riverbend Physical Therapy, LLC",Healthcare,C&I,Houston,TX,12,2014-03-01,1
+B1712,"Mesquite Dental, LLC",Healthcare,C&I,Oklahoma City,OK,19,2024-05-01,1
+B1713,"Red River Pipeline Services, LLC",Energy Services,C&I,Austin,TX,13,2014-02-01,1
+B1714,"Twin Oaks Engineering, Inc.",Professional Services,C&I,Baton Rouge,LA,12,2019-03-01,1
+B1715,"Gulfline Outfitters, LP",Retail Trade,C&I,Dallas,TX,21,2019-07-01,1
+B1716,"Bayside Residences, LLC",CRE - Multifamily,CRE,Oklahoma City,OK,3,2023-04-01,0
+B1717,"Stonegate Business Park, LLC",CRE - Industrial,CRE,San Antonio,TX,23,2019-11-01,1
+B1718,"Clearfork Distributors, Ltd.",Wholesale Distribution,C&I,Austin,TX,38,2022-09-01,1
+B1719,"Silverleaf Residences, LP",CRE - Multifamily,CRE,Austin,TX,5,2021-04-01,0
+B1720,"Magnolia Kitchen, LLC",Restaurants,C&I,Dallas,TX,5,2018-08-01,1
+B1721,"Cedar Bayou Logistics, Ltd.",Transportation,C&I,San Antonio,TX,12,2022-09-01,1
+B1722,"Cypress Dental, Inc.",Healthcare,C&I,Houston,TX,7,2024-07-01,1
+B1723,"Brazos Electric, LLC",Construction,C&I,Houston,TX,16,2019-08-01,1
+B1724,"Clearfork Industries, LP",Manufacturing,C&I,Austin,TX,18,2019-02-01,0
+B1725,"Sabine Freight, LP",Transportation,C&I,Tulsa,OK,20,2014-08-01,1
+B1726,"Caddo Residences, LLC",CRE - Multifamily,CRE,Austin,TX,25,2018-12-01,0
+B1727,"Sabine Inn & Suites, Inc.",CRE - Hospitality,CRE,Fort Worth,TX,4,2017-06-01,1
+B1728,"Granite Ridge Family Practice, Inc.",Healthcare,C&I,Fort Worth,TX,2,2021-05-01,1
+B1729,"Northline Distribution Center, Ltd.",CRE - Industrial,CRE,Oklahoma City,OK,16,2015-08-01,1
+B1730,"Copper Creek Fabrication, LLC",Manufacturing,C&I,Houston,TX,16,2019-12-01,1
+B1731,"Copper Creek Family Practice, Inc.",Healthcare,C&I,Houston,TX,6,2014-02-01,1
+B1732,"Brazos Farms, LLC",Agriculture,C&I,Houston,TX,33,2022-07-01,1
+B1733,"Live Oak Trucking, LP",Transportation,C&I,Beaumont,TX,20,2024-02-01,1
+B1734,"Brazos Family Practice, Ltd.",Healthcare,C&I,Houston,TX,12,2022-09-01,1
+B1735,"Sabine Engineering, Inc.",Professional Services,C&I,San Antonio,TX,22,2018-03-01,1
+B1736,"Twin Oaks Residences, LP",CRE - Multifamily,CRE,Fort Worth,TX,22,2025-10-01,1
+B1737,"Lone Star Marketplace, Ltd.",CRE - Retail,CRE,Dallas,TX,2,2024-12-01,0
+B1738,"Pinewood Builders, Inc.",Construction,C&I,Houston,TX,10,2020-07-01,1
+B1739,"Copper Creek Engineering, LLC",Professional Services,C&I,Houston,TX,11,2025-04-01,1
+B1740,"Copper Creek Apartments, Inc.",CRE - Multifamily,CRE,Lake Charles,LA,25,2020-08-01,1
+B1741,"Harborview Medical Group, Inc.",Healthcare,C&I,Lake Charles,LA,13,2019-09-01,1
+B1742,"Silverleaf Industrial Park, LP",CRE - Industrial,CRE,Fort Worth,TX,7,2023-02-01,1
+B1743,"Harborview Home Center, LP",Retail Trade,C&I,Corpus Christi,TX,11,2024-08-01,1
+B1744,"Prairie View Office Plaza, LP",CRE - Office,CRE,Houston,TX,7,2018-05-01,0
+B1745,"Falcon Point Trucking, Ltd.",Transportation,C&I,Dallas,TX,5,2022-10-01,1
+B1746,"Live Oak Business Park, Ltd.",CRE - Industrial,CRE,Houston,TX,19,2025-04-01,1
+B1747,"Red River Oilfield Services, LP",Energy Services,C&I,Houston,TX,13,2023-05-01,1
+B1748,"Trinity Office Plaza, LP",CRE - Office,CRE,Shreveport,LA,22,2019-02-01,1
+B1749,"Trinity Fabrication, LP",Manufacturing,C&I,Houston,TX,7,2023-07-01,1
+B1750,"Red River Engineering, Ltd.",Professional Services,C&I,Houston,TX,15,2022-07-01,1
+B1751,"Cypress Energy Services, LP",Energy Services,C&I,Austin,TX,33,2014-12-01,1
+B1752,"Gulfline Engineering, Ltd.",Professional Services,C&I,Houston,TX,15,2020-06-01,1
+B1753,"Red River Apartments, LP",CRE - Multifamily,CRE,Austin,TX,23,2020-12-01,0
+B1754,"Magnolia Mercantile, LP",Retail Trade,C&I,Dallas,TX,20,2023-07-01,0
+B1755,"Highland Office Plaza, LP",CRE - Office,CRE,Baton Rouge,LA,18,2022-10-01,0
+B1756,"Magnolia Hotel, Inc.",CRE - Hospitality,CRE,Dallas,TX,21,2016-05-01,1
+B1757,"Gulfline Oilfield Services, LLC",Energy Services,C&I,Houston,TX,15,2018-09-01,1
+B1758,"Harborview Distribution Center, Inc.",CRE - Industrial,CRE,Houston,TX,21,2014-02-01,1
+B1759,"Live Oak Office Plaza, LP",CRE - Office,CRE,Austin,TX,7,2015-03-01,1
+B1760,"Sandstone Senior Living, LLC",CRE - Senior Housing,CRE,Houston,TX,13,2023-09-01,1
+B1761,"Live Oak Industrial Park, Ltd.",CRE - Industrial,CRE,San Antonio,TX,23,2018-01-01,1
+B1762,"Harborview Commons, LLC",CRE - Retail,CRE,San Antonio,TX,14,2022-08-01,0
+B1763,"Sandstone Builders, Inc.",Construction,C&I,Austin,TX,29,2019-04-01,1
+B1764,"Caddo Industrial Park, LP",CRE - Industrial,CRE,Corpus Christi,TX,32,2017-01-01,1
+B1765,"Bluebonnet Lodge, Ltd.",CRE - Hospitality,CRE,Dallas,TX,18,2019-04-01,1
+B1766,"Sabine Advisors, Inc.",Professional Services,C&I,Houston,TX,22,2020-03-01,1
+B1767,"Stonegate Apartments, LP",CRE - Multifamily,CRE,Dallas,TX,24,2018-09-01,1
+B1768,"Copper Creek Tower, Inc.",CRE - Office,CRE,Tulsa,OK,31,2022-10-01,0
+B1769,"Nueces Feed & Seed, Ltd.",Agriculture,C&I,Oklahoma City,OK,17,2017-08-01,1
+B1770,"Pinewood Industries, LP",Manufacturing,C&I,Oklahoma City,OK,2,2016-06-01,1
+B1771,"Pecan Hollow Business Park, LP",CRE - Industrial,CRE,Dallas,TX,8,2022-05-01,1
+B1772,"Westpark Tower, Inc.",CRE - Office,CRE,San Antonio,TX,18,2024-12-01,1
+B1773,"Live Oak Senior Living, Ltd.",CRE - Senior Housing,CRE,Tulsa,OK,24,2016-05-01,1
+B1774,"Lone Star Builders, Ltd.",Construction,C&I,Lake Charles,LA,12,2019-02-01,1
+B1775,"Pecan Hollow Self Storage, Ltd.",CRE - Self Storage,CRE,Lake Charles,LA,13,2023-02-01,1
+B1776,"Caddo Restaurant Group, Inc.",Restaurants,C&I,Houston,TX,12,2017-05-01,1
+B1777,"Twin Oaks Feed & Seed, Inc.",Agriculture,C&I,Dallas,TX,12,2016-08-01,0
+B1778,"Stonegate Office Center, Ltd.",CRE - Office,CRE,Lake Charles,LA,20,2023-08-01,1
+B1779,"Gulfline Commons, LLC",CRE - Retail,CRE,Fort Worth,TX,10,2016-01-01,1
+B1780,"Caddo Tower, Ltd.",CRE - Office,CRE,Houston,TX,2,2018-12-01,1
+B1781,"Northline Engineering, Inc.",Professional Services,C&I,Houston,TX,20,2021-02-01,1
+B1782,"Harborview Engineering, Inc.",Professional Services,C&I,Houston,TX,25,2024-08-01,1
+B1783,"Harborview Residences, LP",CRE - Multifamily,CRE,Corpus Christi,TX,21,2021-08-01,0
+B1784,"Frio Electric, LLC",Construction,C&I,San Antonio,TX,27,2023-02-01,1
+B1785,"Clearfork Hotel, LLC",CRE - Hospitality,CRE,Houston,TX,13,2023-12-01,1
+B1786,"Falcon Point Office Center, Inc.",CRE - Office,CRE,Houston,TX,11,2021-02-01,1
+B1787,"Twin Oaks Distributors, Inc.",Wholesale Distribution,C&I,Houston,TX,27,2020-10-01,1
+B1788,"Brazos Electric, LP",Construction,C&I,Houston,TX,30,2020-04-01,1
+B1789,"Pinewood Inn & Suites, Inc.",CRE - Hospitality,CRE,Shreveport,LA,23,2016-11-01,1
+B1790,"Granite Ridge Office Center, Inc.",CRE - Office,CRE,Dallas,TX,27,2023-02-01,0
+B1791,"Caddo Construction, LLC",Construction,C&I,Shreveport,LA,24,2023-11-01,1
+B1792,"Prairie View Manufacturing, Ltd.",Manufacturing,C&I,Houston,TX,30,2021-10-01,1
+B1793,"Live Oak Electric, LLC",Construction,C&I,San Antonio,TX,2,2020-01-01,1
+B1794,"Harborview Construction, LP",Construction,C&I,Baton Rouge,LA,15,2022-03-01,1
+B1795,"Trinity Supply, Ltd.",Wholesale Distribution,C&I,Beaumont,TX,9,2018-08-01,1
+B1796,"Harborview Electric, Ltd.",Construction,C&I,Tulsa,OK,18,2022-05-01,1
+B1797,"Twin Oaks Contractors, Inc.",Construction,C&I,Oklahoma City,OK,18,2023-03-01,1
+B1798,"Riverbend Self Storage, LP",CRE - Self Storage,CRE,Houston,TX,2,2015-09-01,1
+B1799,"Falcon Point Mercantile, Inc.",Retail Trade,C&I,Austin,TX,2,2023-10-01,0
+B1800,"Cedar Bayou Storage, Ltd.",CRE - Self Storage,CRE,Austin,TX,7,2018-10-01,1
+B1801,"Lone Star Village, LLC",CRE - Multifamily,CRE,Shreveport,LA,5,2023-09-01,1
+B1802,"Guadalupe Engineering, Ltd.",Professional Services,C&I,Lake Charles,LA,11,2023-11-01,1
+B1803,"Harborview Trucking, LLC",Transportation,C&I,Tulsa,OK,21,2021-07-01,1
+B1804,"Eastfield Farms, LLC",Agriculture,C&I,Corpus Christi,TX,19,2021-09-01,1
+B1805,"Northline Village, Ltd.",CRE - Multifamily,CRE,Houston,TX,20,2019-11-01,1
+B1806,"Clearfork Commons, LP",CRE - Retail,CRE,Dallas,TX,13,2018-11-01,1
+B1807,"Pinewood Office Center, Ltd.",CRE - Office,CRE,San Antonio,TX,15,2022-05-01,1
+B1808,"Silverleaf Industrial Park, Ltd.",CRE - Industrial,CRE,Baton Rouge,LA,12,2019-06-01,1
+B1809,"Highland Manufacturing, Ltd.",Manufacturing,C&I,Dallas,TX,20,2024-06-01,1
+B1810,"Mesquite Assisted Living, Inc.",CRE - Senior Housing,CRE,Lake Charles,LA,10,2022-09-01,0
+B1811,"Riverbend Village, Ltd.",CRE - Multifamily,CRE,Corpus Christi,TX,11,2024-09-01,1
+B1812,"Lone Star Apartments, Ltd.",CRE - Multifamily,CRE,Dallas,TX,28,2020-10-01,1
+B1813,"Frio Fabrication, LP",Manufacturing,C&I,San Antonio,TX,27,2022-04-01,1
+B1814,"Pinewood Apartments, LP",CRE - Multifamily,CRE,Houston,TX,2,2017-09-01,0
+B1815,"Prairie View Home Center, Ltd.",Retail Trade,C&I,Houston,TX,2,2024-01-01,1
+B1816,"Mesquite Shopping Center, Inc.",CRE - Retail,CRE,Houston,TX,8,2022-04-01,0
+B1817,"Bayside Home Center, Inc.",Retail Trade,C&I,Dallas,TX,6,2019-03-01,1
+B1818,"Highland Wholesale, Ltd.",Wholesale Distribution,C&I,Beaumont,TX,12,2024-02-01,1
+B1819,"Mesquite Restaurant Group, LP",Restaurants,C&I,Houston,TX,23,2025-08-01,0
+B1820,"Pecan Hollow Engineering, Inc.",Professional Services,C&I,San Antonio,TX,20,2020-11-01,1
+B1821,"Caddo Construction, Ltd.",Construction,C&I,Austin,TX,16,2016-04-01,1
+B1822,"Falcon Point Industrial Park, LLC",CRE - Industrial,CRE,Houston,TX,23,2025-11-01,1
+B1823,"Stonegate Assisted Living, LLC",CRE - Senior Housing,CRE,Houston,TX,2,2015-02-01,1
+B1824,"Ironwood Distribution Center, Ltd.",CRE - Industrial,CRE,Fort Worth,TX,18,2025-10-01,1
+B1825,"Cedar Bayou Commons, LP",CRE - Retail,CRE,Lake Charles,LA,6,2016-02-01,1
+B1826,"Nueces Grill, Inc.",Restaurants,C&I,Houston,TX,17,2020-06-01,1
+B1827,"Pecan Hollow Family Practice, Inc.",Healthcare,C&I,Houston,TX,22,2024-06-01,1
+B1828,"Riverbend Residences, LP",CRE - Multifamily,CRE,Corpus Christi,TX,13,2014-04-01,1
+B1829,"Pecan Hollow Farms, Ltd.",Agriculture,C&I,Houston,TX,30,2023-10-01,1
+B1830,"Live Oak Residences, LP",CRE - Multifamily,CRE,Tulsa,OK,5,2021-03-01,1
+B1831,"Stonegate Family Practice, LP",Healthcare,C&I,Houston,TX,6,2014-03-01,1
+B1832,"Sabine Distributors, LP",Wholesale Distribution,C&I,Dallas,TX,13,2024-11-01,1
+B1833,"Granite Ridge Restaurant Group, Ltd.",Restaurants,C&I,Shreveport,LA,16,2022-07-01,1
+B1834,"Lone Star Manufacturing, LLC",Manufacturing,C&I,Baton Rouge,LA,14,2022-11-01,1
+B1835,"Brazos Industrial Park, Inc.",CRE - Industrial,CRE,Lake Charles,LA,13,2022-07-01,0
+B1836,"Eastfield Fabrication, Inc.",Manufacturing,C&I,San Antonio,TX,17,2020-03-01,1
+B1837,"Twin Oaks Village, Ltd.",CRE - Multifamily,CRE,Beaumont,TX,19,2022-05-01,1
+B1838,"Caddo Family Practice, Ltd.",Healthcare,C&I,Houston,TX,20,2020-03-01,0
+B1839,"Highland Fabrication, Ltd.",Manufacturing,C&I,Houston,TX,10,2024-11-01,1
+B1840,"Clearfork Industrial Park, LLC",CRE - Industrial,CRE,Dallas,TX,12,2016-02-01,1
+B1841,"Highland Energy Services, LLC",Energy Services,C&I,Houston,TX,25,2019-11-01,1
+B1842,"Silverleaf Wholesale, LP",Wholesale Distribution,C&I,Dallas,TX,23,2023-09-01,1
+B1843,"Cedar Bayou Advisors, Inc.",Professional Services,C&I,Baton Rouge,LA,24,2024-02-01,1
+B1844,"Clearfork Village, Ltd.",CRE - Multifamily,CRE,Fort Worth,TX,34,2020-01-01,0
+B1845,"Prairie View Pipeline Services, Ltd.",Energy Services,C&I,Houston,TX,22,2016-09-01,1
+B1846,"Live Oak Builders, LP",Construction,C&I,Houston,TX,15,2020-04-01,1
+B1847,"Magnolia Ag Supply, LLC",Agriculture,C&I,Fort Worth,TX,14,2018-05-01,1
+B1848,"Sabine Contractors, LLC",Construction,C&I,San Antonio,TX,18,2019-12-01,1
+B1849,"Riverbend Business Park, LP",CRE - Industrial,CRE,Houston,TX,23,2018-09-01,1
+B1850,"Magnolia Oilfield Services, LP",Energy Services,C&I,Corpus Christi,TX,9,2023-09-01,1
+B1851,"Caddo Marketplace, Ltd.",CRE - Retail,CRE,Austin,TX,13,2018-06-01,1
+B1852,"Nueces Office Center, LLC",CRE - Office,CRE,Fort Worth,TX,8,2023-09-01,1
+B1853,"Trinity Office Center, Inc.",CRE - Office,CRE,Dallas,TX,2,2021-01-01,1
+B1854,"Ironwood Family Practice, LLC",Healthcare,C&I,Oklahoma City,OK,16,2014-06-01,1
+B1855,"Clearfork Commons, Inc.",CRE - Retail,CRE,San Antonio,TX,9,2021-03-01,0
+B1856,"Falcon Point Trucking, LP",Transportation,C&I,Houston,TX,9,2022-08-01,1
+B1857,"Lone Star Consulting, Ltd.",Professional Services,C&I,San Antonio,TX,17,2014-09-01,1
+B1858,"Gulfline Ag Supply, Ltd.",Agriculture,C&I,Houston,TX,23,2019-03-01,1
+B1859,"Riverbend Manufacturing, Inc.",Manufacturing,C&I,Lake Charles,LA,6,2020-12-01,1
+B1860,"Clearfork Energy Services, LLC",Energy Services,C&I,Houston,TX,23,2021-10-01,1
+B1861,"Nueces Wholesale, Ltd.",Wholesale Distribution,C&I,San Antonio,TX,19,2023-11-01,1
+B1862,"Ironwood Residences, Inc.",CRE - Multifamily,CRE,Houston,TX,21,2020-09-01,1
+B1863,"Prairie View Village, Inc.",CRE - Multifamily,CRE,Tulsa,OK,16,2024-07-01,1
+B1864,"Sabine Tower, Ltd.",CRE - Office,CRE,Fort Worth,TX,9,2020-03-01,0
+B1865,"Cedar Bayou Fabrication, Ltd.",Manufacturing,C&I,Lake Charles,LA,2,2018-10-01,0
+B1866,"Copper Creek Industries, LP",Manufacturing,C&I,Shreveport,LA,10,2020-12-01,1
+B1867,"Brazos Ag Supply, LP",Agriculture,C&I,Houston,TX,24,2017-03-01,1
+B1868,"Stonegate Outfitters, Inc.",Retail Trade,C&I,Houston,TX,6,2024-02-01,1
+B1869,"Live Oak Storage, LLC",CRE - Self Storage,CRE,Dallas,TX,22,2023-03-01,1
+B1870,"Nueces Dental, LP",Healthcare,C&I,San Antonio,TX,15,2021-09-01,1
+B1871,"Pecan Hollow Ag Supply, Ltd.",Agriculture,C&I,Tulsa,OK,30,2019-08-01,1
+B1872,"Mesquite Residences, Inc.",CRE - Multifamily,CRE,Houston,TX,19,2023-12-01,1
+B1873,"Harborview Home Center, LLC",Retail Trade,C&I,Houston,TX,4,2019-10-01,1
+B1874,"Cedar Bayou Commons, LLC",CRE - Retail,CRE,Houston,TX,12,2017-04-01,1
+B1875,"Gulfline Industrial Park, LP",CRE - Industrial,CRE,Austin,TX,27,2024-11-01,1
+B1876,"Cypress Commons, Ltd.",CRE - Retail,CRE,Houston,TX,23,2019-02-01,0
+B1877,"Silverleaf Trucking, LP",Transportation,C&I,Houston,TX,26,2024-08-01,1
+B1878,"Magnolia Apartments, Inc.",CRE - Multifamily,CRE,Baton Rouge,LA,30,2023-09-01,1
+B1879,"Granite Ridge Assisted Living, LP",CRE - Senior Housing,CRE,Houston,TX,17,2021-07-01,1
+B1880,"Twin Oaks Home Center, Ltd.",Retail Trade,C&I,San Antonio,TX,9,2022-10-01,1
+B1881,"Falcon Point Office Plaza, LLC",CRE - Office,CRE,Beaumont,TX,20,2017-02-01,0
+B1882,"Red River Logistics, LLC",Transportation,C&I,Baton Rouge,LA,12,2021-06-01,1
+B1883,"Gulfline Distribution Center, LP",CRE - Industrial,CRE,Dallas,TX,20,2017-06-01,1
+B1884,"Pinewood Storage, Ltd.",CRE - Self Storage,CRE,Houston,TX,12,2024-09-01,0
+B1885,"Pecan Hollow Machine Works, Inc.",Manufacturing,C&I,Fort Worth,TX,8,2021-09-01,1
+B1886,"Granite Ridge Storage, Inc.",CRE - Self Storage,CRE,Houston,TX,3,2015-11-01,1
+B1887,"Falcon Point Ag Supply, Ltd.",Agriculture,C&I,Houston,TX,6,2023-05-01,1
+B1888,"Magnolia Senior Living, Inc.",CRE - Senior Housing,CRE,Houston,TX,16,2018-07-01,1
+B1889,"Red River Office Center, LLC",CRE - Office,CRE,San Antonio,TX,10,2019-02-01,1
+B1890,"Sandstone Grill, LLC",Restaurants,C&I,Dallas,TX,19,2022-09-01,0
+B1891,"Nueces Physical Therapy, Inc.",Healthcare,C&I,Fort Worth,TX,22,2018-01-01,0
+B1892,"Mesquite Trucking, Ltd.",Transportation,C&I,Houston,TX,13,2019-05-01,1
+B1893,"Cedar Bayou Hotel, LLC",CRE - Hospitality,CRE,Beaumont,TX,19,2024-06-01,1
+B1894,"Live Oak Shopping Center, Inc.",CRE - Retail,CRE,Houston,TX,5,2017-05-01,0
+B1895,"Gulfline Fabrication, Ltd.",Manufacturing,C&I,Dallas,TX,21,2019-02-01,1
+B1896,"Highland Self Storage, Inc.",CRE - Self Storage,CRE,Lake Charles,LA,18,2021-04-01,1
+B1897,"Bluebonnet Advisors, LP",Professional Services,C&I,Lake Charles,LA,9,2024-02-01,1
+B1898,"Harborview Machine Works, Inc.",Manufacturing,C&I,Oklahoma City,OK,13,2020-03-01,1
+B1899,"Brazos Feed & Seed, LLC",Agriculture,C&I,Tulsa,OK,2,2024-01-01,1
+B1900,"Granite Ridge Tower, LLC",CRE - Office,CRE,San Antonio,TX,16,2021-12-01,1
+B1901,"Pecan Hollow Physical Therapy, Ltd.",Healthcare,C&I,Dallas,TX,12,2017-08-01,1
+B1902,"Westpark Commons, Ltd.",CRE - Retail,CRE,Lake Charles,LA,4,2021-11-01,0
+B1903,"Red River Machine Works, Ltd.",Manufacturing,C&I,San Antonio,TX,30,2025-03-01,1
+B1904,"Magnolia Pipeline Services, Inc.",Energy Services,C&I,Houston,TX,18,2023-03-01,1
+B1905,"Nueces Grill, LLC",Restaurants,C&I,San Antonio,TX,25,2018-01-01,1
+B1906,"Mesquite Business Park, LLC",CRE - Industrial,CRE,Baton Rouge,LA,2,2023-12-01,0
+B1907,"Sabine Consulting, Ltd.",Professional Services,C&I,Corpus Christi,TX,31,2021-06-01,1
+B1908,"Cypress Shopping Center, Inc.",CRE - Retail,CRE,Dallas,TX,14,2024-06-01,1
+B1909,"Live Oak Contractors, Inc.",Construction,C&I,Houston,TX,13,2017-04-01,1
+B1910,"Brazos Consulting, LLC",Professional Services,C&I,Houston,TX,17,2017-03-01,1
+B1911,"Eastfield Wholesale, Inc.",Wholesale Distribution,C&I,Lake Charles,LA,21,2020-05-01,1
+B1912,"Caddo Village, Inc.",CRE - Multifamily,CRE,Dallas,TX,11,2015-09-01,1
+B1913,"Falcon Point Distribution Center, LLC",CRE - Industrial,CRE,Houston,TX,26,2024-09-01,0
+B1914,"Lone Star Construction, Inc.",Construction,C&I,Fort Worth,TX,8,2024-12-01,1
+B1915,"Prairie View Business Park, Inc.",CRE - Industrial,CRE,San Antonio,TX,14,2023-04-01,1
+B1916,"Prairie View Trucking, Inc.",Transportation,C&I,Fort Worth,TX,22,2019-12-01,1
+B1917,"Sabine Distributors, Inc.",Wholesale Distribution,C&I,Corpus Christi,TX,17,2022-04-01,1
+B1918,"Sabine Logistics, LP",Transportation,C&I,Baton Rouge,LA,21,2024-01-01,0
+B1919,"Clearfork Freight, Ltd.",Transportation,C&I,Austin,TX,12,2019-02-01,1
+B1920,"Trinity Construction, LLC",Construction,C&I,Oklahoma City,OK,16,2016-02-01,0
+B1921,"Frio Mercantile, LP",Retail Trade,C&I,San Antonio,TX,34,2022-07-01,1
+B1922,"Twin Oaks Family Practice, LLC",Healthcare,C&I,San Antonio,TX,10,2019-04-01,1
+B1923,"Stonegate Oilfield Services, LLC",Energy Services,C&I,Fort Worth,TX,21,2024-07-01,1
+B1924,"Sabine Village, LLC",CRE - Multifamily,CRE,Dallas,TX,2,2014-12-01,1
+B1925,"Pecan Hollow Medical Group, Ltd.",Healthcare,C&I,Beaumont,TX,25,2025-11-01,1
+B1926,"Silverleaf Consulting, Inc.",Professional Services,C&I,Houston,TX,22,2015-11-01,1
+B1927,"Ironwood Business Park, LP",CRE - Industrial,CRE,Houston,TX,33,2020-12-01,1
+B1928,"Riverbend Commons, Inc.",CRE - Retail,CRE,Baton Rouge,LA,15,2017-11-01,1
+B1929,"Ironwood Commons, LLC",CRE - Retail,CRE,Baton Rouge,LA,11,2020-08-01,1
+B1930,"Sabine Commons, LP",CRE - Retail,CRE,Shreveport,LA,13,2021-12-01,1
+B1931,"Prairie View Industries, LP",Manufacturing,C&I,Houston,TX,18,2023-02-01,1
+B1932,"Nueces Lodge, LLC",CRE - Hospitality,CRE,San Antonio,TX,9,2022-06-01,1
+B1933,"Harborview Office Center, LLC",CRE - Office,CRE,Houston,TX,28,2015-12-01,1
+B1934,"Sandstone Builders, LP",Construction,C&I,Dallas,TX,6,2024-04-01,1
+B1935,"Guadalupe Physical Therapy, LLC",Healthcare,C&I,Tulsa,OK,9,2023-06-01,1
+B1936,"Ironwood Manufacturing, Ltd.",Manufacturing,C&I,Houston,TX,17,2021-09-01,0
+B1937,"Cedar Bayou Engineering, LP",Professional Services,C&I,Dallas,TX,14,2024-11-01,1
+B1938,"Clearfork Marketplace, LP",CRE - Retail,CRE,Corpus Christi,TX,31,2021-07-01,1
+B1939,"Brazos Industrial Park, LP",CRE - Industrial,CRE,Fort Worth,TX,7,2024-12-01,1
+B1940,"Cedar Bayou Residences, LLC",CRE - Multifamily,CRE,San Antonio,TX,21,2021-08-01,1
+B1941,"Sandstone Supply, LP",Wholesale Distribution,C&I,Baton Rouge,LA,28,2019-12-01,1
+B1942,"Guadalupe Residences, LLC",CRE - Multifamily,CRE,Corpus Christi,TX,10,2023-10-01,1
+B1943,"Eastfield Consulting, Inc.",Professional Services,C&I,Dallas,TX,2,2025-01-01,1
+B1944,"Gulfline Self Storage, Inc.",CRE - Self Storage,CRE,Oklahoma City,OK,25,2021-09-01,1
+B1945,"Prairie View Fabrication, LP",Manufacturing,C&I,Shreveport,LA,20,2018-08-01,1
+B1946,"Trinity Outfitters, Inc.",Retail Trade,C&I,San Antonio,TX,2,2021-12-01,1
+B1947,"Copper Creek Engineering, Ltd.",Professional Services,C&I,Fort Worth,TX,8,2025-05-01,1
+B1948,"Eastfield Feed & Seed, LLC",Agriculture,C&I,Lake Charles,LA,14,2023-05-01,0
+B1949,"Clearfork Kitchen, LLC",Restaurants,C&I,Houston,TX,15,2022-04-01,1
+B1950,"Harborview Industrial Park, Inc.",CRE - Industrial,CRE,Corpus Christi,TX,11,2025-09-01,1
+B1951,"Eastfield Kitchen, Ltd.",Restaurants,C&I,Lake Charles,LA,8,2022-04-01,1
+B1952,"Trinity Self Storage, LLC",CRE - Self Storage,CRE,Dallas,TX,28,2019-09-01,1
+B1953,"Sabine Engineering, LLC",Professional Services,C&I,Fort Worth,TX,16,2020-12-01,1
+B1954,"Twin Oaks Storage, Inc.",CRE - Self Storage,CRE,Fort Worth,TX,23,2024-01-01,0
+B1955,"Lone Star Fabrication, LLC",Manufacturing,C&I,Oklahoma City,OK,6,2024-02-01,1
+B1956,"Bluebonnet Marketplace, LLC",CRE - Retail,CRE,Houston,TX,16,2023-05-01,1
+B1957,"Magnolia Freight, Inc.",Transportation,C&I,Houston,TX,18,2021-10-01,1
+B1958,"Granite Ridge Marketplace, LLC",CRE - Retail,CRE,Corpus Christi,TX,25,2021-04-01,0
+B1959,"Bluebonnet Self Storage, Ltd.",CRE - Self Storage,CRE,Lake Charles,LA,27,2021-05-01,1
+B1960,"Brazos Office Center, LLC",CRE - Office,CRE,Fort Worth,TX,17,2025-08-01,1
+B1961,"Bayside Machine Works, Inc.",Manufacturing,C&I,San Antonio,TX,13,2018-05-01,0
+B1962,"Gulfline Industries, LP",Manufacturing,C&I,Austin,TX,14,2022-11-01,1
+B1963,"Trinity Village, Inc.",CRE - Multifamily,CRE,Houston,TX,3,2020-03-01,0
+B1964,"Pecan Hollow Apartments, LLC",CRE - Multifamily,CRE,Oklahoma City,OK,19,2021-03-01,0
+B1965,"Mesquite Freight, LLC",Transportation,C&I,Shreveport,LA,15,2016-05-01,0
+B1966,"Bluebonnet Ag Supply, Inc.",Agriculture,C&I,Beaumont,TX,26,2019-07-01,1
+B1967,"Lone Star Medical Group, Ltd.",Healthcare,C&I,Houston,TX,13,2021-06-01,1
+B1968,"Harborview Lodge, Inc.",CRE - Hospitality,CRE,Dallas,TX,22,2017-08-01,0
+B1969,"Northline Manufacturing, Ltd.",Manufacturing,C&I,Corpus Christi,TX,22,2020-07-01,1
+B1970,"Northline Office Plaza, Inc.",CRE - Office,CRE,Tulsa,OK,14,2017-08-01,0
+B1971,"Cypress Office Center, Ltd.",CRE - Office,CRE,Houston,TX,21,2019-12-01,0
+B1972,"Magnolia Assisted Living, Ltd.",CRE - Senior Housing,CRE,Dallas,TX,19,2023-11-01,1
+B1973,"Westpark Lodge, LLC",CRE - Hospitality,CRE,Dallas,TX,15,2020-01-01,1
+B1974,"Highland Distribution Center, Inc.",CRE - Industrial,CRE,Lake Charles,LA,30,2024-01-01,0
+B1975,"Brazos Office Plaza, LLC",CRE - Office,CRE,Baton Rouge,LA,19,2016-12-01,1
+B1976,"Granite Ridge Residences, Inc.",CRE - Multifamily,CRE,Austin,TX,4,2024-03-01,1
+B1977,"Westpark Construction, LLC",Construction,C&I,San Antonio,TX,8,2025-02-01,1
+B1978,"Lone Star Farms, LP",Agriculture,C&I,Lake Charles,LA,17,2023-04-01,1
+B1979,"Westpark Distributors, Inc.",Wholesale Distribution,C&I,Oklahoma City,OK,5,2014-02-01,1
+B1980,"Harborview Construction, Ltd.",Construction,C&I,Houston,TX,12,2024-12-01,0
+B1981,"Bayside Distribution Center, Inc.",CRE - Industrial,CRE,Houston,TX,30,2019-04-01,1
+B1982,"Pinewood Storage, LLC",CRE - Self Storage,CRE,Fort Worth,TX,8,2024-04-01,0
+B1983,"Westpark Logistics, LP",Transportation,C&I,Austin,TX,2,2022-07-01,0
+B1984,"Caddo Marketplace, LLC",CRE - Retail,CRE,Houston,TX,14,2017-07-01,0
+B1985,"Harborview Electric, LP",Construction,C&I,Houston,TX,16,2018-10-01,1
+B1986,"Red River Oilfield Services, Inc.",Energy Services,C&I,Corpus Christi,TX,2,2023-04-01,1
+B1987,"Pinewood Self Storage, Ltd.",CRE - Self Storage,CRE,San Antonio,TX,13,2015-12-01,0
+B1988,"Harborview Logistics, Inc.",Transportation,C&I,Houston,TX,16,2024-12-01,0
+B1989,"Trinity Marketplace, LLC",CRE - Retail,CRE,Fort Worth,TX,18,2024-04-01,1
+B1990,"Sandstone Business Park, LP",CRE - Industrial,CRE,Houston,TX,17,2024-12-01,1
+B1991,"Highland Construction, Inc.",Construction,C&I,Dallas,TX,22,2017-02-01,1
+B1992,"Westpark Energy Services, Ltd.",Energy Services,C&I,Houston,TX,4,2023-08-01,1
+B1993,"Silverleaf Energy Services, Ltd.",Energy Services,C&I,Houston,TX,18,2022-05-01,1
+B1994,"Brazos Shopping Center, Inc.",CRE - Retail,CRE,Oklahoma City,OK,15,2018-03-01,1
+B1995,"Gulfline Residences, LLC",CRE - Multifamily,CRE,Lake Charles,LA,31,2016-03-01,0
+B1996,"Highland Medical Group, Ltd.",Healthcare,C&I,Corpus Christi,TX,3,2022-04-01,1
+B1997,"Bluebonnet Office Center, Inc.",CRE - Office,CRE,Austin,TX,22,2023-01-01,1
+B1998,"Riverbend Consulting, LLC",Professional Services,C&I,Dallas,TX,21,2025-08-01,0
+B1999,"Twin Oaks Restaurant Group, Inc.",Restaurants,C&I,Houston,TX,17,2022-09-01,1
+B2000,"Frio Electric, Ltd.",Construction,C&I,Shreveport,LA,27,2015-04-01,1
+B2001,"Magnolia Office Plaza, Ltd.",CRE - Office,CRE,Austin,TX,20,2016-02-01,1
+B2002,"Copper Creek Marketplace, Inc.",CRE - Retail,CRE,Oklahoma City,OK,10,2020-08-01,1
+B2003,"Mesquite Energy Services, Ltd.",Energy Services,C&I,Shreveport,LA,6,2019-08-01,0
+B2004,"Sandstone Residences, Inc.",CRE - Multifamily,CRE,Houston,TX,22,2022-02-01,1
+B2005,"Prairie View Supply, Ltd.",Wholesale Distribution,C&I,Houston,TX,20,2018-04-01,1
+B2006,"Harborview Storage, Ltd.",CRE - Self Storage,CRE,Dallas,TX,7,2025-10-01,1
+B2007,"Lone Star Village, Inc.",CRE - Multifamily,CRE,Houston,TX,16,2025-02-01,0
+B2008,"Nueces Freight, Ltd.",Transportation,C&I,Fort Worth,TX,2,2022-03-01,1
+B2009,"Granite Ridge Industrial Park, Ltd.",CRE - Industrial,CRE,Tulsa,OK,8,2023-07-01,1
+B2010,"Granite Ridge Shopping Center, LLC",CRE - Retail,CRE,Lake Charles,LA,14,2020-03-01,1
+B2011,"Nueces Office Plaza, LP",CRE - Office,CRE,Houston,TX,18,2022-01-01,1
+B2012,"Sabine Physical Therapy, Ltd.",Healthcare,C&I,Lake Charles,LA,26,2023-07-01,1
+B2013,"Live Oak Village, Inc.",CRE - Multifamily,CRE,Houston,TX,15,2016-07-01,0
+B2014,"Sandstone Consulting, Inc.",Professional Services,C&I,Houston,TX,22,2023-10-01,1
+B2015,"Harborview Tower, Inc.",CRE - Office,CRE,Fort Worth,TX,10,2016-12-01,0
+B2016,"Cypress Supply, Ltd.",Wholesale Distribution,C&I,Austin,TX,10,2014-05-01,1
+B2017,"Caddo Farms, LLC",Agriculture,C&I,Oklahoma City,OK,16,2014-07-01,1
+B2018,"Harborview Oilfield Services, LLC",Energy Services,C&I,Beaumont,TX,23,2023-12-01,1
+B2019,"Brazos Residences, Ltd.",CRE - Multifamily,CRE,Fort Worth,TX,15,2019-11-01,1
+B2020,"Riverbend Apartments, LLC",CRE - Multifamily,CRE,San Antonio,TX,14,2018-07-01,1
+B2021,"Ironwood Apartments, LP",CRE - Multifamily,CRE,Tulsa,OK,18,2015-07-01,1
+B2022,"Caddo Ag Supply, LP",Agriculture,C&I,Tulsa,OK,2,2017-12-01,1
+B2023,"Eastfield Contractors, LP",Construction,C&I,Houston,TX,12,2021-06-01,0
+B2024,"Riverbend Machine Works, LLC",Manufacturing,C&I,Dallas,TX,8,2017-12-01,1
+B2025,"Westpark Contractors, LP",Construction,C&I,Tulsa,OK,5,2021-12-01,1
+B2026,"Stonegate Grill, Ltd.",Restaurants,C&I,San Antonio,TX,22,2024-06-01,0
+B2027,"Sandstone Storage, Ltd.",CRE - Self Storage,CRE,Houston,TX,32,2019-08-01,1
+B2028,"Copper Creek Grill, LP",Restaurants,C&I,Oklahoma City,OK,4,2025-11-01,1
+B2029,"Bluebonnet Trucking, LLC",Transportation,C&I,Tulsa,OK,15,2021-02-01,1
+B2030,"Caddo Contractors, Inc.",Construction,C&I,Dallas,TX,29,2023-10-01,1
+B2031,"Eastfield Business Park, Ltd.",CRE - Industrial,CRE,Houston,TX,14,2024-06-01,0
+B2032,"Guadalupe Distribution Center, Ltd.",CRE - Industrial,CRE,Houston,TX,17,2021-05-01,0
+B2033,"Falcon Point Apartments, LLC",CRE - Multifamily,CRE,Houston,TX,2,2016-02-01,0
+B2034,"Highland Consulting, LLC",Professional Services,C&I,San Antonio,TX,5,2018-01-01,1
+B2035,"Bayside Builders, LP",Construction,C&I,Shreveport,LA,20,2019-01-01,1
+B2036,"Highland Distributors, LP",Wholesale Distribution,C&I,Fort Worth,TX,16,2023-02-01,1
+B2037,"Trinity Commons, LLC",CRE - Retail,CRE,Dallas,TX,15,2023-02-01,1
+B2038,"Silverleaf Ag Supply, LLC",Agriculture,C&I,Houston,TX,19,2023-07-01,1
+B2039,"Brazos Industrial Park, Ltd.",CRE - Industrial,CRE,Shreveport,LA,13,2022-01-01,0
+B2040,"Pinewood Industrial Park, Ltd.",CRE - Industrial,CRE,San Antonio,TX,17,2024-06-01,1
+B2041,"Pecan Hollow Senior Living, LLC",CRE - Senior Housing,CRE,Lake Charles,LA,13,2021-11-01,1
+B2042,"Bluebonnet Contractors, Inc.",Construction,C&I,Houston,TX,10,2018-09-01,1
+B2043,"Pinewood Manufacturing, LLC",Manufacturing,C&I,Houston,TX,14,2020-12-01,1
+B2044,"Nueces Freight, Inc.",Transportation,C&I,San Antonio,TX,13,2021-05-01,1
+B2045,"Frio Construction, Inc.",Construction,C&I,Houston,TX,9,2024-01-01,0
+B2046,"Prairie View Logistics, LLC",Transportation,C&I,Houston,TX,4,2016-02-01,1
+B2047,"Bluebonnet Distributors, LLC",Wholesale Distribution,C&I,Oklahoma City,OK,17,2024-06-01,1
+B2048,"Stonegate Distributors, LP",Wholesale Distribution,C&I,Dallas,TX,14,2022-10-01,1
+B2049,"Prairie View Trucking, Ltd.",Transportation,C&I,Houston,TX,33,2022-06-01,0
+B2050,"Eastfield Residences, Ltd.",CRE - Multifamily,CRE,San Antonio,TX,2,2017-12-01,1
+B2051,"Bayside Freight, Inc.",Transportation,C&I,Houston,TX,17,2025-05-01,1
+B2052,"Ironwood Pipeline Services, LP",Energy Services,C&I,Dallas,TX,34,2022-04-01,1
+B2053,"Pinewood Feed & Seed, Inc.",Agriculture,C&I,Baton Rouge,LA,27,2018-01-01,0
+B2054,"Bluebonnet Builders, LP",Construction,C&I,Beaumont,TX,5,2019-01-01,0
+B2055,"Copper Creek Contractors, LLC",Construction,C&I,Houston,TX,19,2019-06-01,0
+B2056,"Cypress Medical Group, LLC",Healthcare,C&I,Corpus Christi,TX,21,2021-09-01,1
+B2057,"Clearfork Mercantile, LP",Retail Trade,C&I,Houston,TX,20,2016-04-01,1
+B2058,"Bluebonnet Industries, LP",Manufacturing,C&I,Austin,TX,26,2025-11-01,1
+B2059,"Pinewood Contractors, Inc.",Construction,C&I,San Antonio,TX,20,2021-06-01,1
+B2060,"Bluebonnet Industries, Inc.",Manufacturing,C&I,Baton Rouge,LA,3,2020-01-01,1
+B2061,"Lone Star Residences, Ltd.",CRE - Multifamily,CRE,Houston,TX,12,2018-06-01,1
+B2062,"Falcon Point Assisted Living, LLC",CRE - Senior Housing,CRE,Fort Worth,TX,11,2024-03-01,1
+B2063,"Red River Village, LLC",CRE - Multifamily,CRE,San Antonio,TX,11,2018-09-01,0
+B2064,"Brazos Distribution Center, LLC",CRE - Industrial,CRE,Houston,TX,2,2014-05-01,1
+B2065,"Nueces Storage, LP",CRE - Self Storage,CRE,Oklahoma City,OK,15,2020-12-01,0
+B2066,"Gulfline Apartments, Ltd.",CRE - Multifamily,CRE,Corpus Christi,TX,26,2023-08-01,1
+B2067,"Clearfork Logistics, Ltd.",Transportation,C&I,Tulsa,OK,23,2023-12-01,1
+B2068,"Nueces Senior Living, Ltd.",CRE - Senior Housing,CRE,Beaumont,TX,8,2024-04-01,1
+B2069,"Sandstone Office Center, Ltd.",CRE - Office,CRE,Houston,TX,2,2025-10-01,0
+B2070,"Cedar Bayou Self Storage, LLC",CRE - Self Storage,CRE,Lake Charles,LA,15,2022-11-01,1
+B2071,"Granite Ridge Industries, LLC",Manufacturing,C&I,Dallas,TX,33,2020-07-01,1
+B2072,"Lone Star Medical Group, LP",Healthcare,C&I,Fort Worth,TX,9,2018-06-01,1
+B2073,"Pinewood Electric, LP",Construction,C&I,Baton Rouge,LA,21,2025-09-01,1
+B2074,"Northline Industries, LP",Manufacturing,C&I,Austin,TX,2,2014-07-01,1
+B2075,"Northline Shopping Center, LP",CRE - Retail,CRE,Houston,TX,17,2024-05-01,1
+B2076,"Granite Ridge Engineering, LP",Professional Services,C&I,Corpus Christi,TX,16,2019-06-01,1
+B2077,"Trinity Commons, LP",CRE - Retail,CRE,Fort Worth,TX,14,2023-10-01,1
+B2078,"Mesquite Mercantile, LLC",Retail Trade,C&I,Fort Worth,TX,2,2021-10-01,1
+B2079,"Live Oak Fabrication, Inc.",Manufacturing,C&I,Shreveport,LA,27,2021-07-01,1
+B2080,"Pinewood Assisted Living, Ltd.",CRE - Senior Housing,CRE,Houston,TX,6,2020-11-01,1
+B2081,"Falcon Point Family Practice, LLC",Healthcare,C&I,Houston,TX,6,2022-09-01,1
+B2082,"Pinewood Senior Living, LLC",CRE - Senior Housing,CRE,San Antonio,TX,22,2018-05-01,0
+B2083,"Nueces Marketplace, Ltd.",CRE - Retail,CRE,San Antonio,TX,13,2022-06-01,0
+B2084,"Pecan Hollow Business Park, Inc.",CRE - Industrial,CRE,Austin,TX,32,2016-12-01,0
+B2085,"Pinewood Oilfield Services, LP",Energy Services,C&I,Fort Worth,TX,16,2015-07-01,1
+B2086,"Bayside Physical Therapy, Inc.",Healthcare,C&I,Houston,TX,9,2023-01-01,1
+B2087,"Sandstone Village, LLC",CRE - Multifamily,CRE,Dallas,TX,2,2014-12-01,1
+B2088,"Caddo Office Plaza, Ltd.",CRE - Office,CRE,Austin,TX,2,2024-12-01,1
+B2089,"Frio Machine Works, Ltd.",Manufacturing,C&I,Austin,TX,15,2022-11-01,1
+B2090,"Pecan Hollow Village, Inc.",CRE - Multifamily,CRE,San Antonio,TX,2,2023-09-01,1
+B2091,"Clearfork Oilfield Services, LP",Energy Services,C&I,Beaumont,TX,8,2021-08-01,0
+B2092,"Guadalupe Marketplace, Inc.",CRE - Retail,CRE,Houston,TX,9,2014-02-01,1
+B2093,"Sandstone Business Park, Ltd.",CRE - Industrial,CRE,Houston,TX,31,2017-09-01,0
+B2094,"Lone Star Self Storage, Ltd.",CRE - Self Storage,CRE,Austin,TX,20,2023-11-01,0
+B2095,"Lone Star Industries, Ltd.",Manufacturing,C&I,Beaumont,TX,29,2022-07-01,1
+B2096,"Cedar Bayou Lodge, LLC",CRE - Hospitality,CRE,Houston,TX,6,2018-03-01,0
+B2097,"Harborview Hotel, Ltd.",CRE - Hospitality,CRE,Dallas,TX,41,2025-09-01,1
+B2098,"Guadalupe Wholesale, Inc.",Wholesale Distribution,C&I,Austin,TX,5,2016-12-01,1
+B2099,"Trinity Builders, LLC",Construction,C&I,Fort Worth,TX,17,2024-09-01,1
+B2100,"Sabine Shopping Center, LLC",CRE - Retail,CRE,Houston,TX,12,2021-10-01,0
+B2101,"Magnolia Residences, LP",CRE - Multifamily,CRE,Austin,TX,21,2022-11-01,1
+B2102,"Granite Ridge Engineering, Ltd.",Professional Services,C&I,Houston,TX,2,2018-04-01,1
+B2103,"Sabine Residences, LP",CRE - Multifamily,CRE,San Antonio,TX,6,2017-11-01,1
+B2104,"Bluebonnet Dental, LP",Healthcare,C&I,Beaumont,TX,23,2022-09-01,1
+B2105,"Cypress Supply, LLC",Wholesale Distribution,C&I,San Antonio,TX,34,2020-08-01,1
+B2106,"Prairie View Supply, LP",Wholesale Distribution,C&I,Dallas,TX,2,2023-06-01,1
+B2107,"Guadalupe Consulting, Inc.",Professional Services,C&I,Baton Rouge,LA,4,2018-09-01,1
+B2108,"Falcon Point Pipeline Services, LP",Energy Services,C&I,Austin,TX,4,2025-06-01,1
+B2109,"Riverbend Self Storage, LLC",CRE - Self Storage,CRE,Austin,TX,24,2014-06-01,1
+B2110,"Live Oak Industrial Park, Inc.",CRE - Industrial,CRE,Dallas,TX,5,2018-10-01,1
+B2111,"Twin Oaks Electric, Inc.",Construction,C&I,Dallas,TX,10,2025-07-01,1
+B2112,"Highland Apartments, Ltd.",CRE - Multifamily,CRE,Fort Worth,TX,21,2019-10-01,1
+B2113,"Gulfline Restaurant Group, LLC",Restaurants,C&I,Baton Rouge,LA,17,2025-09-01,1
+B2114,"Granite Ridge Residences, LP",CRE - Multifamily,CRE,Houston,TX,2,2024-07-01,1
+B2115,"Nueces Residences, LP",CRE - Multifamily,CRE,Houston,TX,19,2018-10-01,0
+B2116,"Ironwood Machine Works, Inc.",Manufacturing,C&I,Houston,TX,10,2022-10-01,1
+B2117,"Live Oak Trucking, Ltd.",Transportation,C&I,Austin,TX,23,2016-12-01,1
+B2118,"Gulfline Manufacturing, Ltd.",Manufacturing,C&I,San Antonio,TX,12,2018-07-01,1
+B2119,"Guadalupe Residences, Inc.",CRE - Multifamily,CRE,Houston,TX,2,2017-02-01,0
+B2120,"Pecan Hollow Advisors, LP",Professional Services,C&I,Austin,TX,14,2024-02-01,1
+B2121,"Ironwood Industries, LP",Manufacturing,C&I,Oklahoma City,OK,25,2014-04-01,1
+B2122,"Nueces Tower, Ltd.",CRE - Office,CRE,Fort Worth,TX,6,2023-06-01,1
+B2123,"Cedar Bayou Medical Group, Inc.",Healthcare,C&I,Houston,TX,20,2019-10-01,1
+B2124,"Cypress Machine Works, Inc.",Manufacturing,C&I,Baton Rouge,LA,9,2021-12-01,1
+B2125,"Cypress Assisted Living, LP",CRE - Senior Housing,CRE,Houston,TX,12,2019-10-01,0
+B2126,"Riverbend Industries, LLC",Manufacturing,C&I,Houston,TX,8,2024-12-01,1
+B2127,"Pinewood Dental, Inc.",Healthcare,C&I,Houston,TX,6,2022-08-01,1
+B2128,"Pecan Hollow Home Center, LP",Retail Trade,C&I,San Antonio,TX,19,2019-11-01,1
+B2129,"Stonegate Storage, LP",CRE - Self Storage,CRE,Oklahoma City,OK,19,2020-09-01,1
+B2130,"Mesquite Mercantile, Inc.",Retail Trade,C&I,Baton Rouge,LA,31,2022-10-01,1
+B2131,"Sandstone Oilfield Services, Inc.",Energy Services,C&I,Houston,TX,21,2022-11-01,1
+B2132,"Live Oak Business Park, Inc.",CRE - Industrial,CRE,Houston,TX,27,2016-10-01,1
+B2133,"Granite Ridge Consulting, LP",Professional Services,C&I,Houston,TX,2,2020-06-01,1
+B2134,"Silverleaf Trucking, LLC",Transportation,C&I,Houston,TX,16,2022-01-01,1
+B2135,"Silverleaf Engineering, Inc.",Professional Services,C&I,San Antonio,TX,20,2022-02-01,0
+B2136,"Live Oak Physical Therapy, LLC",Healthcare,C&I,Houston,TX,15,2015-08-01,1
+B2137,"Cedar Bayou Trucking, Ltd.",Transportation,C&I,Dallas,TX,13,2016-12-01,1
+B2138,"Stonegate Restaurant Group, Inc.",Restaurants,C&I,Dallas,TX,23,2016-06-01,1
+B2139,"Lone Star Logistics, LP",Transportation,C&I,San Antonio,TX,26,2015-01-01,1
+B2140,"Bluebonnet Wholesale, LP",Wholesale Distribution,C&I,Dallas,TX,27,2016-02-01,1
+B2141,"Twin Oaks Tower, LLC",CRE - Office,CRE,Dallas,TX,17,2017-06-01,0
+B2142,"Falcon Point Consulting, LP",Professional Services,C&I,Dallas,TX,26,2023-05-01,0
+B2143,"Nueces Machine Works, Inc.",Manufacturing,C&I,Fort Worth,TX,22,2022-08-01,1
+B2144,"Falcon Point Business Park, Inc.",CRE - Industrial,CRE,Dallas,TX,16,2021-09-01,1
+B2145,"Cedar Bayou Contractors, LLC",Construction,C&I,Houston,TX,26,2022-09-01,1
+B2146,"Red River Wholesale, Inc.",Wholesale Distribution,C&I,San Antonio,TX,17,2023-04-01,1
+B2147,"Highland Industries, Inc.",Manufacturing,C&I,Dallas,TX,8,2024-12-01,1
+B2148,"Eastfield Home Center, Ltd.",Retail Trade,C&I,San Antonio,TX,15,2020-11-01,1
+B2149,"Gulfline Physical Therapy, Ltd.",Healthcare,C&I,Fort Worth,TX,40,2017-07-01,0
+B2150,"Pecan Hollow Residences, LP",CRE - Multifamily,CRE,Dallas,TX,6,2024-08-01,0
+B2151,"Lone Star Distributors, LLC",Wholesale Distribution,C&I,Dallas,TX,14,2021-08-01,1
+B2152,"Prairie View Electric, LLC",Construction,C&I,Fort Worth,TX,2,2014-09-01,1
+B2153,"Riverbend Distribution Center, LP",CRE - Industrial,CRE,Houston,TX,15,2020-08-01,0
+B2154,"Brazos Residences, LLC",CRE - Multifamily,CRE,Lake Charles,LA,13,2017-11-01,1
+B2155,"Granite Ridge Builders, LP",Construction,C&I,San Antonio,TX,31,2025-03-01,1
+B2156,"Frio Engineering, Ltd.",Professional Services,C&I,San Antonio,TX,9,2023-01-01,1
+B2157,"Ironwood Office Center, LP",CRE - Office,CRE,Dallas,TX,9,2021-06-01,0
+B2158,"Gulfline Tower, Ltd.",CRE - Office,CRE,Corpus Christi,TX,26,2017-02-01,1
+B2159,"Guadalupe Self Storage, LLC",CRE - Self Storage,CRE,Houston,TX,16,2017-02-01,1
+B2160,"Stonegate Village, Ltd.",CRE - Multifamily,CRE,San Antonio,TX,30,2020-04-01,1
+B2161,"Ironwood Advisors, LLC",Professional Services,C&I,Houston,TX,18,2018-01-01,1
+B2162,"Highland Residences, Ltd.",CRE - Multifamily,CRE,Fort Worth,TX,31,2023-08-01,1
+B2163,"Caddo Apartments, LLC",CRE - Multifamily,CRE,Houston,TX,20,2015-05-01,1
+B2164,"Northline Industries, Inc.",Manufacturing,C&I,San Antonio,TX,18,2018-09-01,1
+B2165,"Live Oak Advisors, LP",Professional Services,C&I,Houston,TX,28,2020-01-01,1
+B2166,"Nueces Residences, Ltd.",CRE - Multifamily,CRE,Houston,TX,2,2024-10-01,0
+B2167,"Granite Ridge Office Plaza, LP",CRE - Office,CRE,Baton Rouge,LA,7,2019-11-01,1
+B2168,"Bluebonnet Construction, Ltd.",Construction,C&I,Austin,TX,24,2018-11-01,1
+B2169,"Trinity Engineering, LLC",Professional Services,C&I,Beaumont,TX,6,2025-07-01,1
+B2170,"Copper Creek Supply, Inc.",Wholesale Distribution,C&I,San Antonio,TX,15,2017-05-01,1
+B2171,"Frio Logistics, LP",Transportation,C&I,Baton Rouge,LA,16,2021-04-01,1
+B2172,"Eastfield Village, Inc.",CRE - Multifamily,CRE,Shreveport,LA,15,2014-11-01,1
+B2173,"Mesquite Advisors, Ltd.",Professional Services,C&I,Dallas,TX,7,2018-02-01,1
+B2174,"Bayside Family Practice, LP",Healthcare,C&I,Houston,TX,9,2017-07-01,0
+B2175,"Northline Tower, LLC",CRE - Office,CRE,Lake Charles,LA,8,2017-09-01,0
+B2176,"Frio Industries, Inc.",Manufacturing,C&I,Houston,TX,21,2019-12-01,0
+B2177,"Nueces Manufacturing, Ltd.",Manufacturing,C&I,Dallas,TX,22,2025-02-01,1
+B2178,"Magnolia Home Center, Ltd.",Retail Trade,C&I,Houston,TX,12,2016-07-01,1
+B2179,"Brazos Physical Therapy, LP",Healthcare,C&I,Tulsa,OK,15,2014-08-01,1
+B2180,"Granite Ridge Distributors, Ltd.",Wholesale Distribution,C&I,San Antonio,TX,2,2021-03-01,1
+B2181,"Guadalupe Office Center, LP",CRE - Office,CRE,Austin,TX,22,2022-10-01,1
+B2182,"Silverleaf Manufacturing, LLC",Manufacturing,C&I,Dallas,TX,20,2025-09-01,1
+B2183,"Falcon Point Village, Ltd.",CRE - Multifamily,CRE,Corpus Christi,TX,27,2023-08-01,1
+B2184,"Guadalupe Storage, LP",CRE - Self Storage,CRE,Houston,TX,26,2021-02-01,1
+B2185,"Prairie View Electric, LP",Construction,C&I,Dallas,TX,24,2015-04-01,1
+B2186,"Pinewood Supply, Inc.",Wholesale Distribution,C&I,Beaumont,TX,10,2019-06-01,1
+B2187,"Cypress Business Park, LP",CRE - Industrial,CRE,Fort Worth,TX,13,2016-03-01,1
+B2188,"Guadalupe Village, LLC",CRE - Multifamily,CRE,Dallas,TX,17,2019-04-01,0
+B2189,"Frio Construction, LP",Construction,C&I,Houston,TX,22,2020-09-01,1
+B2190,"Frio Distributors, Ltd.",Wholesale Distribution,C&I,Houston,TX,11,2024-09-01,1
+B2191,"Live Oak Hotel, Ltd.",CRE - Hospitality,CRE,Lake Charles,LA,23,2017-05-01,1
+B2192,"Caddo Consulting, Inc.",Professional Services,C&I,Fort Worth,TX,16,2015-08-01,1
+B2193,"Granite Ridge Construction, Inc.",Construction,C&I,Lake Charles,LA,25,2017-05-01,1
+B2194,"Eastfield Shopping Center, Ltd.",CRE - Retail,CRE,San Antonio,TX,22,2021-11-01,0
+B2195,"Riverbend Lodge, LP",CRE - Hospitality,CRE,Austin,TX,6,2024-01-01,1
+B2196,"Harborview Industries, Inc.",Manufacturing,C&I,Houston,TX,23,2019-10-01,1
+B2197,"Highland Distributors, LLC",Wholesale Distribution,C&I,Dallas,TX,11,2017-01-01,1
+B2198,"Sandstone Family Practice, Inc.",Healthcare,C&I,Tulsa,OK,26,2020-04-01,1
+B2199,"Ironwood Contractors, LP",Construction,C&I,Austin,TX,17,2017-05-01,1
+B2200,"Clearfork Trucking, LLC",Transportation,C&I,Houston,TX,14,2024-01-01,0
+B2201,"Brazos Advisors, Ltd.",Professional Services,C&I,Fort Worth,TX,2,2017-06-01,1
+B2202,"Copper Creek Storage, Inc.",CRE - Self Storage,CRE,Beaumont,TX,9,2024-08-01,1
+B2203,"Trinity Apartments, LLC",CRE - Multifamily,CRE,Dallas,TX,2,2017-10-01,1
+B2204,"Live Oak Machine Works, LP",Manufacturing,C&I,Houston,TX,23,2019-12-01,1
+B2205,"Falcon Point Industries, LLC",Manufacturing,C&I,San Antonio,TX,2,2024-04-01,1
+B2206,"Cedar Bayou Tower, Inc.",CRE - Office,CRE,Houston,TX,9,2024-02-01,1
+B2207,"Frio Self Storage, LP",CRE - Self Storage,CRE,San Antonio,TX,18,2019-04-01,1
+B2208,"Nueces Wholesale, Inc.",Wholesale Distribution,C&I,Fort Worth,TX,20,2022-09-01,1
+B2209,"Stonegate Trucking, LLC",Transportation,C&I,Houston,TX,32,2024-07-01,1
+B2210,"Copper Creek Trucking, LP",Transportation,C&I,Houston,TX,18,2019-02-01,1
+B2211,"Trinity Trucking, Inc.",Transportation,C&I,San Antonio,TX,17,2023-09-01,0
+B2212,"Cypress Commons, Inc.",CRE - Retail,CRE,Houston,TX,21,2025-09-01,0
+B2213,"Highland Hotel, LLC",CRE - Hospitality,CRE,Shreveport,LA,18,2020-08-01,0
+B2214,"Falcon Point Physical Therapy, Inc.",Healthcare,C&I,Houston,TX,8,2015-08-01,0
+B2215,"Pinewood Construction, LP",Construction,C&I,Lake Charles,LA,14,2022-04-01,0
+B2216,"Sandstone Self Storage, LLC",CRE - Self Storage,CRE,Fort Worth,TX,3,2019-10-01,0
+B2217,"Bluebonnet Storage, Inc.",CRE - Self Storage,CRE,Houston,TX,31,2022-10-01,1
+B2218,"Granite Ridge Fabrication, LLC",Manufacturing,C&I,Houston,TX,15,2018-01-01,1
+B2219,"Pecan Hollow Residences, Inc.",CRE - Multifamily,CRE,Dallas,TX,17,2021-05-01,0
+B2220,"Copper Creek Restaurant Group, LP",Restaurants,C&I,Oklahoma City,OK,20,2023-06-01,1
+B2221,"Eastfield Distribution Center, Inc.",CRE - Industrial,CRE,San Antonio,TX,7,2020-08-01,1
+B2222,"Mesquite Inn & Suites, LP",CRE - Hospitality,CRE,Lake Charles,LA,28,2023-11-01,0
+B2223,"Highland Apartments, Inc.",CRE - Multifamily,CRE,San Antonio,TX,11,2023-07-01,1
+B2224,"Guadalupe Builders, LP",Construction,C&I,Lake Charles,LA,18,2020-06-01,1
+B2225,"Mesquite Storage, LLC",CRE - Self Storage,CRE,Houston,TX,22,2021-06-01,0
+B2226,"Stonegate Office Plaza, LP",CRE - Office,CRE,Austin,TX,2,2025-02-01,1
+B2227,"Eastfield Residences, Inc.",CRE - Multifamily,CRE,Fort Worth,TX,29,2020-07-01,1
+B2228,"Copper Creek Logistics, Ltd.",Transportation,C&I,Fort Worth,TX,3,2020-12-01,1
+B2229,"Guadalupe Shopping Center, Inc.",CRE - Retail,CRE,Fort Worth,TX,22,2022-03-01,1
+B2230,"Highland Family Practice, Inc.",Healthcare,C&I,Beaumont,TX,24,2023-11-01,1
+B2231,"Bluebonnet Office Plaza, Inc.",CRE - Office,CRE,Dallas,TX,19,2017-02-01,1
+B2232,"Live Oak Construction, LLC",Construction,C&I,San Antonio,TX,25,2019-06-01,1
+B2233,"Trinity Marketplace, Ltd.",CRE - Retail,CRE,Houston,TX,20,2016-06-01,1
+B2234,"Clearfork Village, LP",CRE - Multifamily,CRE,San Antonio,TX,6,2018-05-01,1
+B2235,"Gulfline Contractors, Inc.",Construction,C&I,Corpus Christi,TX,12,2016-03-01,1
+B2236,"Pecan Hollow Logistics, Inc.",Transportation,C&I,Fort Worth,TX,2,2020-05-01,1
+B2237,"Bayside Consulting, LP",Professional Services,C&I,Houston,TX,7,2021-12-01,1
+B2238,"Clearfork Shopping Center, Inc.",CRE - Retail,CRE,Austin,TX,31,2016-07-01,1
+B2239,"Bayside Industrial Park, LLC",CRE - Industrial,CRE,Dallas,TX,2,2024-04-01,0
+B2240,"Sabine Storage, LP",CRE - Self Storage,CRE,Beaumont,TX,5,2024-09-01,1
+B2241,"Riverbend Ag Supply, Inc.",Agriculture,C&I,Beaumont,TX,11,2019-12-01,1
+B2242,"Magnolia Medical Group, LP",Healthcare,C&I,San Antonio,TX,16,2025-02-01,1
+B2243,"Bluebonnet Assisted Living, LLC",CRE - Senior Housing,CRE,Fort Worth,TX,36,2014-07-01,1
+B2244,"Magnolia Dental, LP",Healthcare,C&I,Lake Charles,LA,23,2025-11-01,1
+B2245,"Frio Manufacturing, Inc.",Manufacturing,C&I,Beaumont,TX,2,2020-12-01,1
+B2246,"Granite Ridge Storage, LP",CRE - Self Storage,CRE,Lake Charles,LA,30,2021-03-01,0
+B2247,"Harborview Outfitters, LLC",Retail Trade,C&I,Dallas,TX,4,2018-04-01,1
+B2248,"Bluebonnet Commons, LLC",CRE - Retail,CRE,San Antonio,TX,20,2022-01-01,1
+B2249,"Granite Ridge Self Storage, Inc.",CRE - Self Storage,CRE,San Antonio,TX,2,2021-11-01,0
+B2250,"Red River Dental, Ltd.",Healthcare,C&I,Houston,TX,22,2020-09-01,1
+B2251,"Trinity Consulting, Inc.",Professional Services,C&I,Houston,TX,16,2024-06-01,1
+B2252,"Brazos Distribution Center, Ltd.",CRE - Industrial,CRE,Beaumont,TX,19,2014-10-01,1
+B2253,"Cedar Bayou Dental, LLC",Healthcare,C&I,Houston,TX,10,2023-11-01,1
+B2254,"Guadalupe Apartments, Ltd.",CRE - Multifamily,CRE,Houston,TX,23,2021-12-01,0
+B2255,"Westpark Consulting, Ltd.",Professional Services,C&I,Houston,TX,5,2022-12-01,1
+B2256,"Falcon Point Storage, LLC",CRE - Self Storage,CRE,Houston,TX,29,2025-03-01,0
+B2257,"Trinity Tower, LP",CRE - Office,CRE,San Antonio,TX,22,2023-02-01,1
+B2258,"Trinity Inn & Suites, LLC",CRE - Hospitality,CRE,Dallas,TX,18,2015-01-01,1
+B2259,"Caddo Engineering, LP",Professional Services,C&I,Houston,TX,20,2021-11-01,1
+B2260,"Silverleaf Machine Works, LP",Manufacturing,C&I,Houston,TX,12,2016-07-01,1
+B2261,"Gulfline Storage, Inc.",CRE - Self Storage,CRE,Houston,TX,29,2021-09-01,1
+B2262,"Highland Tower, Inc.",CRE - Office,CRE,Houston,TX,29,2016-02-01,1
+B2263,"Twin Oaks Pipeline Services, Inc.",Energy Services,C&I,Houston,TX,14,2020-09-01,1
+B2264,"Westpark Trucking, LP",Transportation,C&I,Dallas,TX,23,2020-04-01,1
+B2265,"Lone Star Distribution Center, Inc.",CRE - Industrial,CRE,Fort Worth,TX,31,2018-02-01,0
+B2266,"Twin Oaks Dental, Ltd.",Healthcare,C&I,Shreveport,LA,24,2017-05-01,0
+B2267,"Nueces Apartments, LLC",CRE - Multifamily,CRE,Fort Worth,TX,19,2015-01-01,0
+B2268,"Gulfline Village, Ltd.",CRE - Multifamily,CRE,Houston,TX,20,2021-06-01,0
+B2269,"Pinewood Oilfield Services, LLC",Energy Services,C&I,Corpus Christi,TX,15,2021-05-01,1
+B2270,"Mesquite Family Practice, LP",Healthcare,C&I,Houston,TX,8,2024-12-01,1
+B2271,"Red River Industries, LLC",Manufacturing,C&I,Baton Rouge,LA,15,2019-11-01,1
+B2272,"Stonegate Apartments, LLC",CRE - Multifamily,CRE,Dallas,TX,19,2017-02-01,1
+B2273,"Granite Ridge Self Storage, LP",CRE - Self Storage,CRE,Houston,TX,23,2019-01-01,1
+B2274,"Ironwood Ag Supply, Ltd.",Agriculture,C&I,Corpus Christi,TX,22,2023-07-01,0
+B2275,"Copper Creek Machine Works, LP",Manufacturing,C&I,Houston,TX,2,2016-08-01,0
+B2276,"Magnolia Oilfield Services, Ltd.",Energy Services,C&I,Shreveport,LA,17,2023-09-01,1
+B2277,"Nueces Construction, Ltd.",Construction,C&I,Baton Rouge,LA,8,2018-01-01,1
+B2278,"Falcon Point Supply, Ltd.",Wholesale Distribution,C&I,Houston,TX,33,2021-03-01,0
+B2279,"Gulfline Builders, Ltd.",Construction,C&I,Dallas,TX,34,2018-01-01,1
+B2280,"Copper Creek Ag Supply, Inc.",Agriculture,C&I,Houston,TX,17,2025-03-01,1
+B2281,"Cypress Freight, LP",Transportation,C&I,Houston,TX,18,2022-06-01,1
+B2282,"Sandstone Residences, Ltd.",CRE - Multifamily,CRE,Beaumont,TX,18,2023-10-01,1
+B2283,"Brazos Residences, LP",CRE - Multifamily,CRE,Houston,TX,7,2021-12-01,1
+B2284,"Ironwood Kitchen, LP",Restaurants,C&I,Houston,TX,13,2020-05-01,1
+B2285,"Granite Ridge Office Center, LLC",CRE - Office,CRE,Dallas,TX,16,2015-04-01,0
+B2286,"Cypress Family Practice, Ltd.",Healthcare,C&I,San Antonio,TX,6,2018-01-01,1
+B2287,"Magnolia Self Storage, LP",CRE - Self Storage,CRE,Houston,TX,25,2022-03-01,0
+B2288,"Red River Electric, LP",Construction,C&I,Houston,TX,15,2025-07-01,1
+B2289,"Clearfork Apartments, Ltd.",CRE - Multifamily,CRE,Beaumont,TX,5,2016-08-01,1
+B2290,"Bayside Contractors, Inc.",Construction,C&I,Houston,TX,6,2014-10-01,0
+B2291,"Trinity Office Plaza, Ltd.",CRE - Office,CRE,Dallas,TX,20,2019-04-01,1
+B2292,"Magnolia Restaurant Group, Inc.",Restaurants,C&I,Dallas,TX,23,2023-09-01,1
+B2293,"Clearfork Oilfield Services, Inc.",Energy Services,C&I,Houston,TX,5,2024-11-01,1
+B2294,"Silverleaf Residences, Inc.",CRE - Multifamily,CRE,Houston,TX,24,2015-10-01,1
+B2295,"Magnolia Industrial Park, LP",CRE - Industrial,CRE,Fort Worth,TX,4,2019-11-01,1
+B2296,"Caddo Logistics, Inc.",Transportation,C&I,Baton Rouge,LA,12,2019-11-01,1
+B2297,"Magnolia Home Center, LLC",Retail Trade,C&I,Fort Worth,TX,20,2016-12-01,1
+B2298,"Cypress Builders, Inc.",Construction,C&I,Shreveport,LA,8,2018-11-01,1
+B2299,"Granite Ridge Inn & Suites, Ltd.",CRE - Hospitality,CRE,Austin,TX,11,2023-03-01,0
+B2300,"Twin Oaks Family Practice, LP",Healthcare,C&I,Tulsa,OK,23,2020-06-01,1
+B2301,"Live Oak Village, LP",CRE - Multifamily,CRE,Houston,TX,7,2024-01-01,1
+B2302,"Highland Lodge, Ltd.",CRE - Hospitality,CRE,Oklahoma City,OK,10,2017-01-01,1
+B2303,"Brazos Hotel, Ltd.",CRE - Hospitality,CRE,Dallas,TX,13,2023-03-01,1
+B2304,"Sandstone Wholesale, Ltd.",Wholesale Distribution,C&I,Austin,TX,30,2025-11-01,0
+B2305,"Cedar Bayou Apartments, Inc.",CRE - Multifamily,CRE,Houston,TX,33,2021-03-01,0
+B2306,"Westpark Oilfield Services, Inc.",Energy Services,C&I,Fort Worth,TX,2,2025-07-01,1
+B2307,"Mesquite Village, Inc.",CRE - Multifamily,CRE,Lake Charles,LA,10,2018-07-01,0
+B2308,"Stonegate Industrial Park, Ltd.",CRE - Industrial,CRE,Tulsa,OK,15,2017-09-01,1
+B2309,"Clearfork Storage, Ltd.",CRE - Self Storage,CRE,Houston,TX,5,2024-02-01,0
+B2310,"Prairie View Industries, Ltd.",Manufacturing,C&I,San Antonio,TX,24,2023-02-01,1
+B2311,"Harborview Pipeline Services, LLC",Energy Services,C&I,San Antonio,TX,18,2022-07-01,1
+B2312,"Mesquite Business Park, Ltd.",CRE - Industrial,CRE,Shreveport,LA,6,2023-05-01,0
+B2313,"Sabine Freight, LLC",Transportation,C&I,Lake Charles,LA,2,2020-09-01,1
+B2314,"Red River Village, Inc.",CRE - Multifamily,CRE,Austin,TX,14,2020-02-01,0
+B2315,"Bayside Village, Inc.",CRE - Multifamily,CRE,Houston,TX,20,2021-09-01,1
+B2316,"Pecan Hollow Ag Supply, LP",Agriculture,C&I,San Antonio,TX,2,2021-10-01,1
+B2317,"Frio Apartments, LLC",CRE - Multifamily,CRE,Dallas,TX,15,2023-07-01,1
+B2318,"Bayside Manufacturing, Ltd.",Manufacturing,C&I,Austin,TX,15,2018-12-01,0
+B2319,"Falcon Point Electric, LP",Construction,C&I,San Antonio,TX,10,2017-07-01,1
+B2320,"Northline Office Plaza, LLC",CRE - Office,CRE,San Antonio,TX,23,2022-01-01,1
+B2321,"Gulfline Home Center, Ltd.",Retail Trade,C&I,Houston,TX,19,2016-11-01,1
+B2322,"Cypress Business Park, Inc.",CRE - Industrial,CRE,Dallas,TX,21,2020-03-01,0
+B2323,"Frio Distributors, LP",Wholesale Distribution,C&I,Austin,TX,7,2022-01-01,1
+B2324,"Harborview Hotel, Inc.",CRE - Hospitality,CRE,Dallas,TX,20,2019-10-01,1
+B2325,"Twin Oaks Engineering, LLC",Professional Services,C&I,Fort Worth,TX,27,2016-11-01,1
+B2326,"Mesquite Manufacturing, Inc.",Manufacturing,C&I,Oklahoma City,OK,21,2023-01-01,1
+B2327,"Prairie View Apartments, Ltd.",CRE - Multifamily,CRE,Shreveport,LA,24,2017-09-01,1
+B2328,"Nueces Outfitters, Ltd.",Retail Trade,C&I,Shreveport,LA,12,2022-07-01,1
+B2329,"Clearfork Dental, Inc.",Healthcare,C&I,San Antonio,TX,16,2021-06-01,1
+B2330,"Caddo Business Park, Ltd.",CRE - Industrial,CRE,Dallas,TX,10,2020-08-01,1
+B2331,"Caddo Machine Works, LLC",Manufacturing,C&I,Tulsa,OK,15,2019-01-01,1
+B2332,"Trinity Engineering, Ltd.",Professional Services,C&I,Oklahoma City,OK,26,2021-07-01,1
+B2333,"Pinewood Medical Group, LP",Healthcare,C&I,Houston,TX,17,2018-03-01,0
+B2334,"Pinewood Advisors, Ltd.",Professional Services,C&I,Dallas,TX,5,2017-09-01,1
+B2335,"Gulfline Family Practice, Ltd.",Healthcare,C&I,Houston,TX,22,2022-02-01,1
+B2336,"Twin Oaks Medical Group, LP",Healthcare,C&I,Baton Rouge,LA,28,2016-04-01,1
+B2337,"Sabine Medical Group, LLC",Healthcare,C&I,Lake Charles,LA,24,2024-10-01,1
+B2338,"Highland Wholesale, Inc.",Wholesale Distribution,C&I,Dallas,TX,11,2020-05-01,1
+B2339,"Westpark Office Center, LLC",CRE - Office,CRE,Houston,TX,21,2023-06-01,1
+B2340,"Magnolia Shopping Center, Ltd.",CRE - Retail,CRE,Dallas,TX,25,2021-02-01,1
+B2341,"Stonegate Senior Living, Ltd.",CRE - Senior Housing,CRE,Houston,TX,13,2023-12-01,0
+B2342,"Stonegate Assisted Living, Inc.",CRE - Senior Housing,CRE,Houston,TX,7,2015-06-01,1
+B2343,"Sabine Energy Services, Inc.",Energy Services,C&I,Houston,TX,22,2014-05-01,1
+B2344,"Prairie View Dental, Ltd.",Healthcare,C&I,Fort Worth,TX,9,2020-01-01,0
+B2345,"Northline Storage, LP",CRE - Self Storage,CRE,Baton Rouge,LA,14,2018-03-01,0
+B2346,"Harborview Apartments, Ltd.",CRE - Multifamily,CRE,Dallas,TX,27,2024-08-01,0
+B2347,"Lone Star Grill, Ltd.",Restaurants,C&I,Houston,TX,24,2022-11-01,1
+B2348,"Clearfork Builders, Inc.",Construction,C&I,Baton Rouge,LA,17,2024-04-01,1
+B2349,"Lone Star Energy Services, Ltd.",Energy Services,C&I,Houston,TX,19,2018-04-01,1
+B2350,"Live Oak Business Park, LLC",CRE - Industrial,CRE,Houston,TX,10,2019-04-01,1
+B2351,"Twin Oaks Feed & Seed, Ltd.",Agriculture,C&I,Dallas,TX,20,2018-09-01,1
+B2352,"Bluebonnet Supply, Ltd.",Wholesale Distribution,C&I,Tulsa,OK,27,2025-08-01,1
+B2353,"Trinity Assisted Living, Ltd.",CRE - Senior Housing,CRE,Dallas,TX,6,2023-06-01,0
+B2354,"Sandstone Freight, LP",Transportation,C&I,Dallas,TX,12,2018-04-01,1
+B2355,"Caddo Farms, LP",Agriculture,C&I,Houston,TX,21,2024-07-01,1
+B2356,"Live Oak Inn & Suites, Ltd.",CRE - Hospitality,CRE,Lake Charles,LA,29,2016-10-01,1
+B2357,"Trinity Manufacturing, Inc.",Manufacturing,C&I,Houston,TX,17,2020-06-01,1
+B2358,"Brazos Family Practice, LP",Healthcare,C&I,Baton Rouge,LA,16,2020-05-01,1
+B2359,"Ironwood Outfitters, Inc.",Retail Trade,C&I,Dallas,TX,11,2017-11-01,0
+B2360,"Harborview Medical Group, Ltd.",Healthcare,C&I,Dallas,TX,3,2021-07-01,1
+B2361,"Gulfline Inn & Suites, Inc.",CRE - Hospitality,CRE,Houston,TX,11,2019-02-01,0
+B2362,"Magnolia Distributors, Ltd.",Wholesale Distribution,C&I,Houston,TX,17,2017-03-01,0
+B2363,"Silverleaf Senior Living, Inc.",CRE - Senior Housing,CRE,Corpus Christi,TX,16,2021-04-01,1
+B2364,"Cedar Bayou Advisors, LLC",Professional Services,C&I,Houston,TX,2,2018-03-01,1
+B2365,"Red River Construction, Inc.",Construction,C&I,Houston,TX,17,2022-04-01,0
+B2366,"Westpark Shopping Center, LLC",CRE - Retail,CRE,Beaumont,TX,30,2025-07-01,1
+B2367,"Highland Tower, LP",CRE - Office,CRE,Baton Rouge,LA,5,2022-11-01,1
+B2368,"Frio Self Storage, Inc.",CRE - Self Storage,CRE,Houston,TX,7,2025-06-01,1
+B2369,"Falcon Point Engineering, Ltd.",Professional Services,C&I,Houston,TX,12,2021-07-01,0
+B2370,"Prairie View Oilfield Services, LLC",Energy Services,C&I,Corpus Christi,TX,17,2018-04-01,1
+B2371,"Northline Apartments, LP",CRE - Multifamily,CRE,Fort Worth,TX,2,2019-09-01,1
+B2372,"Live Oak Marketplace, Inc.",CRE - Retail,CRE,Dallas,TX,13,2019-08-01,0
+B2373,"Ironwood Tower, LLC",CRE - Office,CRE,San Antonio,TX,13,2025-05-01,0
+B2374,"Gulfline Residences, Inc.",CRE - Multifamily,CRE,Corpus Christi,TX,18,2022-05-01,0
+B2375,"Granite Ridge Assisted Living, Inc.",CRE - Senior Housing,CRE,Corpus Christi,TX,23,2024-01-01,0
+B2376,"Lone Star Kitchen, LLC",Restaurants,C&I,Houston,TX,23,2018-10-01,1
+B2377,"Twin Oaks Commons, Ltd.",CRE - Retail,CRE,Houston,TX,24,2016-08-01,1
+B2378,"Bayside Advisors, LP",Professional Services,C&I,Houston,TX,7,2016-05-01,1
+B2379,"Cypress Marketplace, LP",CRE - Retail,CRE,Houston,TX,23,2023-01-01,1
+B2380,"Lone Star Office Center, LLC",CRE - Office,CRE,Houston,TX,39,2018-07-01,0
+B2381,"Granite Ridge Family Practice, LP",Healthcare,C&I,Houston,TX,14,2021-01-01,1
+B2382,"Clearfork Office Center, Ltd.",CRE - Office,CRE,Houston,TX,25,2018-12-01,0
+B2383,"Guadalupe Business Park, LLC",CRE - Industrial,CRE,Houston,TX,9,2023-04-01,1
+B2384,"Ironwood Office Plaza, Ltd.",CRE - Office,CRE,Dallas,TX,27,2021-01-01,1
+B2385,"Riverbend Home Center, Inc.",Retail Trade,C&I,Houston,TX,16,2023-08-01,1
+B2386,"Guadalupe Village, Ltd.",CRE - Multifamily,CRE,Tulsa,OK,3,2023-11-01,0
+B2387,"Magnolia Supply, Inc.",Wholesale Distribution,C&I,San Antonio,TX,2,2018-08-01,1
+B2388,"Bluebonnet Assisted Living, Ltd.",CRE - Senior Housing,CRE,Corpus Christi,TX,3,2018-03-01,1
+B2389,"Clearfork Family Practice, Inc.",Healthcare,C&I,Fort Worth,TX,5,2024-04-01,1
+B2390,"Silverleaf Trucking, Inc.",Transportation,C&I,Oklahoma City,OK,13,2019-10-01,1
+B2391,"Gulfline Distribution Center, Inc.",CRE - Industrial,CRE,Dallas,TX,5,2023-02-01,1
+B2392,"Lone Star Contractors, Inc.",Construction,C&I,Oklahoma City,OK,27,2023-12-01,1
+B2393,"Nueces Commons, LP",CRE - Retail,CRE,Houston,TX,9,2024-04-01,1
+B2394,"Sabine Senior Living, Inc.",CRE - Senior Housing,CRE,Houston,TX,9,2018-01-01,1
+B2395,"Magnolia Marketplace, Ltd.",CRE - Retail,CRE,Fort Worth,TX,11,2023-01-01,0
+B2396,"Frio Consulting, LLC",Professional Services,C&I,San Antonio,TX,8,2015-03-01,1
+B2397,"Magnolia Energy Services, Inc.",Energy Services,C&I,Dallas,TX,10,2025-03-01,1
+B2398,"Pecan Hollow Builders, LLC",Construction,C&I,Houston,TX,21,2016-01-01,1
+B2399,"Sandstone Supply, Inc.",Wholesale Distribution,C&I,Houston,TX,18,2019-05-01,1
+B2400,"Caddo Senior Living, Inc.",CRE - Senior Housing,CRE,Houston,TX,24,2016-04-01,1
+B2401,"Guadalupe Construction, Ltd.",Construction,C&I,Houston,TX,9,2021-07-01,1
+B2402,"Clearfork Restaurant Group, Ltd.",Restaurants,C&I,Houston,TX,3,2020-07-01,0
+B2403,"Ironwood Fabrication, LP",Manufacturing,C&I,Austin,TX,7,2022-12-01,1
+B2404,"Granite Ridge Logistics, Inc.",Transportation,C&I,Dallas,TX,3,2023-08-01,0
+B2405,"Pinewood Farms, LLC",Agriculture,C&I,Dallas,TX,21,2025-03-01,1
+B2406,"Prairie View Machine Works, Inc.",Manufacturing,C&I,Shreveport,LA,16,2019-01-01,1
+B2407,"Silverleaf Advisors, Ltd.",Professional Services,C&I,Beaumont,TX,36,2016-07-01,1
+B2408,"Highland Commons, Ltd.",CRE - Retail,CRE,Dallas,TX,2,2023-05-01,1
+B2409,"Guadalupe Contractors, LLC",Construction,C&I,Houston,TX,18,2023-08-01,1
+B2410,"Highland Logistics, LLC",Transportation,C&I,Dallas,TX,9,2020-02-01,1
+B2411,"Northline Energy Services, Ltd.",Energy Services,C&I,Houston,TX,14,2021-06-01,1
+B2412,"Brazos Village, Ltd.",CRE - Multifamily,CRE,Houston,TX,19,2018-06-01,1
+B2413,"Cedar Bayou Manufacturing, LP",Manufacturing,C&I,Shreveport,LA,18,2020-11-01,1
+B2414,"Trinity Residences, Ltd.",CRE - Multifamily,CRE,San Antonio,TX,17,2015-06-01,1
+B2415,"Harborview Freight, LP",Transportation,C&I,Baton Rouge,LA,14,2019-04-01,1
+B2416,"Sabine Grill, LP",Restaurants,C&I,Oklahoma City,OK,2,2025-03-01,1
+B2417,"Caddo Mercantile, Ltd.",Retail Trade,C&I,Houston,TX,17,2020-08-01,1
+B2418,"Nueces Oilfield Services, Inc.",Energy Services,C&I,Dallas,TX,29,2024-06-01,1
+B2419,"Clearfork Apartments, LLC",CRE - Multifamily,CRE,San Antonio,TX,16,2020-02-01,1
+B2420,"Cypress Outfitters, Inc.",Retail Trade,C&I,Houston,TX,10,2019-04-01,1
+B2421,"Sabine Apartments, Ltd.",CRE - Multifamily,CRE,San Antonio,TX,2,2025-04-01,1
+B2422,"Northline Commons, LP",CRE - Retail,CRE,Corpus Christi,TX,11,2018-09-01,0
+B2423,"Prairie View Business Park, LLC",CRE - Industrial,CRE,Dallas,TX,19,2014-12-01,1
+B2424,"Eastfield Supply, LLC",Wholesale Distribution,C&I,Houston,TX,9,2019-07-01,1
+B2425,"Nueces Manufacturing, Inc.",Manufacturing,C&I,Dallas,TX,2,2015-05-01,1
+B2426,"Brazos Distributors, Inc.",Wholesale Distribution,C&I,Austin,TX,22,2023-12-01,1
+B2427,"Granite Ridge Energy Services, LLC",Energy Services,C&I,Fort Worth,TX,17,2020-08-01,1
+B2428,"Nueces Distribution Center, Inc.",CRE - Industrial,CRE,Fort Worth,TX,35,2021-08-01,1
+B2429,"Prairie View Self Storage, LP",CRE - Self Storage,CRE,Dallas,TX,25,2018-06-01,1
+B2430,"Eastfield Energy Services, Ltd.",Energy Services,C&I,Baton Rouge,LA,21,2022-06-01,1
+B2431,"Caddo Village, LP",CRE - Multifamily,CRE,Dallas,TX,23,2023-02-01,0
+B2432,"Lone Star Freight, Inc.",Transportation,C&I,Houston,TX,13,2019-12-01,1
+B2433,"Magnolia Medical Group, Ltd.",Healthcare,C&I,Baton Rouge,LA,22,2019-07-01,1
+B2434,"Silverleaf Freight, LP",Transportation,C&I,Houston,TX,28,2024-02-01,1
+B2435,"Silverleaf Consulting, LLC",Professional Services,C&I,San Antonio,TX,2,2025-12-01,1
+B2436,"Riverbend Restaurant Group, LP",Restaurants,C&I,Houston,TX,17,2019-08-01,1
+B2437,"Cypress Machine Works, LP",Manufacturing,C&I,San Antonio,TX,12,2021-09-01,1
+B2438,"Nueces Industrial Park, Inc.",CRE - Industrial,CRE,Houston,TX,29,2022-07-01,1
+B2439,"Riverbend Grill, LP",Restaurants,C&I,Houston,TX,26,2020-01-01,1
+B2440,"Nueces Physical Therapy, LP",Healthcare,C&I,Tulsa,OK,18,2017-04-01,1
+B2441,"Sabine Feed & Seed, LP",Agriculture,C&I,San Antonio,TX,17,2020-12-01,1
+B2442,"Bluebonnet Distributors, LP",Wholesale Distribution,C&I,Austin,TX,28,2015-01-01,1
+B2443,"Caddo Self Storage, Inc.",CRE - Self Storage,CRE,Corpus Christi,TX,19,2017-06-01,1
+B2444,"Mesquite Medical Group, Inc.",Healthcare,C&I,Dallas,TX,2,2015-02-01,1
+B2445,"Live Oak Grill, Inc.",Restaurants,C&I,San Antonio,TX,11,2024-06-01,1
+B2446,"Twin Oaks Trucking, Ltd.",Transportation,C&I,Dallas,TX,29,2015-01-01,1
+B2447,"Granite Ridge Freight, Inc.",Transportation,C&I,Houston,TX,18,2022-12-01,1
+B2448,"Bayside Manufacturing, LLC",Manufacturing,C&I,Houston,TX,11,2016-08-01,1
+B2449,"Brazos Engineering, LP",Professional Services,C&I,Houston,TX,19,2016-01-01,0
+B2450,"Trinity Construction, Ltd.",Construction,C&I,Austin,TX,17,2024-12-01,1
+B2451,"Lone Star Assisted Living, LP",CRE - Senior Housing,CRE,Houston,TX,19,2025-07-01,0
+B2452,"Copper Creek Village, LP",CRE - Multifamily,CRE,Baton Rouge,LA,18,2024-05-01,1
+B2453,"Red River Distribution Center, Inc.",CRE - Industrial,CRE,Houston,TX,5,2019-05-01,1
+B2454,"Granite Ridge Commons, Ltd.",CRE - Retail,CRE,San Antonio,TX,19,2024-11-01,1
+B2455,"Bayside Business Park, Inc.",CRE - Industrial,CRE,Dallas,TX,13,2017-01-01,0
+B2456,"Brazos Industries, Ltd.",Manufacturing,C&I,San Antonio,TX,8,2023-11-01,1
+B2457,"Pinewood Oilfield Services, Ltd.",Energy Services,C&I,Tulsa,OK,28,2021-11-01,1
+B2458,"Gulfline Freight, Inc.",Transportation,C&I,Austin,TX,15,2020-01-01,1
+B2459,"Sabine Engineering, LP",Professional Services,C&I,Beaumont,TX,3,2023-11-01,0
+B2460,"Lone Star Residences, Inc.",CRE - Multifamily,CRE,Oklahoma City,OK,2,2017-11-01,1
+B2461,"Northline Contractors, LP",Construction,C&I,Dallas,TX,2,2023-05-01,1
+B2462,"Bayside Tower, LLC",CRE - Office,CRE,Lake Charles,LA,19,2022-12-01,1
+B2463,"Harborview Self Storage, Inc.",CRE - Self Storage,CRE,Dallas,TX,14,2018-05-01,1
+B2464,"Copper Creek Industries, Ltd.",Manufacturing,C&I,San Antonio,TX,15,2022-01-01,1
+B2465,"Silverleaf Commons, LLC",CRE - Retail,CRE,Houston,TX,2,2022-07-01,0
+B2466,"Nueces Energy Services, Inc.",Energy Services,C&I,Dallas,TX,18,2019-05-01,1
+B2467,"Sandstone Village, LP",CRE - Multifamily,CRE,Corpus Christi,TX,10,2023-03-01,1
+B2468,"Red River Distribution Center, LLC",CRE - Industrial,CRE,Houston,TX,14,2023-08-01,1
+B2469,"Silverleaf Electric, LLC",Construction,C&I,Beaumont,TX,19,2022-01-01,1
+B2470,"Twin Oaks Supply, LLC",Wholesale Distribution,C&I,Dallas,TX,10,2021-04-01,1
+B2471,"Prairie View Freight, Ltd.",Transportation,C&I,Houston,TX,16,2019-10-01,0
+B2472,"Westpark Contractors, LLC",Construction,C&I,Houston,TX,19,2021-02-01,1
+B2473,"Bayside Lodge, Inc.",CRE - Hospitality,CRE,San Antonio,TX,19,2019-09-01,1
+B2474,"Ironwood Pipeline Services, LLC",Energy Services,C&I,Houston,TX,26,2016-04-01,1
+B2475,"Cypress Wholesale, LP",Wholesale Distribution,C&I,San Antonio,TX,9,2022-04-01,1
+B2476,"Red River Grill, Inc.",Restaurants,C&I,Shreveport,LA,28,2018-02-01,1
+B2477,"Gulfline Senior Living, LLC",CRE - Senior Housing,CRE,Austin,TX,19,2021-09-01,0
+B2478,"Live Oak Office Center, Inc.",CRE - Office,CRE,Austin,TX,6,2025-11-01,1
+B2479,"Silverleaf Distribution Center, Ltd.",CRE - Industrial,CRE,Beaumont,TX,11,2023-03-01,1
+B2480,"Live Oak Mercantile, LP",Retail Trade,C&I,Lake Charles,LA,14,2015-12-01,1
+B2481,"Granite Ridge Manufacturing, Inc.",Manufacturing,C&I,Houston,TX,18,2021-03-01,1
+B2482,"Sabine Senior Living, Ltd.",CRE - Senior Housing,CRE,Austin,TX,15,2022-09-01,0
+B2483,"Pinewood Fabrication, Inc.",Manufacturing,C&I,Fort Worth,TX,21,2015-08-01,0
+B2484,"Stonegate Trucking, LP",Transportation,C&I,Beaumont,TX,4,2015-10-01,0
+B2485,"Eastfield Inn & Suites, LP",CRE - Hospitality,CRE,Fort Worth,TX,19,2021-05-01,1
+B2486,"Eastfield Distributors, LLC",Wholesale Distribution,C&I,Dallas,TX,43,2023-04-01,1
+B2487,"Cypress Office Center, LP",CRE - Office,CRE,Beaumont,TX,12,2022-01-01,0
+B2488,"Pinewood Business Park, Ltd.",CRE - Industrial,CRE,Houston,TX,27,2022-09-01,1
+B2489,"Brazos Mercantile, LP",Retail Trade,C&I,Oklahoma City,OK,15,2025-06-01,0
+B2490,"Trinity Distribution Center, LP",CRE - Industrial,CRE,Houston,TX,2,2022-11-01,1
+B2491,"Granite Ridge Dental, Inc.",Healthcare,C&I,Dallas,TX,18,2023-09-01,1
+B2492,"Sabine Office Center, Ltd.",CRE - Office,CRE,Tulsa,OK,25,2017-03-01,1
+B2493,"Frio Supply, Inc.",Wholesale Distribution,C&I,Houston,TX,4,2024-06-01,0
+B2494,"Lone Star Advisors, Ltd.",Professional Services,C&I,Houston,TX,22,2025-09-01,1
+B2495,"Pecan Hollow Oilfield Services, LLC",Energy Services,C&I,Lake Charles,LA,22,2017-04-01,1
+B2496,"Pecan Hollow Industrial Park, LLC",CRE - Industrial,CRE,San Antonio,TX,8,2024-07-01,1
+B2497,"Highland Construction, LP",Construction,C&I,Austin,TX,34,2019-02-01,1
+B2498,"Riverbend Business Park, LLC",CRE - Industrial,CRE,Oklahoma City,OK,2,2022-02-01,0
+B2499,"Mesquite Fabrication, LP",Manufacturing,C&I,Dallas,TX,24,2019-09-01,1
+B2500,"Gulfline Office Plaza, LLC",CRE - Office,CRE,San Antonio,TX,17,2014-05-01,1

@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Management KPI Dashboard</title>
+<style>
+:root{
+  color-scheme:light;
+  --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --ring:rgba(11,11,11,0.10);
+  --s1:#2a78d6; --s2:#eb6834;
+  --good:#0ca30c; --warn:#fab219; --serious:#ec835a; --crit:#d03b3b;
+  --goodbg:rgba(12,163,12,.12); --warnbg:rgba(250,178,25,.18); --seriousbg:rgba(236,131,90,.16); --critbg:rgba(208,59,59,.14);
+  --diag:#eef3fb; --brand:#1f3864;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --page:#0d0d0d; --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,0.10);
+    --s1:#3987e5; --s2:#d95926; --diag:#20283a; --brand:#9ec5f4;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --page:#0d0d0d; --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,0.10);
+  --s1:#3987e5; --s2:#d95926; --diag:#20283a; --brand:#9ec5f4;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px 48px}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:6px}
+h1{margin:0;font-size:24px;color:var(--brand)}
+.sub{color:var(--ink2)}
+.disc{font-size:12px;color:var(--muted);margin:4px 0 20px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:16px}
+.tile .lab{font-size:12px;color:var(--ink2)}
+.tile .val{font-size:26px;font-weight:600;margin-top:2px}
+.tile .delta{font-size:12px;color:var(--muted);margin-top:2px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+@media (max-width:820px){.grid2{grid-template-columns:1fr}}
+h2{font-size:15px;margin:0 0 4px}
+.cap{font-size:12px;color:var(--muted);margin:0 0 12px}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--ink2);margin-bottom:8px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+svg text{fill:var(--ink2);font-size:11px}
+.tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--ring);box-shadow:0 4px 14px rgba(0,0,0,.15);border-radius:8px;padding:8px 10px;font-size:12px;opacity:0;transition:opacity .08s;z-index:10;max-width:260px}
+.tip b{display:block;margin-bottom:2px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:7px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;white-space:nowrap}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{display:inline-flex;align-items:center;gap:5px;padding:2px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap;color:var(--ink)}
+.pill::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.p-crit{background:var(--critbg)} .p-crit::before{background:var(--crit)}
+.p-watch{background:var(--seriousbg)} .p-watch::before{background:var(--serious)}
+.p-mon{background:var(--warnbg)} .p-mon::before{background:var(--warn)}
+.p-good{background:var(--goodbg)} .p-good::before{background:var(--good)}
+.mig td,.mig th{text-align:center;padding:6px 4px;font-variant-numeric:tabular-nums}
+.mig td.d{background:var(--diag);font-weight:600}
+.mig td.dn{background:var(--critbg);font-weight:600}
+.mig td.up{background:var(--goodbg);font-weight:600}
+.mig td.z{color:var(--muted)}
+.meter{margin:10px 0 16px}
+.meter .row{display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px}
+.bar{position:relative;height:12px;background:var(--grid);border-radius:6px}
+.bar .fill{position:absolute;left:0;top:0;bottom:0;border-radius:6px;background:var(--s1)}
+.bar .lim{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink)}
+.flags{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:6px}
+.flags div{border-radius:8px;padding:10px;text-align:center}
+.flags b{display:block;font-size:22px}
+.flags span{font-size:12px;color:var(--ink2)}
+.tbar{display:flex;height:28px;border-radius:6px;overflow:hidden;gap:2px;margin:6px 0 8px}
+.tbar div{display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:#fff;min-width:0}
+.scroll{overflow-x:auto}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.controls button{font:inherit;font-size:12px;border:1px solid var(--ring);background:var(--surface);color:var(--ink);border-radius:99px;padding:4px 12px;cursor:pointer}
+.controls button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+th.sort{cursor:pointer} th.sort:hover{color:var(--ink)}
+.note{color:var(--ink2);font-size:12px;max-width:440px}
+footer{font-size:12px;color:var(--muted);margin-top:24px}
+</style>
+<style>
+.wf text{font-size:11px}
+.grid2>*{min-width:0}
+.dash{stroke-dasharray:4 3}
+td.neg{color:var(--crit)} td.pos{color:var(--good)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div>
+  <h1>Brazos Bend Fabrication: Management Dashboard</h1>
+  <div class="sub">September 2026 close · Year to date and full-year forecast · Prepared by Matthew Dial, FP&amp;A</div>
+</div></header>
+<div class="disc">Fictional company created for demonstration. Figures are calculated in Monthly_Close_Pack.xlsx, 13_Week_Cash_Flow.xlsx, and Three_Statement_Model.xlsx.</div>
+<section class="tiles" id="tiles"></section>
+
+<div class="grid2">
+  <div class="card"><h2>Monthly revenue vs. budget</h2><p class="cap">Below budget in every month this year; the gap is commercial construction</p>
+    <div class="legend"><span><i style="background:var(--s1)"></i>Actual</span><span><i style="background:var(--s2)"></i>Budget</span></div><div id="monthly"></div></div>
+  <div class="card"><h2>YTD revenue by end market</h2><p class="cap">Energy is ahead of plan; construction is $782K short</p>
+    <div class="legend"><span><i style="background:var(--s1)"></i>Actual</span><span><i style="background:var(--s2)"></i>Budget</span></div><div id="mkts"></div></div>
+</div>
+<div class="grid2">
+  <div class="card"><h2>YTD EBITDA bridge: budget to actual</h2><p class="cap">Construction volume and margin explain nearly all of the $153K shortfall</p><div id="bridge"></div></div>
+  <div class="card"><h2>13-week liquidity outlook</h2><p class="cap">Tight for two weeks until the line increase closes; dashed line is the $750K escalation floor</p>
+    <div class="legend"><span><i style="background:var(--s1)"></i>Cash</span><span><i style="background:var(--s2)"></i>Revolver availability</span></div><div id="liq"></div></div>
+</div>
+<div class="grid2">
+  <div class="card"><h2>Working capital (days)</h2><p class="cap">DSO drifting up since summer; cash conversion cycle near 63 days</p>
+    <div class="legend"><span><i style="background:var(--s1)"></i>DSO</span><span><i style="background:var(--s2)"></i>DIO</span><span><i style="background:#1baf7a"></i>DPO</span></div><div id="wc"></div></div>
+  <div class="card"><h2>Projection snapshot (Base case)</h2><p class="cap">After the equipment purchase, coverage stays well above the 1.25x covenant</p><div class="scroll"><table id="proj"></table></div>
+  <h2 style="margin-top:18px">September bank reconciliation</h2><div class="scroll"><table id="rec"></table></div></div>
+</div>
+<div class="card"><h2>Monthly KPIs</h2><p class="cap">January to September 2026</p><div class="scroll"><table id="kpis"></table></div></div>
+<footer>All figures fictional. Source workbooks are in this folder.</footer>
+</div>
+<div class="tip" id="tip"></div>
+<script>
+const D = {"kpi": {"months": ["Jan-26", "Feb-26", "Mar-26", "Apr-26", "May-26", "Jun-26", "Jul-26", "Aug-26", "Sep-26"], "rev": [1367000, 1393000, 1580000, 1504000, 1646000, 1565000, 1462000, 1592000, 1555000], "bud": [1406000, 1463000, 1615000, 1577000, 1653000, 1634000, 1540000, 1634000, 1596000], "gm": [0.275054864667154, 0.271356783919598, 0.272784810126582, 0.274601063829787, 0.270959902794654, 0.272843450479233, 0.270861833105335, 0.27072864321608, 0.271382636655949], "ebitda": [165667, 162667, 221667, 194667, 226667, 210667, 174667, 217667, 203667], "dso": [48.506461838576, 49.1515700483092, 48.5685483870968, 46.6746705383069, 45.3356236786469, 46.6410392364793, 45.4980740423711, 47.8079670924442, 48.7036233456281], "dio": [50.6432896064581, 51.2504154204055, 49.7464342313788, 47.6574500768049, 46.6860465116279, 47.3680373286673, 46.6436545240893, 48.5401188707281, 49.155505952381], "dpo": [35.2968382105617, 35.4810568295115, 34.9960380348653, 33.3602150537634, 32.6271802325581, 33.2640711577719, 32.1680376028202, 33.6255572065379, 34.21875], "ccc": [63.8529132344724, 64.9209286392032, 63.3189445836103, 60.9719055613484, 59.3944899577167, 60.7450054073746, 59.9736909636402, 62.7225287566345, 63.6403792980091], "backlog": [6900000, 7100000, 7300000, 7200000, 7500000, 7700000, 7600000, 7800000, 7900000], "cash": [598000, 571000, 552000, 610000, 566000, 548000, 602000, 598240, 566427.25], "rl": [820000, 860000, 900000, 880000, 930000, 950000, 920000, 940000, 960000], "avail": [180000, 140000, 100000, 120000, 70000, 50000, 80000, 60000, 40000], "liq": [778000, 711000, 652000, 730000, 636000, 598000, 682000, 658240, 606427.25]}, "bva": {"mkts": ["Commercial construction", "Midstream energy", "Industrial OEM"], "budm": [5647000, 4942000, 3529000], "actm": [4865000, 5329000, 3470000], "ytdRevB": 14118000, "ytdRevA": 13664000, "ytdGMB": 0.275322283609576, "ytdGMA": 0.272248243559719, "ytdEB": 1931003, "ytdEA": 1778003, "sepRevB": 1596000, "sepRevA": 1555000, "sepEB": 222667, "sepEA": 203667}, "bridge": [["Budget EBITDA", 1931003], ["Revenue volume", -99329.2088153853], ["Gross margin rate", -67670.7911846144], ["Officer compensation", 0], ["Other SG&A", 14000], ["Actual EBITDA", 1778003]], "fy": {"revB": 19000000, "revF": 18450000, "ebB": 2619000, "ebF": 2401503, "gmF": 0.27, "growth": 0.0482954545454546}, "rec": {"bank": 628322.67, "dit": 86420, "os": -148315.42, "book": 578529.88, "adj": 566427.25}, "wk": {"dates": ["10/30", "11/06", "11/13", "11/20", "11/27", "12/04", "12/11", "12/18", "12/25", "01/01", "01/08", "01/15", "01/22"], "cash": [534480, 657950, 557200, 413330, 415160, 563519, 516089, 552769, 425099, 484538, 408918, 424478, 416738], "avail": [40000, 65000, 565000, 565000, 515000, 515000, 515000, 515000, 515000, 515000, 515000, 440000, 365000], "liq": [574480, 722950, 1122200, 978330, 930160, 1078519, 1031089, 1067769, 940099, 999538, 923918, 864478, 781738], "rl": [960000, 935000, 935000, 935000, 985000, 985000, 985000, 985000, 985000, 985000, 985000, 1060000, 1135000], "floor": 750000}, "proj": {"yrs": ["FY2023A", "FY2024A", "FY2025A", "FY2026E", "FY2027P", "FY2028P", "FY2029P"], "rev": [14200000, 15900000, 17600000, 18450000, 19557000, 20534850, 21356244], "ebitda": [1562000, 1903500, 2307200, 2401500, 2890004, 3105584.75, 3277400.768], "dscr": [2.34970016839857, 1.86638679028739, 2.00953859665135, 4.07731384564529], "lev": [0.884629344102858, 1.2663986032173, 0.756917526468536, 0.540215088983494]}};
+const $ = s => document.querySelector(s);
+const mm = v => (v<0?"-":"") + "$" + (Math.abs(v)/1e6).toFixed(2) + "MM";
+const kk = v => (v<0?"-":"") + "$" + Math.round(Math.abs(v)/1e3).toLocaleString() + "K";
+const usd = v => (v<0?"-":"") + "$" + Math.round(Math.abs(v)).toLocaleString();
+const pct = (v,d=1) => (v*100).toFixed(d) + "%";
+const tip = $("#tip");
+document.addEventListener("mousemove", e => { const t = e.target.closest("[data-t]"); if (t){ tip.innerHTML=t.dataset.t; tip.style.opacity=1; const w=tip.offsetWidth,h=tip.offsetHeight; let x=e.clientX+14,y=e.clientY+14; if(x+w>innerWidth-8)x=e.clientX-w-14; if(y+h>innerHeight-8)y=e.clientY-h-14; tip.style.left=x+"px"; tip.style.top=y+"px"; } else tip.style.opacity=0; });
+const K=D.kpi, B=D.bva, F=D.fy;
+const tiles=[["YTD revenue",mm(B.ytdRevA),`${pct(B.ytdRevA/B.ytdRevB-1)} vs budget`],["YTD EBITDA",mm(B.ytdEA),`${pct(B.ytdEA/B.ytdEB-1)} vs budget`],["YTD gross margin",pct(B.ytdGMA),`budget ${pct(B.ytdGMB)}`],
+["FY2026 revenue forecast",mm(F.revF),`${pct(F.growth)} growth · budget ${mm(F.revB)}`],["FY2026 EBITDA forecast",mm(F.ebF),`budget ${mm(F.ebB)}`],["Liquidity at 9/30",kk(K.liq[8]),`cash ${kk(K.cash[8])} + line ${kk(K.avail[8])}`]];
+$("#tiles").innerHTML=tiles.map(t=>`<div class="card tile"><div class="lab">${t[0]}</div><div class="val">${t[1]}</div><div class="delta">${t[2]}</div></div>`).join("");
+function nice(max,steps){ const raw=max/steps, p=Math.pow(10,Math.floor(Math.log10(raw))), n=[1,2,2.5,5,10].find(x=>x*p>=raw)*p; return n; }
+function bar(x,y,w,h,c,t){ if(h<=0) return ""; const r=Math.min(4,h,w/2); return `<path d="M${x},${y+h} v-${h-r} a${r},${r} 0 0 1 ${r},-${r} h${w-2*r} a${r},${r} 0 0 1 ${r},${r} v${h-r} z" fill="${c}" data-t="${t}"/>`; }
+function grouped(el, labels, series, colors, names, fmt){
+  const W=520,H=250,L=56,Bm=28,T=8, max=Math.max(...series.flat()), step=nice(max,4), top=step*Math.ceil(max/step);
+  const sy=v=>v/top*(H-Bm-T), gw=(W-L-6)/labels.length, bw=Math.min(22,(gw-8)/series.length);
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img">`;
+  for(let v=0;v<=top+1;v+=step){const y=H-Bm-sy(v); s+=`<line x1="${L}" x2="${W-4}" y1="${y}" y2="${y}" stroke="var(--grid)"/><text x="${L-6}" y="${y+4}" text-anchor="end">${fmt(v)}</text>`;}
+  s+=`<line x1="${L}" x2="${W-4}" y1="${H-Bm}" y2="${H-Bm}" stroke="var(--axis)"/>`;
+  labels.forEach((lb,i)=>{ const x0=L+i*gw+(gw-series.length*bw-(series.length-1)*2)/2;
+    series.forEach((ser,k)=>{ const h=sy(ser[i]); s+=bar(x0+k*(bw+2),H-Bm-h,bw,h,colors[k],`<b>${lb}, ${names[k]}</b>${usd(ser[i])}`); });
+    s+=`<text x="${L+i*gw+gw/2}" y="${H-10}" text-anchor="middle">${lb}</text>`; });
+  el.innerHTML=s+"</svg>";
+}
+grouped($("#monthly"),K.months.map(m=>m.slice(0,3)),[K.rev,K.bud],["var(--s1)","var(--s2)"],["Actual","Budget"],v=>"$"+(v/1e6).toFixed(1)+"MM");
+grouped($("#mkts"),["Construction","Energy","OEM"],[B.actm,B.budm],["var(--s1)","var(--s2)"],["Actual","Budget"],v=>"$"+(v/1e6).toFixed(0)+"MM");
+// waterfall
+(function(){
+  const steps=D.bridge.filter(([l,v],i)=>i===0||i===D.bridge.length-1||Math.abs(v)>0.5), W=520,H=250,L=58,Bm=40,T=10; let run=0; const bars=[];
+  steps.forEach(([lab,v],i)=>{ if(i===0||i===steps.length-1){bars.push({lab,base:0,v,tot:true}); run=v;} else {bars.push({lab,base:run,v}); run+=v;} });
+  const lo=Math.floor(Math.min(...bars.filter(b=>!b.tot).map(b=>Math.min(b.base,b.base+b.v)),bars[bars.length-1].v)*0.92/1e5)*1e5, hi=Math.max(...bars.map(b=>Math.max(b.base,b.base+b.v)))*1.02;
+  const sy=v=>(H-Bm)-(v-lo)/(hi-lo)*(H-Bm-T), bw=(W-L-10)/bars.length;
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" class="wf" role="img">`;
+  const step=nice(hi-lo,4); for(let v=Math.ceil(lo/step)*step; v<=hi; v+=step){ const y=sy(v); s+=`<line x1="${L}" x2="${W-4}" y1="${y}" y2="${y}" stroke="var(--grid)"/><text x="${L-6}" y="${y+4}" text-anchor="end">$${(v/1e6).toFixed(2)}MM</text>`; }
+  bars.forEach((b,i)=>{ const x=L+i*bw+6, w=bw-12, y1=sy(Math.max(b.base,b.base+b.v)), y2=b.tot?sy(lo):sy(Math.min(b.base,b.base+b.v)), c=b.tot?"var(--s1)":(b.v>=0?"var(--good)":"var(--crit)");
+    s+=`<rect x="${x}" y="${y1}" width="${w}" height="${Math.max(1.5,y2-y1)}" rx="3" fill="${c}" data-t="<b>${b.lab}</b>${b.tot?usd(b.v):(b.v>=0?"+":"")+usd(b.v)}"/>`;
+    s+=`<text x="${x+w/2}" y="${y1-5}" text-anchor="middle" style="fill:var(--ink)">${b.tot?kk(b.v):(b.v>=0?"+":"")+kk(b.v)}</text>`;
+    const words=b.lab.replace("Budget EBITDA","Budget").replace("Actual EBITDA","Actual").replace("Gross margin rate","Margin rate").replace("Revenue volume","Volume").replace("Officer compensation","Officer comp").replace("Other SG&A","SG&A");
+    s+=`<text x="${x+w/2}" y="${H-22}" text-anchor="middle">${words}</text>`; });
+  s+=`<text x="${L}" y="${H-4}" style="fill:var(--muted)">Axis starts at $${(lo/1e6).toFixed(1)}MM to show the variances</text>`; $("#bridge").innerHTML=s+"</svg>";
+})();
+// liquidity stacked
+(function(){
+  const W=520,H=250,L=56,Bm=28,T=8,w=D.wk, tot=w.cash.map((c,i)=>c+w.avail[i]), max=Math.max(...tot,w.floor), step=nice(max,4), top=step*Math.ceil(max/step);
+  const sy=v=>v/top*(H-Bm-T), gw=(W-L-6)/w.dates.length, bw=gw-8;
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img">`;
+  for(let v=0;v<=top+1;v+=step){const y=H-Bm-sy(v); s+=`<line x1="${L}" x2="${W-4}" y1="${y}" y2="${y}" stroke="var(--grid)"/><text x="${L-6}" y="${y+4}" text-anchor="end">$${(v/1e3).toFixed(0)}K</text>`;}
+  w.dates.forEach((d,i)=>{ const x=L+i*gw+4, hc=sy(w.cash[i]), ha=sy(w.avail[i]);
+    const t=`<b>Week ending ${d}</b>Cash ${usd(w.cash[i])}<br>Availability ${usd(w.avail[i])}<br>Liquidity ${usd(tot[i])}<br>Revolver ${usd(w.rl[i])}`;
+    s+=`<rect x="${x}" y="${H-Bm-hc}" width="${bw}" height="${hc}" fill="var(--s1)" data-t="${t}"/>`;
+    if(ha>2) s+=bar(x,H-Bm-hc-ha-2,bw,ha,"var(--s2)",t); else s+=`<rect x="${x}" y="${H-Bm-hc-1}" width="${bw}" height="1" fill="var(--s1)"/>`;
+    if(i%2===0) s+=`<text x="${x+bw/2}" y="${H-10}" text-anchor="middle">${d}</text>`; });
+  const fy=H-Bm-sy(w.floor); s+=`<line x1="${L}" x2="${W-4}" y1="${fy}" y2="${fy}" stroke="var(--ink)" class="dash"/><text x="${L+4}" y="${fy-5}" style="fill:var(--ink)">Floor $750K</text>`;
+  s+=`<line x1="${L}" x2="${W-4}" y1="${H-Bm}" y2="${H-Bm}" stroke="var(--axis)"/>`;
+  $("#liq").innerHTML=s+"</svg>";
+})();
+// working capital lines
+(function(){
+  const W=520,H=230,L=40,Bm=28,T=10,ser=[[K.dso,"var(--s1)","DSO"],[K.dio,"var(--s2)","DIO"],[K.dpo,"#1baf7a","DPO"]];
+  const lo=25, hi=55, sy=v=>(H-Bm)-(v-lo)/(hi-lo)*(H-Bm-T), n=K.months.length, sx=i=>L+10+i*((W-L-30)/(n-1));
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img">`;
+  for(let v=lo;v<=hi;v+=10){const y=sy(v); s+=`<line x1="${L}" x2="${W-4}" y1="${y}" y2="${y}" stroke="var(--grid)"/><text x="${L-6}" y="${y+4}" text-anchor="end">${v}</text>`;}
+  ser.forEach(([d,c,nm])=>{ s+=`<polyline fill="none" stroke="${c}" stroke-width="2" points="${d.map((v,i)=>sx(i)+","+sy(v)).join(" ")}"/>`;
+    d.forEach((v,i)=>{ s+=`<circle cx="${sx(i)}" cy="${sy(v)}" r="4" fill="${c}" stroke="var(--surface)" stroke-width="2"/><circle cx="${sx(i)}" cy="${sy(v)}" r="10" fill="transparent" data-t="<b>${K.months[i]}, ${nm}</b>${v.toFixed(1)} days"/>`; });
+    });
+  K.months.forEach((m,i)=>{ s+=`<text x="${sx(i)}" y="${H-10}" text-anchor="middle">${m.slice(0,3)}</text>`; });
+  $("#wc").innerHTML=s+"</svg>";
+})();
+// tables
+const P=D.proj;
+$("#proj").innerHTML=`<tr><th></th>${P.yrs.slice(3).map(y=>`<th class="n">${y}</th>`).join("")}</tr>
+<tr><td>Revenue</td>${P.rev.slice(3).map(v=>`<td class="n">${mm(v)}</td>`).join("")}</tr>
+<tr><td>EBITDA</td>${P.ebitda.slice(3).map(v=>`<td class="n">${mm(v)}</td>`).join("")}</tr>
+<tr><td>DSCR (min 1.25x)</td>${P.dscr.map(v=>`<td class="n">${v.toFixed(2)}x</td>`).join("")}</tr>
+<tr><td>Funded debt / EBITDA (max 3.0x)</td>${P.lev.map(v=>`<td class="n">${v.toFixed(2)}x</td>`).join("")}</tr>`;
+const R=D.rec;
+$("#rec").innerHTML=`<tr><td>Balance per bank</td><td class="n">${usd(R.bank)}</td></tr><tr><td>+ Deposits in transit</td><td class="n">${usd(R.dit)}</td></tr><tr><td>− Outstanding checks</td><td class="n">${usd(R.os)}</td></tr>
+<tr><td><b>Reconciled cash</b></td><td class="n"><b>${usd(R.adj)}</b></td></tr><tr><td>Balance per books (before 4 adjusting entries)</td><td class="n">${usd(R.book)}</td></tr>`;
+const rows=[["Revenue",K.rev,v=>kk(v)],["Revenue vs budget",K.rev.map((v,i)=>v/K.bud[i]-1),v=>pct(v),true],["Gross margin",K.gm,v=>pct(v)],["EBITDA",K.ebitda,v=>kk(v)],["DSO (days)",K.dso,v=>v.toFixed(1)],["DIO (days)",K.dio,v=>v.toFixed(1)],["DPO (days)",K.dpo,v=>v.toFixed(1)],["Backlog",K.backlog,v=>mm(v)],["Cash",K.cash,v=>kk(v)],["Revolver balance",K.rl,v=>kk(v)],["Revolver availability",K.avail,v=>kk(v)],["Liquidity",K.liq,v=>kk(v)]];
+$("#kpis").innerHTML=`<tr><th>KPI</th>${K.months.map(m=>`<th class="n">${m}</th>`).join("")}</tr>`+rows.map(([l,d,f,sign])=>`<tr><td>${l}</td>${d.map(v=>`<td class="n ${sign?(v<0?'neg':'pos'):''}">${f(v)}</td>`).join("")}</tr>`).join("");
+</script>
+</body></html>

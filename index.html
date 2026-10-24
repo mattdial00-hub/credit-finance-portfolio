@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matthew Dial | Credit & Finance Portfolio</title>
+<meta name="description" content="Commercial credit, portfolio monitoring, FP&A, and credit analytics work samples by Matthew Dial.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f3f5f7; --sheet:#ffffff; --ink:#14213d; --text:#1c2430; --muted:#5a6573;
+  --green:#2f6b4f; --green-soft:#e4efe8; --rule:#c9d5e1; --rule-faint:#e3e9ef;
+  --serif:"Newsreader", Georgia, serif; --sans:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{margin:0;overflow-x:clip;background:var(--paper);color:var(--text);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--green);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--green);outline-offset:3px;border-radius:4px}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+
+/* top bar */
+.top{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:16px;flex-wrap:wrap}
+.mark{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--ink);text-decoration:none}
+.top nav{display:flex;gap:22px;flex-wrap:wrap}
+.top nav a{color:var(--muted);text-decoration:none;font-size:15px}
+.top nav a:hover{color:var(--ink)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center;padding:40px 0 72px}
+.hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(38px,5.2vw,60px);line-height:1.06;letter-spacing:-0.01em;color:var(--ink);margin:0 0 22px}
+.hero p.lede{font-size:19px;color:var(--muted);max-width:34em;margin:0 0 30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 20px;border-radius:6px;font-weight:600;font-size:15px;text-decoration:none;border:1.5px solid var(--ink)}
+.btn.primary{background:var(--ink);color:#fff}
+.btn.primary:hover{background:#0d1730}
+.btn.ghost{color:var(--ink);background:transparent}
+.btn.ghost:hover{background:#fff}
+
+/* the term sheet */
+.sheet{position:relative;background:var(--sheet);border:1px solid var(--rule);border-radius:3px;padding:30px 32px 26px;
+  box-shadow:0 1px 0 var(--rule-faint),0 18px 40px -24px rgba(20,33,61,.35)}
+.sheet h2{font-family:var(--serif);font-weight:600;font-size:15px;color:var(--ink);margin:0 0 4px;letter-spacing:.01em}
+.sheet .sub{font-size:13px;color:var(--muted);margin:0 0 18px}
+.sheet dl{margin:0;display:grid;grid-template-columns:150px 1fr;column-gap:16px}
+.sheet dt,.sheet dd{padding:8px 0;border-bottom:1px solid var(--rule-faint)}
+.sheet dt{color:var(--muted);font-size:14px}
+.sheet dd{margin:0;font-weight:600;color:var(--ink);font-size:15px;font-variant-numeric:tabular-nums;min-width:0}
+.sheet .sign{display:flex;gap:40px;margin-top:26px;padding-top:12px;border-top:1px solid var(--rule);font-size:12.5px;color:var(--muted)}
+.seal{position:absolute;right:16px;bottom:-30px;width:120px;height:120px;transform:rotate(-12deg);color:var(--green);opacity:.88;pointer-events:none}
+@media (prefers-reduced-motion:no-preference){
+  .seal{animation:stamp .5s cubic-bezier(.2,.9,.3,1.2) .6s both}
+  @keyframes stamp{0%{opacity:0;transform:rotate(-12deg) scale(1.6)}70%{opacity:.95}100%{opacity:.88;transform:rotate(-12deg) scale(1)}}
+}
+
+/* lifecycle */
+.flow{background:var(--ink);color:#dbe4ee;padding:56px 0}
+.flow h2{font-family:var(--serif);font-weight:500;font-size:30px;color:#fff;margin:0 0 8px}
+.flow p.intro{margin:0 0 34px;max-width:40em;color:#b8c5d4}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}
+.step{position:relative;padding:0 18px 0 0;text-decoration:none;color:inherit}
+.step .node{display:flex;align-items:center;gap:0;margin-bottom:14px}
+.step .dot{width:40px;height:40px;border-radius:50%;border:2px solid #7fb39a;display:grid;place-items:center;font-family:var(--serif);font-weight:600;color:#fff;background:var(--ink);flex:none}
+.step .line{height:2px;background:#3b5070;flex:1}
+.step:last-child .line{visibility:hidden}
+.step h3{font-size:17px;color:#fff;margin:0 0 6px;font-weight:600}
+.step p{margin:0;font-size:14.5px;color:#b8c5d4}
+.step:hover h3{text-decoration:underline;text-underline-offset:4px}
+
+/* packages */
+.pkg{padding:80px 0;border-bottom:1px solid var(--rule)}
+.pkg:last-of-type{border-bottom:none}
+.pkg-head{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:baseline;margin-bottom:28px}
+.pkg-num{font-family:var(--serif);font-size:56px;line-height:1;color:var(--rule);font-weight:500}
+.pkg h2{font-family:var(--serif);font-weight:500;font-size:clamp(28px,3.4vw,38px);line-height:1.15;color:var(--ink);margin:0 0 8px}
+.pkg .what{margin:0;color:var(--muted);max-width:44em;font-size:17px}
+.pkg-body{display:grid;grid-template-columns:1.1fr 1fr;gap:44px;align-items:start}
+.pkg:nth-of-type(even) .pkg-body .shot{order:2}
+.shot{margin:0;background:#fff;border:1px solid var(--rule);border-radius:4px;padding:10px;box-shadow:0 14px 34px -26px rgba(20,33,61,.5)}
+.shot img{border-radius:2px;width:100%}
+.shot figcaption{font-size:13px;color:var(--muted);padding:8px 2px 0}
+.figures{display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--ink);border-bottom:1px solid var(--rule);margin-bottom:24px}
+.figures div{padding:14px 12px 14px 0}
+.figures b{display:block;font-family:var(--serif);font-weight:600;font-size:28px;color:var(--ink);line-height:1.1;font-variant-numeric:lining-nums}
+.figures span{font-size:13.5px;color:var(--muted)}
+.files{list-style:none;padding:0;margin:0 0 22px}
+.files li{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px solid var(--rule-faint);align-items:baseline}
+.files li span{color:var(--text)}
+.files li small{color:var(--muted);font-size:13px;display:block}
+.files a{font-weight:600;white-space:nowrap;font-size:15px}
+.note{background:var(--green-soft);border-left:3px solid var(--green);padding:14px 16px;font-size:15px;color:#24412f;border-radius:0 4px 4px 0}
+.note b{color:#1d3a29}
+
+/* tools + contact */
+.tools{padding:72px 0;background:#fff;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.tools h2,.contact h2{font-family:var(--serif);font-weight:500;font-size:30px;color:var(--ink);margin:0 0 26px}
+.tool-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.tool-grid h3{font-size:15px;color:var(--ink);margin:0 0 8px;font-weight:700}
+.tool-grid ul{list-style:none;padding:0;margin:0;color:var(--muted);font-size:15px}
+.tool-grid li{padding:3px 0}
+.contact{padding:72px 0 40px}
+.contact-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:40px}
+.contact p{color:var(--muted);max-width:36em;margin:0 0 20px}
+.cv{list-style:none;padding:0;margin:0}
+.cv li{padding:10px 0;border-bottom:1px solid var(--rule-faint)}
+.cv b{color:var(--ink);display:block;font-weight:600}
+.cv span{color:var(--muted);font-size:14.5px}
+footer{padding:28px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid var(--rule)}
+
+@media (max-width:900px){
+  .hero,.pkg-body,.contact-grid{grid-template-columns:1fr}
+  .hero{gap:40px;padding-top:16px}
+  .pkg:nth-of-type(even) .pkg-body .shot{order:0}
+  .steps{grid-template-columns:1fr 1fr;row-gap:30px}
+  .step:nth-child(2) .line{visibility:hidden}
+  .tool-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:560px){
+  .steps{grid-template-columns:1fr}
+  .step .line{visibility:hidden}
+  .sheet{padding:24px 20px}
+  .sheet dl{grid-template-columns:120px 1fr}
+  .seal{width:96px;height:96px;right:8px;bottom:-26px}
+  .sheet .sign{flex-direction:column;gap:4px}
+  .figures{grid-template-columns:1fr 1fr}
+  .figures div:nth-child(3){grid-column:span 2}
+  .pkg-num{font-size:40px}
+  .files li{flex-direction:column;gap:2px}
+  .tool-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="mark" href="#">Matthew Dial</a>
+    <nav aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#tools">Tools</a>
+      <a href="#contact">Contact</a>
+      <a class="repo-link" href="#">GitHub repository</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Commercial credit analyst who can underwrite the deal, watch the portfolio, and model the risk.</h1>
+      <p class="lede">I've spread 85+ underwriting packages and monitored a $100MM+ commercial portfolio. These four work samples follow one fictional bank and one borrower from the credit request to bank-wide risk analytics.</p>
+      <div class="actions">
+        <a class="btn primary" href="#work">See the work</a>
+        <a class="btn ghost" href="mailto:matthewdial00@gmail.com">Email me</a>
+      </div>
+    </div>
+
+    <div class="sheet" role="img" aria-label="Summary styled as a credit approval sheet: commercial credit analyst, 85 plus underwriting packages, 100 million dollar plus portfolio, MBA Howard University, recommendation approve.">
+      <h2>Credit approval summary</h2>
+      <p class="sub">Candidate file, prepared for hiring committee</p>
+      <dl>
+        <dt>Candidate</dt><dd>Matthew Dial, MBA</dd>
+        <dt>Requested role</dt><dd>Commercial credit / portfolio</dd>
+        <dt>Underwriting</dt><dd>85+ packages spread</dd>
+        <dt>Portfolio</dt><dd>$100MM+ monitored</dd>
+        <dt>Pipeline</dt><dd>$20MM+ SBA and conventional</dd>
+        <dt>Education</dt><dd>MBA, Howard University</dd>
+        <dt>Recommendation</dt><dd>Approve</dd>
+      </dl>
+      <div class="sign"><span>Prepared by: M. Dial</span><span>Reviewed by: you</span></div>
+      <svg class="seal" viewBox="0 0 140 140" aria-hidden="true">
+        <defs><path id="ring" d="M70,70 m-52,0 a52,52 0 1,1 104,0 a52,52 0 1,1 -104,0"/></defs>
+        <circle cx="70" cy="70" r="66" fill="none" stroke="currentColor" stroke-width="3"/>
+        <circle cx="70" cy="70" r="40" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <text font-family="Public Sans, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2.6" fill="currentColor"><textPath href="#ring">CREDIT COMMITTEE · RISK GRADE 2 ·</textPath></text>
+        <text x="70" y="67" text-anchor="middle" font-family="Newsreader, serif" font-size="19" font-weight="600" fill="currentColor">Approved</text>
+        <text x="70" y="85" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10" fill="currentColor">2026</text>
+      </svg>
+    </div>
+  </section>
+</div>
+
+<section class="flow" aria-labelledby="flow-title">
+  <div class="wrap">
+    <h2 id="flow-title">How the work fits together</h2>
+    <p class="intro">The packages follow the life of a commercial loan, so each one builds on the last. Brazos Bend Fabrication, the borrower in Package 01, shows up again in 02 and 03.</p>
+    <div class="steps">
+      <a class="step" href="#p1"><div class="node"><span class="dot">1</span><span class="line"></span></div><h3>Underwrite the loan</h3><p>Spread the financials, size the debt, and write the credit memo.</p></a>
+      <a class="step" href="#p2"><div class="node"><span class="dot">2</span><span class="line"></span></div><h3>Monitor the portfolio</h3><p>Test covenants, score early warnings, and run the watch list.</p></a>
+      <a class="step" href="#p3"><div class="node"><span class="dot">3</span><span class="line"></span></div><h3>See the borrower's side</h3><p>Close the month, forecast cash, and model the next three years.</p></a>
+      <a class="step" href="#p4"><div class="node"><span class="dot">4</span><span class="line"></span></div><h3>Measure risk across the bank</h3><p>Query the loan book in SQL and build a default model.</p></a>
+    </div>
+  </div>
+</section>
+
+<main id="work" class="wrap">
+  <!-- 01 -->
+  <section class="pkg" id="p1">
+    <div class="pkg-head">
+      <div class="pkg-num" aria-hidden="true">01</div>
+      <div>
+        <h2>Commercial credit package</h2>
+        <p class="what">A full underwriting of a $2.8MM equipment loan and a line of credit increase for a Gulf Coast metal fabricator, from spreadsheet to signed recommendation.</p>
+      </div>
+    </div>
+    <div class="pkg-body">
+      <figure class="shot"><img src="assets/credit_memo_preview.png" alt="First page of the Brazos Bend credit memorandum" loading="lazy"><figcaption>Credit memorandum, page 1</figcaption></figure>
+      <div>
+        <div class="figures">
+          <div><b>1.31x</b><span>Pro forma DSCR vs. 1.25x minimum</span></div>
+          <div><b>1.40x</b><span>Global DSCR with guarantors</span></div>
+          <div><b>12.0%</b><span>Revenue drop to break even</span></div>
+        </div>
+        <ul class="files">
+          <li><span>Credit memorandum<small>Six-page memo with structure, risks, and covenants</small></span><a href="01-commercial-credit-package/Credit_Memo_Brazos_Bend.pdf">Read PDF</a></li>
+          <li><span>Credit analysis model<small>Spread, ratios, global cash flow, stress test, risk rating</small></span><a href="01-commercial-credit-package/Credit_Analysis_Model.xlsx" download>Download Excel</a></li>
+          <li><span>Industry risk brief and SBA checklist<small>Market context and SBA 7(a) program rules</small></span><a data-gh="tree/main/01-commercial-credit-package" href="#">View on GitHub</a></li>
+        </ul>
+        <p class="note"><b>Judgment call:</b> the stress test showed thin coverage in a downturn, so the structure adds a limit on owner distributions if DSCR falls below 1.35x.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="pkg" id="p2">
+    <div class="pkg-head">
+      <div class="pkg-num" aria-hidden="true">02</div>
+      <div>
+        <h2>Portfolio monitoring</h2>
+        <p class="what">Quarterly review of a $125MM, 24-loan commercial portfolio: covenant testing, early warning scoring, and a watch list that builds itself.</p>
+      </div>
+    </div>
+    <div class="pkg-body">
+      <figure class="shot"><img src="assets/monitoring_preview.png" alt="Portfolio monitoring dashboard with exposure by industry and grade migration" loading="lazy"><figcaption>Interactive portfolio dashboard</figcaption></figure>
+      <div>
+        <div class="figures">
+          <div><b>$125MM</b><span>Commitments across 24 loans</span></div>
+          <div><b>5</b><span>Loans flagged to the watch list</span></div>
+          <div><b>57%</b><span>Real estate vs. 60% limit</span></div>
+        </div>
+        <ul class="files">
+          <li><span>Portfolio dashboard<small>Hover charts, sort and filter every loan</small></span><a href="02-portfolio-monitoring/Portfolio_Dashboard.html">Open dashboard</a></li>
+          <li><span>Monitoring tracker<small>Nine tabs, 1,600+ formulas, self-ranking watch list</small></span><a href="02-portfolio-monitoring/Portfolio_Monitoring_Tracker.xlsx" download>Download Excel</a></li>
+          <li><span>Q3 2026 portfolio review<small>Action plans for each watch list loan</small></span><a data-gh="blob/main/02-portfolio-monitoring/Q3_2026_Portfolio_Review.md" href="#">Read review</a></li>
+        </ul>
+        <p class="note"><b>Design choice:</b> loans that pass a covenant by less than 10% are flagged anyway, because by the time a covenant breaks it is late to act.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="pkg" id="p3">
+    <div class="pkg-head">
+      <div class="pkg-num" aria-hidden="true">03</div>
+      <div>
+        <h2>FP&amp;A and treasury</h2>
+        <p class="what">The borrower from Package 01, seen from its own finance team: month-end close, a 13-week cash forecast, and a three-statement model tested against the bank's covenants.</p>
+      </div>
+    </div>
+    <div class="pkg-body">
+      <figure class="shot"><img src="assets/fpa_preview.png" alt="Management dashboard with revenue versus budget, EBITDA bridge, and 13-week liquidity" loading="lazy"><figcaption>Management dashboard, September 2026</figcaption></figure>
+      <div>
+        <div class="figures">
+          <div><b>$18.45MM</b><span>Full-year revenue forecast</span></div>
+          <div><b>$0.00</b><span>Unreconciled cash at month end</span></div>
+          <div><b>1.87x</b><span>Projected FY2027 DSCR</span></div>
+        </div>
+        <ul class="files">
+          <li><span>Management dashboard<small>Budget vs. actual, EBITDA bridge, cash outlook</small></span><a href="03-fpa-treasury/Management_Dashboard.html">Open dashboard</a></li>
+          <li><span>Monthly close pack<small>Variance analysis, bank reconciliation, KPIs</small></span><a href="03-fpa-treasury/Monthly_Close_Pack.xlsx" download>Download Excel</a></li>
+          <li><span>13-week cash flow<small>Collections curve, payroll calendar, revolver logic</small></span><a href="03-fpa-treasury/13_Week_Cash_Flow.xlsx" download>Download Excel</a></li>
+          <li><span>Three-statement model<small>Base, upside, and downside through FY2029</small></span><a href="03-fpa-treasury/Three_Statement_Model.xlsx" download>Download Excel</a></li>
+        </ul>
+        <p class="note"><b>Finding:</b> the downside case still passes the bank's coverage test, because owners take less out when profits fall. The owners feel the downturn before the bank does.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="pkg" id="p4">
+    <div class="pkg-head">
+      <div class="pkg-num" aria-hidden="true">04</div>
+      <div>
+        <h2>Credit data and analytics</h2>
+        <p class="what">A bank-wide loan database with a library of portfolio SQL queries and a probability of default model, validated on a year it never saw.</p>
+      </div>
+    </div>
+    <div class="pkg-body">
+      <figure class="shot"><img src="assets/analytics_preview.png" alt="Bar chart of expected loss by industry, led by office real estate" loading="lazy"><figcaption>Expected loss by industry from the PD model</figcaption></figure>
+      <div>
+        <div class="figures">
+          <div><b>0.77</b><span>Out-of-time AUC vs. 0.71 for officer grades</span></div>
+          <div><b>13</b><span>SQL queries on 29,000+ loan records</span></div>
+          <div><b>46%</b><span>Of expected loss from office real estate</span></div>
+        </div>
+        <ul class="files">
+          <li><span>PD model notebook<small>WoE, logistic regression, validation, scorecard</small></span><a data-gh="blob/main/04-credit-data-analytics/notebooks/PD_Model.ipynb" href="#">View notebook</a></li>
+          <li><span>SQL query results<small>Delinquency, migration, vintages, loss given default</small></span><a data-gh="blob/main/04-credit-data-analytics/results/SQL_RESULTS.md" href="#">Read results</a></li>
+          <li><span>Model development document<small>Method, performance, limitations, monitoring</small></span><a data-gh="blob/main/04-credit-data-analytics/Model_Development_Document.md" href="#">Read document</a></li>
+        </ul>
+        <p class="note"><b>Honest limit:</b> the model ranks risk well but its probabilities are too spread out, so they'd be recalibrated before setting reserves. Data is synthetic and labeled as such.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="tools" id="tools">
+  <div class="wrap">
+    <h2>Tools</h2>
+    <div class="tool-grid">
+      <div><h3>Modeling</h3><ul><li>Excel financial modeling</li><li>Scenario and stress testing</li><li>Power BI</li><li>Tableau</li></ul></div>
+      <div><h3>Data</h3><ul><li>SQL</li><li>Python (pandas, statsmodels)</li><li>R Studio</li><li>Jupyter</li></ul></div>
+      <div><h3>Credit platforms</h3><ul><li>Sageworks / Abrigo</li><li>Axiom</li><li>Jack Henry</li><li>Vertical IQ</li><li>S&amp;P Capital IQ Pro</li></ul></div>
+      <div><h3>Lending and tax</h3><ul><li>Encompass LOS</li><li>Salesforce</li><li>Thomson Reuters ONESOURCE</li><li>GAAP</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact wrap" id="contact">
+  <div class="contact-grid">
+    <div>
+      <h2>Let's talk credit</h2>
+      <p>I'm looking for commercial credit analyst, underwriting, and portfolio management roles, with FP&amp;A and credit risk analytics as close neighbors.</p>
+      <div class="actions">
+        <a class="btn primary" href="mailto:matthewdial00@gmail.com">matthewdial00@gmail.com</a>
+        <a class="btn ghost" href="tel:+13465379260">(346) 537-9260</a>
+      </div>
+    </div>
+    <ul class="cv" aria-label="Experience">
+      <li><b>Associate Commercial Portfolio Manager, Stellar Bank</b><span>2025 to 2026</span></li>
+      <li><b>Finance &amp; Strategy Intern, Kia</b><span>2023 to 2024</span></li>
+      <li><b>Mortgage Loan Originator, AmeriSave Mortgage</b><span>2019 to 2022</span></li>
+      <li><b>State Tax Administrator, Georgia Department of Revenue</b><span>2018 to 2019</span></li>
+      <li><b>MBA, Howard University; BS Finance, Cheyney University</b><span>Credit Analyst Training, NMLS Certification</span></li>
+    </ul>
+  </div>
+</section>
+
+<div class="wrap"><footer>All companies, borrowers, and figures in these work samples are fictional. No employer or customer data is used.</footer></div>
+
+<script>
+// Build GitHub links from the Pages address (username.github.io/repo-name/)
+(function(){
+  var h = location.hostname, parts = location.pathname.split("/").filter(Boolean);
+  var repo = (h.endsWith("github.io") && parts.length) ? "https://github.com/" + h.split(".")[0] + "/" + parts[0] : null;
+  document.querySelectorAll("[data-gh]").forEach(function(a){
+    a.href = repo ? repo + "/" + a.getAttribute("data-gh") : a.getAttribute("data-gh").replace(/^(tree|blob)\/main\//, "");
+  });
+  document.querySelectorAll(".repo-link").forEach(function(a){ if (repo) a.href = repo; else a.style.display = "none"; });
+})();
+</script>
+</body>
+</html>
